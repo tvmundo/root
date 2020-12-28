@@ -1,0 +1,131 @@
+<body bgcolor=#000>
+<!---<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>----->
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
+background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; Procurar Video
+	<option value="Café com notícia" />&nbsp; Café com notícia
+	<option value="Reflexão do dia com Miguel Weber" />&nbsp; Reflexão do dia com Miguel Weber
+	<option value="Repórter 98 " />&nbsp; Repórter 98
+    <option value="12 em Ponto 98" />&nbsp; 12 em Ponto 98
+    <option value="Forrozão 98" />&nbsp; Forrozão 98
+    <option value="Tocando a Bola" />&nbsp; Tocando a Bola
+	<option value="Salgueiro x América 14/11/20" />&nbsp;⚽ Salgueiro x América 14/11/2020
+	<option value="ABC x Vitória da Conquista 11/11/20" />&nbsp; ABC x Vitória da Conquista - 11/11/2020
+	<option value="Central (PE) x ABC - 08/11/20" />&nbsp; Central (PE) x ABC - 08/11/20
+	<option value="Afogados (PE) x América - 07/11/20" />&nbsp; Afogados (PE) x América - 07/11/20
+	<option value="ABC x Potiguar 01/11/20" />&nbsp; ABC x Potiguar 01/11/20
+	<option value="América x Globo" />&nbsp; América x Globo
+	<option value="Guarany (CE) x América" />&nbsp; Guarany (CE) x América
+    <option value="ABC x CoruripeAL" />&nbsp; ABC x CoruripeAL - 26/10/2020 	
+	<option value="(SE) x ABC - 21/10" />&nbsp; Freipaulistano (SE) x ABC - 21/10/2020
+	
+</div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="band");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == '(SE) x ABC - 21/10') {
+    var url = "#";
+    window.open("2020/out/21/Freipaulistano (SE) x ABC - 21102020.html", target="cbn");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Repórter 98 ') {
+    var url = "#";
+    window.open("Repórter 98.html", target="cbn");
+  }
+	if (pasta == 'Café com notícia') {
+    var url = "#";
+    window.open ("Café com Notícia.html", target="cbn");
+  }
+	if (pasta == '12 em Ponto 98') {
+    var url = "#";
+    window.open ("12 em Ponto 98.html", target="cbn");
+  }
+	if (pasta == 'Forrozão 98') {
+    var url = "#";
+    window.open("Forrozão 98.html", target="cbn");
+  }
+	if (pasta == 'Tocando a Bola') {
+    var url = "#";
+    window.open("Tocando a Bola.html", target="cbn");
+  }
+  if (pasta == 'Reflexão do dia com Miguel Weber') {
+    var url = "#";
+    window.open("Reflexão do dia com Miguel Weber.html", target="cbn"); 
+  } 
+	if (pasta == 'ABC x CoruripeAL') {
+    var url = "#";
+    window.open("2020/out/26/ABC x CoruripeAL.html", target="cbn");
+  }
+	if (pasta == 'Guarany (CE) x América') {
+    var url = "#";
+    window.open("2020/out/27/Guarany (CE) x América.html", target="cbn");
+  }
+	if (pasta == 'América x Globo') {
+    var url = "#";
+    window.open("2020/out/31/América x Globo.html", target="cbn");
+  }
+	if (pasta == 'ABC x Potiguar 01/11/20') {
+    var url = "#";
+    window.open("2020/nov/01/ABC x Potiguar.html", target="cbn");
+  }
+	if (pasta == 'Afogados (PE) x América - 07/11/20') {
+    var url = "#";
+    window.open("2020/nov/07/Afogados (PE) x América.html", target="cbn");
+  }
+	if (pasta == 'Central (PE) x ABC - 08/11/20') {
+    var url = "#";
+    window.open("2020/nov/08/Central (PE) x ABC.html", target="cbn");
+   }
+	if (pasta == 'ABC x Vitória da Conquista 11/11/20') {
+    var url = "#";
+    window.open("2020/nov/11/ABC x Vitória da Conquista.html", target="cbn");
+  }
+	if (pasta == 'Salgueiro x América 14/11/20') {
+    var url = "#";
+    window.open("2020/nov/14/Salgueiro x América.html", target="cbn");
+  }
+    if (pasta == '3333333333333333333') {
+    var url = "#";
+    window.open("2020/nov/08/Central (PE) x ABC.html", target="cbn");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+} 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
