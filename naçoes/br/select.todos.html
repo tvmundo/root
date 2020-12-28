@@ -1,0 +1,344 @@
+<body bgcolor=#000>
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ------------------------>
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+<label id="lblSelect">
+<style type="text/css">
+            /*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;)*/
+            select#selectPointOfInterest
+            {
+               width                    : 100%; /*300pt*/
+               height                   : 25pt; /*40pt*/
+			   top                      : 0; /*0*/ /*nao funciona*/
+			   background-color         : #2f4456; /*esse background fio add #2f4456 */
+               line-height              : 25pt; /*40pt*/
+               padding-right            : 40pt; /*20pt*/
+               text-indent              : 4pt;  /*4pt*/
+               text-align               : left;
+               vertical-align           : middle;
+               box-shadow               : inset 0 0 3px #606060;
+               border                   : 1px solid #acacac;
+               -moz-border-radius       : 6px;  /*6px*/
+               -webkit-border-radius    : 6px;  /*6px*/
+               border-radius            : 6px;  /*6px*/
+               -webkit-appearance       : none;
+               -moz-appearance          : none;
+               appearance               : none;  /*IMPORTANT*/
+               font-family              : Arial,  Calibri, Tahoma, Verdana;
+               font-size                : 15pt;  /*15pt*/
+               font-weight              : 500;   /*500*/
+               color                    : #fff; /*#000099*/
+               cursor                   : pointer;
+               outline                  : none;
+            }
+            select#selectPointOfInterest::-ms-expand {display: none;} /*FOR IE*/
+            select#selectPointOfInterest option
+            {
+                padding             : 4px 10px 4px 10px; /*4px 10px 4px 10px;*/
+                font-size           : 12pt; /*11pt*/
+                font-weight         : normal;
+            }
+            select#selectPointOfInterest option[selected]{ font-weight:bold}
+            select#selectPointOfInterest option:nth-child(even) { background-color:#2f4456; } /*background-color:#f5f5f5*/
+            select#selectPointOfInterest:hover {font-weight: 700;}
+            select#selectPointOfInterest:focus {box-shadow: inset 0 0 5px #000099; font-weight: 600;}
+
+            /*LABEL FOR SELECT*/
+            label#lblSelect{ position: relative; display: inline-block;}
+            /*DOWNWARD ARROW (25bc)*/
+            label#lblSelect::after
+            {
+                content                 : "\25bc";
+                position                : absolute; /* orig>absolute relative*/
+                top                     : 0; /*0*/
+                right                   : 2; /*0*/
+                bottom                  : 0; /*0*/
+                width                   : 20pt; /*20pt;*/
+                line-height             : 30pt; /*40pt;*/ /*diminuindo sobe*/
+                vertical-align          : middle;
+                text-align              : center;
+                background              : red;  /*#000099*/  /*Blog#2f4456*/ /*canto esq*/
+                color                   : #fff;  /*#fefefe*/
+               -moz-border-radius       : 0 6px 6px 0;  /*0 6px 6px 0*/
+               -webkit-border-radius    : 0 6px 6px 0;  /*0 6px 6px 0*/
+                border-radius           : 0 6px 6px 0;  /*0 6px 6px 0*/
+                pointer-events          : none;
+            }
+        </style>
+</style>
+ <select id="selectPointOfInterest" id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" />▼ Brasil Canais ▼
+    
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<option value="inicio" />&nbsp; &nbsp; Inicio
+	<option value="TV cristã" enabled="disabled">&nbsp; &nbsp; 🔴 TV cristã
+	<option value="radios.br" enabled="disabled"> &nbsp; &nbsp; 🔴 Radios Brasil
+	<option value="cn1" />&nbsp; &nbsp; 1 TV Justiça
+	<option value="cn2" />&nbsp; &nbsp; 2  Record News
+    <option value="cn3" />&nbsp; &nbsp; 3 TV Cidade Verde
+    <option value="cn4" />&nbsp; &nbsp; 4 RDC TV A EMISSORA QUE CONECTA OS GAUCHOS
+	<option value="cn5" />&nbsp; &nbsp; 5 Rádio Tupi Ao Vivo - Rio de Janeiro
+	<option value="cn6" />&nbsp; &nbsp; 6 Band TV
+	<option value="cn7" enaabled="disabled">&nbsp; &nbsp; 7 Rede TV Gospel
+	<option value="cn8" enaabled="disabled">&nbsp; &nbsp; 8 TV Nordestina Campina Grande/PB - AO VIVO 24 h
+	<option value="cn9" enabled="disabled">&nbsp; &nbsp; 9 SBT
+	<option value="cn10" enaabled="disabled">&nbsp; &nbsp; 10 TV Rio Preto - AO VIVO 24 h
+	<option value="cn11" enaabled="disabled">&nbsp; &nbsp; 11 TV Diário -  Fortaleza/CE - AO VIVO 24 h
+	<option value="cn12" enaabled="disabled">&nbsp; &nbsp; 12 TV Tropical - Natal/RN
+	<option value="cn13" enaabled="disabled">&nbsp; &nbsp; 13 Tv Futuro - Natal/RN
+	<option value="cn14" enaabled="disabled" style="font-size:20px; color: gray;" disabled="disabled">&nbsp; &nbsp; 14 CNN Brasil
+	<option value="cn15" enaabled="disabled">&nbsp; &nbsp; 15 Politicos
+	<option value="cn16" enaabled="disabled">&nbsp; &nbsp; 16 TV ALEGO - Goiás
+	<option value="cn17" enaabled="disabled">&nbsp; &nbsp; 17 TV ALERJ Rio de Janeiro
+	<option value="cn18" enaabled="disabled">&nbsp; &nbsp; 18 TV Ponta Negra - Natal/RN
+	<option value="cn19.tv247" enaabled="disabled">&nbsp; &nbsp; 19 TV 247
+	<option value="cn20" enaabled="disabled">&nbsp; &nbsp; 20 Os Simpsons AO VIVO 24h
+	<option value="cn21" enaabled="disabled">&nbsp; &nbsp; 21 Globo
+	<option value="cn22" enaabled="disabled">&nbsp; &nbsp; 22 TV Cidade Fortaleza • Record TV
+	<option value="cn23" enaabled="disabled">&nbsp; &nbsp; 23 Todo mundo odeia o chris
+
+	<!---<optgroup label="Radios Brasil">
+		         </optgroup>
+	<option value="r1 Rádio Tupi" enaabled="disabled">&nbsp; &nbsp; R1 Rádio Tupi 24 h - Rio de Janeiro
+	<option value="r2" enaabled="disabled">&nbsp; &nbsp; R2 94 FM Rádio TV Cidade - Natal/RN
+	<option value="r3" enaabled="disabled">&nbsp; &nbsp; R3 Rádio 96 FM - Natal/RN
+	<option value="r4" enaabled="disabled">&nbsp; &nbsp; R4 Rádio Mix. Natal + 30 cidades do Brasil
+	<option value="r5.Rádio Bandeirantes SP" enaabled="disabled">&nbsp; &nbsp; R5 - Rádio Bandeirantes SP
+	<option value="r6" enaabled="disabled">&nbsp; &nbsp; R6 CNN RÁDIO
+	<option value="r7-Rádio CBN" enaabled="disabled">&nbsp; &nbsp; R7 Rádio CBN - São Paulo 
+	<option value="RÁDIO MIX LIMEIRA" enaabled="disabled">&nbsp; &nbsp; R8 RÁDIO MIX LIMEIRA - São Paulo
+	<option value="98 FM Natal" enaabled="disabled">&nbsp; &nbsp; R9 98 FM Natal/RN
+	<option value="r10 Jovem Pan" enaabled="disabled">&nbsp; &nbsp; R10 Jovem Pan
+	<option value="R11 Band News FM SP" enaabled="disabled">&nbsp; &nbsp; R11 Band News FM SP
+	<option value="R12 95 Mais FM Natal" enaabled="disabled">&nbsp; &nbsp; R12 95 Mais FM Natal--->
+	</option>
+</div>      </div>
+<!--------------------select pop up inicio-------https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/seta%20D%20color.GIF----------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn1') {
+    var url = "canais.todos/cn1.html";
+    window.open("canais.todos/cn1.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'radios.br') {
+    var url = "#";
+    window.open("canais.todos/radios.br.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn1') {
+    var url = "canais.todos/cn1.html";
+    window.open("canais.todos/cn1.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn2') {
+    var url = "canais.todos/cn2.html";
+    window.open("canais.todos/cn2.html", target="_parent");
+  }
+	if (pasta == 'cn3') {
+    var url = "canais.todos/cn3.html";
+    window.open("canais.todos/cn3.html", target="_parent");
+  }
+	if (pasta == 'cn4') {
+    var url = "canais.todos/cn4.html";
+    window.open("canais.todos/cn4.html", target="_parent");
+  }
+	if (pasta == 'cn5') {
+    var url = "canais.todos/cn5.html";
+    window.open("canais.todos/cn5.html", target="_parent");
+  }
+  if (pasta == 'cn6') {
+    var url = "canais.todos/cn6.html";
+    window.open("canais.todos/cn6.html", target="_parent"); 
+  } 
+	if (pasta == 'cn7') {
+    var url = "canais.todos/cn7.html";
+    window.open("canais.todos/cn7.html", target="_parent");
+  }
+	if (pasta == 'cn8') {
+    var url = "canais.todos/cn8.html";
+    window.open("canais.todos/cn8.html", target="_parent");
+  }
+	if (pasta == 'cn9') {
+    var url = "canais.todos/cn9.html";
+    window.open("canais.todos/cn9.html", target="_parent");
+  }
+	if (pasta == 'cn10') {
+    var url = "canais.todos/cn10.html";
+    window.open("canais.todos/cn10.html", target="_parent");
+  }
+	if (pasta == 'cn11') {
+    var url = "canais.todos/cn11.html";
+    window.open("canais.todos/cn11.html", target="_parent");
+  }
+	if (pasta == 'cn12') {
+    var url = "canais.todos/cn12.html";
+    window.open("canais.todos/cn12.html", target="_parent");
+  }
+	if (pasta == 'cn13') {
+    var url = "canais.todos/cn13.html";
+    window.open("canais.todos/cn13.html", target="_parent");
+ }
+	if (pasta == 'cn14') {
+    var url = "#";
+    window.open("canais.todos/cn14.html", target="_parent");
+  }
+	if (pasta == 'cn15') {
+    var url = "#";
+    window.open("canais.todos/cn15.html", target="_parent");
+  }
+	if (pasta == 'cn16') {
+    var url = "#";
+    window.open("canais.todos/cn16.html", target="_parent");
+  }
+	if (pasta == 'cn17') {
+    var url = "#";
+    window.open("canais.todos/cn17.html", target="_parent");
+  }
+	if (pasta == 'cn18') {
+    var url = "#";
+    window.open("canais.todos/cn18.html", target="_parent");
+  }
+	if (pasta == 'cn19.tv247') {
+    var url = "#";
+    window.open("canais.todos/cn19.tv.247.html", target="_parent");
+   }
+	if (pasta == 'cn20') {
+    var url = "#";
+    window.open("canais.todos/cn20.html", target="_parent");
+  }
+	if (pasta == 'cn21') {
+    var url = "#";
+    window.open("canais.todos/cn21.curitiba.html", target="_parent");
+  }
+	if (pasta == 'cn22') {
+    var url = "#";
+    window.open("canais.todos/cn22.TV Cidade Fortaleza • Record TV.html", target="_parent");
+   }
+	if (pasta == 'cn23') {
+    var url = "#";
+    window.open("canais.todos/cn23.html", target="_parent");
+  }
+	if (pasta == 'r1 Rádio Tupi') {
+    var url = "#";
+    window.open("canais.todos/r1.tupi.html", target="_parent");
+}
+	if (pasta == 'r2') {
+    var url = "#";
+    window.open("canais.todos/r2.94.fm.natal.html", target="_parent");
+  }
+	if (pasta == 'r3') {
+    var url = "#";
+    window.open("canais.todos/r3.96.fm.natal.html", target="_parent");
+  }
+	if (pasta == 'r4') {
+    var url = "#";
+    window.open("canais.todos/r4.mix.fm.natal.html", target="_parent");
+   }
+	if (pasta == 'r5.Rádio Bandeirantes SP') {
+    var url = "#";
+    window.open("canais.todos/r5.html", target="_parent"); <!---r4 uso futuro------>
+   }
+	if (pasta == 'r6') {
+    var url = "#";
+    window.open("canais.todos/r6.radio.cnn.html", target="_parent");
+  }
+	if (pasta == 'r7-Rádio CBN') {
+    var url = "#";
+    window.open("canais.todos/r7.cbn.sp.html", target="_parent");
+  }
+	if (pasta == 'RÁDIO MIX LIMEIRA') {
+    var url = "#";
+    window.open("canais.todos/r8 rádio mix limeira.html", target="_parent");
+   }
+	if (pasta == '98 FM Natal') {
+    var url = "#";
+    window.open("canais.todos/r9 98.fm.natal .html", target="_parent");
+    }
+	if (pasta == 'Rádio Tupi') {
+    var url = "#";
+    window.open("canais.todos/cn5.html", target="_parent");
+   }
+	if (pasta == 'r10 Jovem Pan') {
+    var url = "#";
+    window.open("canais.todos/r10.Jovem Pan.html", target="_parent");
+  }
+	if (pasta == 'TV cristã') {
+    var url = "#";
+    window.open("canais.todos/crista.ini.html", target="_parent");
+ }
+	if (pasta == 'R11 Band News FM SP') {
+    var url = "#";
+    window.open("canais.todos/r11 Band News FM SP.html", target="_parent");
+  }
+	if (pasta == 'R12 95 Mais FM Natal') {
+    var url = "#";
+    window.open("canais.todos/r12.95 Mais FM Natal.html", target="_parent");
+  }
+	if (pasta == '666666666666666') {
+    var url = "#";
+    window.open("canais.todos/r10.Jovem Pan.html", target="_parent");
+ }
+	if (pasta == '555555555555555') {
+    var url = "#";
+    window.open("canais.todos/r10.Jovem Pan.html", target="_parent");
+  }
+	if (pasta == '44444444444444444') {
+    var url = "#";
+    window.open("canais.todos/r10.Jovem Pan.html", target="_parent");
+  }
+	if (pasta == '333333333333') {
+    var url = "#";
+    window.open("canais.todos/r10.Jovem Pan.html", target="_parent");
+  }
+	if (pasta == '222222222222') {
+    var url = "#";
+    window.open("canais.todos/r10.Jovem Pan.html", target="_parent");
+  }
+	if (pasta == '11111111111') {
+    var url = "#";
+    window.open("canais.todos/r10.Jovem Pan.html", target="_parent");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+</SCRIPT>
+ </SCRIPT>
+ </div> </div>
