@@ -1,0 +1,150 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
+background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; &nbsp; Procurar Video
+	
+	<option value="Especial com Maurren Maggi" />&nbsp; &nbsp; Live CBN - Fim de Expediente Especial com Maurren Maggi.
+	<option value="CBN Primeiras Notícias" />&nbsp; &nbsp; CBN Primeiras Notícias Das 5h às 6h
+	<option value="Jornal da CBN 1ª Edição" />&nbsp; &nbsp; Jornal da CBN 1ª Edição Das 6h às 10h
+	<option value="CBN SP" />&nbsp; &nbsp; CBN SP Das 10h às 12h
+	<option value="CBN Brasil" />&nbsp; &nbsp; CBN Brasil Das 12h às 14h
+	<option value="Estúdio CBN" />&nbsp; &nbsp; Estúdio CBN Das 14h às 17h
+	<option value="Jornal da CBN 2ª Edição" />&nbsp; &nbsp; Jornal da CBN 2ª Edição Das 17h às 18h
+	<option value="Ponto Final CBN" />&nbsp; &nbsp; Ponto Final CBN	Das 18h às 20h
+	<option value="CBN NOITE TOTAL" />&nbsp; &nbsp; CBN NOITE TOTAL seg a sex, Das 21h às 24h
+	<option value="Live" />&nbsp; &nbsp; Live
+	<option value="Revista CBN" />&nbsp; &nbsp; Revista CBN - sab 12h às 15h
+	<option value="CBN Show da Notícia" />&nbsp; &nbsp; CBN Show da Notícia
+	<option value="CBN Esportes" />&nbsp; &nbsp; CBN Esportes
+	<option value="CBN Rio" />&nbsp; &nbsp; CBN Rio
+	<option value="CBN natal" />&nbsp; &nbsp; CBN Natal
+	<option value="Sabatina CBN com Guilherme Boulos - 251120" style="font-size:20px; color: gray;" enabled="disabled">&nbsp; &nbsp; Sabatina CBN com Guilherme Boulos - 25/11/2020
+	<option value="Eleições 2020 - Sabatina com Eduardo Paes - 25112020" style="font-size:20px; color: gray;" enabled="disabled">&nbsp; &nbsp; Eleições 2020 - Sabatina com Eduardo Paes - 25/11/2020
+	<option value="Mundo Corporativo - 251120" style="font-size:20px; color: gray;" enabled="disabled">&nbsp; &nbsp; Mundo Corporativo conversa com Dante Mantovani, consultor de desenvolvimento humano
+</div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="band");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Jornal da CBN 1ª Edição') {
+    var url = "#";
+    window.open("Jornal da CBN 1ª Edição.html", target="cbn");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'CBN SP') {
+    var url = "#";
+    window.open("CBN SP.html", target="cbn");
+  }
+	if (pasta == 'Live') {
+    var url = "#";
+    window.open ("Live.html", target="cbn");
+  }
+	if (pasta == 'Revista CBN') {
+    var url = "#";
+    window.open ("Revista CBN.html", target="cbn");
+  }
+	if (pasta == 'CBN Show da Notícia') {
+    var url = "#";
+    window.open("CBN Show da Notícia.html", target="cbn");
+  }
+	if (pasta == 'CBN Rio') {
+    var url = "#";
+    window.open("CBN Rio.html", target="cbn");
+  }
+  if (pasta == 'CBN Brasil') {
+    var url = "#";
+    window.open("CBN Brasil.html", target="cbn"); 
+  } 
+	if (pasta == 'Estúdio CBN') {
+    var url = "#";
+    window.open("Estúdio CBN.html", target="cbn");
+  }
+	if (pasta == 'Jornal da CBN 2ª Edição') {
+    var url = "#";
+    window.open("Jornal da CBN 2ª Edição.html", target="cbn");
+  }
+	if (pasta == 'CBN Primeiras Notícias') {
+    var url = "#";
+    window.open("CBN Primeiras Notícias.html", target="cbn");
+  }
+	if (pasta == 'CBN Esportes') {
+    var url = "#";
+    window.open("CBN Esportes.html", target="cbn");
+  }
+	if (pasta == 'CBN natal') {
+    var url = "#";
+    window.open("rn/r7.cbn.natal.html", target="_parent");
+  }
+	if (pasta == 'CBN NOITE TOTAL') {
+    var url = "#";
+    window.open("CBN NOITE TOTAL.html", target="cbn");
+  }
+	if (pasta == 'Ponto Final CBN') {
+    var url = "#";
+    window.open("Ponto Final CBN.html", target="cbn");
+ }
+	if (pasta == 'Sabatina CBN com Guilherme Boulos - 251120') {
+    var url = "#";
+    window.open("2020/nov/25/Eleições 2020 - Sabatina CBN com Guilherme Boulos - 25112020.html", target="cbn");
+ }
+	if (pasta == 'Mundo Corporativo - 251120') {
+    var url = "#";
+    window.open("2020/nov/25/Mundo Corporativo conversa com Dante Mantovani, consultor de desenvolvimento humano.html", target="cbn");
+  }
+	if (pasta == 'Eleições 2020 - Sabatina com Eduardo Paes - 25112020') {
+    var url = "#";
+    window.open("2020/nov/25/Eleições 2020 - Sabatina com Eduardo Paes - 25112020.html", target="cbn");
+  }
+	if (pasta == '333333333') {
+    var url = "#";
+    window.open("Ponto Final CBN.html", target="cbn");
+  }
+	if (pasta == 'Especial com Maurren Maggi') {
+    var url = "#";
+    window.open("2020/nov/26/Fim de Expediente Especial com Maurren Maggi.html", target="cbn");
+  }
+	if (pasta == '11111111111') {
+    var url = "#";
+    window.open("111111111111", target="cbn");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+} 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
