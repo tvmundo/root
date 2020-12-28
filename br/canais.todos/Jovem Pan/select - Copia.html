@@ -1,0 +1,119 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
+background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; Procurar Video
+	<option value="Jornal da Manhã" />&nbsp; Jornal da Manhã
+	<option value="Jornal da Manhã - 2ª Edição" />&nbsp; Jornal da Manhã - 2ª Edição
+	<option value="Jornal Jovem Pan" />&nbsp; Jornal Jovem Pan
+	<option value="Jovem Pan Agora" />&nbsp; Jovem Pan Agora 15h20
+	<option value="MULHERES POSITIVAS" />&nbsp; MULHERES POSITIVAS
+	<option value="3 em 1" />&nbsp; 3 em 1
+	<option value="Os Pingos Nos Is" />&nbsp; Os Pingos Nos Is
+	<option value="DIRETO AO PONTO" />&nbsp; DIRETO AO PONTO
+	<option value="DE TUDO UM POUCO" />&nbsp; DE TUDO UM POUCO
+	<option value="PAN NEWS NOITE" />&nbsp; PAN NEWS NOITE
+	<option value="São Paulo x Flamengo 18 11 20" style="font-size:20px; color: #fff;" enabled="disabled">&nbsp;⚽ São Paulo x Flamengo - 18/11/2020
+	<option value="Uruguai x Brasil 17 11 20" style="font-size:20px; color: gray;" enabled="disabled">&nbsp; Uruguai x Brasil - 17/11/2020
+	<option value="Brasil x Venezuela 13 11 20" style="font-size:20px; color: gray;" enabled="disabled">&nbsp; Brasil x Venezuela - 13/11/2020
+	<option value="Sociedade Digital: Como se proteger de golpes na Internet 0 11 20"style="font-size:20px; color: gray;" enabled="disabled">&nbsp; Sociedade Digital: Como se proteger de golpes na Internet?
+	
+	
+</div>      
+<!--------------------select pop up inicio---Bola ⚽------------>
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="band");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Jornal da Manhã') {
+    var url = "#";
+    window.open("Jornal da Manhã.html", target="Jovem Pan");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Jornal da Manhã - 2ª Edição') {
+    var url = "#";
+    window.open("Jornal da Manhã - 2ª Edição.html", target="Jovem Pan");
+  }
+	if (pasta == 'DIRETO AO PONTO') {
+    var url = "#";
+    window.open ("DIRETO AO PONTO.html", target="Jovem Pan");
+  }
+	if (pasta == 'Jornal Jovem Pan') {
+    var url = "#";
+    window.open ("Jornal Jovem Pan.html", target="Jovem Pan");
+  }
+	if (pasta == 'Jovem Pan Agora') {
+    var url = "#";
+    window.open("Jovem Pan Agora.html", target="Jovem Pan");
+  }
+	if (pasta == 'Os Pingos Nos Is') {
+    var url = "#";
+    window.open("Os Pingos Nos Is.html", target="Jovem Pan");
+  }
+  if (pasta == '3 em 1') {
+    var url = "#";
+    window.open("3 em 1.html", target="Jovem Pan"); 
+  } 
+	if (pasta == 'DE TUDO UM POUCO') {
+    var url = "#";
+    window.open("DE TUDO UM POUCO.html", target="Jovem Pan");
+  }
+	if (pasta == 'Brasil x Venezuela 13 11 20') {
+    var url = "#";
+    window.open("2020/nov/13/Brasil x Venezuela.html", target="Jovem Pan");
+  }
+	if (pasta == 'Uruguai x Brasil 17 11 20') {
+    var url = "#";
+    window.open("2020/nov/17/Uruguai x Brasil.html", target="Jovem Pan");
+  }
+	if (pasta == 'São Paulo x Flamengo 18 11 20') {
+    var url = "#";
+    window.open("2020/nov/18/São Paulo x Flamengo.html", target="Jovem Pan");
+  }
+	if (pasta == 'PAN NEWS NOITE') {
+    var url = "#";
+    window.open("PAN NEWS NOITE.html", target="Jovem Pan");
+   }
+	if (pasta == 'MULHERES POSITIVAS') {
+    var url = "#";
+    window.open("MULHERES POSITIVAS.html", target="Jovem Pan");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+} 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
