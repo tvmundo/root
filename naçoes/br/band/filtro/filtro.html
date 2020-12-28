@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>filtro user</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ----------------------->
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
+
+  <script
+    type="text/javascript"
+    src="https://tvmundo.github.io/Mundo/cod/filtro1/filtro1.js">
+	</script>
+
+    <link rel="stylesheet" type="text/css" href="filtro1.css">
+
+  <style id="compiled-css" type="text/css">
+      table {
+    border-collapse: collapse;
+}
+table thead tr {
+    background-color: #260d2d;
+	texto:#fff;
+    border-bottom: 2px solid #fff;
+}
+
+table th, table td {
+    padding: 2px 10px;
+}
+}
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+
+    $(window).on('load', function() {
+      
+$('#filtro-nome').keyup(function() {
+    var nomeFiltro = $(this).val().toLowerCase();
+    console.log(nomeFiltro);
+    $('table tbody').find('tr').each(function() {
+        var conteudoCelula = $(this).find('td:first').text();
+        console.log(conteudoCelula);
+        var corresponde = conteudoCelula.toLowerCase().indexOf(nomeFiltro) >= 0;
+        $(this).css('display', corresponde ? '' : 'none');
+    });
+});
+
+    });
+
+</script>
+
+</head>
+<body>
+    <table>
+    <thead>
+        <tr>
+            <th><div>Nome</div><div><input id="filtro-nome"/></div></th>
+            <th>Nº</th>
+            <th>DT inicio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="http://tvmundo.dlinkddns.com/br/radios/rtvm/meu.pendrive/robson.s/list.mp3.html" >
+            <span style="color: #FFF; font-size: 15px;">&nbsp; &nbsp;
+            <b> Robson Simas</b></span></a></td>
+            <td>1</td>
+            <td>14/04/2019</td>
+        </tr>
+        <tr>
+            <td><a href="http://tvmundo.dlinkddns.com/br/radios/rtvm/meu.pendrive/pedro.renan/list.mp3.html">
+            <span style="color: #FFF; font-size: 15px;">&nbsp; &nbsp;
+            <b> Pedro Renan</b></span></a></td>
+            <td>2</td>
+            <td>14/04/2019</td>
+        </tr>
+        <tr>
+            <td><a href="http://tvmundo.dlinkddns.com/br/radios/rtvm/meu.pendrive/Rian/list.mp3.html">
+            <span style="color: #FFF; font-size: 15px;">&nbsp; &nbsp;
+            <b> Rian</b></span></a></td>
+            <td>3</td>
+            <td>14/04/2019</td>
+        </tr>
+        <tr>
+            <td><a href="http://tvmundo.dlinkddns.com/br/radios/rtvm/meu.pendrive/Rian/list.mp3.html">
+            <span style="color: #FFF; font-size: 15px;">&nbsp; &nbsp;
+            <b> Joao </b></span></a></td>
+            <td>4</td>
+            <td>14/04/2019</td>
+        </tr>
+        <tr>
+            <td><a href="#">
+            <span style="color: #FFF; font-size: 15px;">&nbsp; &nbsp;
+            <b> Robson Simas</b></span></a></td>
+            <td>5</td>
+            <td>14/04/2019</td>
+        </tr>
+        <tr>
+            <td><a href="../2020/set/03/Embraer anuncia demissão de 2,5 mil funcionários.html" >
+            <span style="color: #FFF; font-size: 15px;">&nbsp; &nbsp;
+            <b> Embraer anuncia demissão de 2,5 mil funcionários </b></span></a></td>
+            <td>6</td>
+            <td>03/09/2020</td>
+        </tr>
+    </tbody>
+</table>
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "suCtE"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+</body>
+</html>
