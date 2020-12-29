@@ -1,0 +1,106 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
+background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; &nbsp; Procurar Video
+	<option value="Paraná no Ar" />&nbsp; Paraná no Ar
+	<option value="Balanço Geral Maringá" />&nbsp; Balanço Geral Maringá
+	<option value="Balanço Geral Curitiba" />&nbsp; Balanço Geral Curitiba
+	<option value="Balanço Geral Londrina" />&nbsp; Balanço Geral Londrina
+	<option value="Tribuna da Massa Manhã" />&nbsp; Tribuna da Massa Manhã - Foz do Iguaçu e região
+	<option value="Tribuna da Massa Curitiba" />&nbsp; Tribuna da Massa Curitiba
+	<option value="Cidade Alerta Maringá" />&nbsp; Cidade Alerta Maringá
+</div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="band");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Balanço Geral Maringá') {
+    var url = "#";
+    window.open("Balanço Geral Maringá.html", target="parana");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Balanço Geral Curitiba') {
+    var url = "#";
+    window.open("Balanço Geral Curitiba.html", target="parana");
+  }
+	if (pasta == 'Balanço Geral Londrina') {
+    var url = "#";
+    window.open ("Balanço Geral Londrina.html", target="parana");
+  }
+	if (pasta == 'Paraná no Ar') {
+    var url = "#";
+    window.open ("Paraná no Ar.html", target="parana");
+  }
+	if (pasta == 'Tribuna da Massa Curitiba') {
+    var url = "#";
+    window.open("Tribuna da Massa Curitiba.html", target="parana");
+  }
+	if (pasta == 'Cidade Alerta Maringá') {
+    var url = "#";
+    window.open("Cidade Alerta Maringá.html", target="parana");
+  }
+  if (pasta == 'Tribuna da Massa Manhã') {
+    var url = "#";
+    window.open("Tribuna da Massa Manhã.html", target="parana"); 
+  } 
+	if (pasta == 'Embraer anuncia demissão') {
+    var url = "2020/set/03/Embraer anuncia demissão de 2,5 mil funcionários.html";
+    window.open("2020/set/03/Embraer anuncia demissão de 2,5 mil funcionários.html", target="Ponta Negra");
+  }
+	if (pasta == 'Bora Trabalhar') {
+    var url = "Estágio na pandemia  Bora Trabalhar.html";
+    window.open("Estágio na pandemia  Bora Trabalhar.html", target="Ponta Negra");
+  }
+	if (pasta == 'Prevenção ao Suicídio') {
+    var url = "2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html";
+    window.open("2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html", target="Ponta Negra");
+  }
+	if (pasta == 'cn10') {
+    var url = "canais.todos/cn10.html";
+    window.open("canais.todos/cn10.html", target="Ponta Negra");
+  }
+	if (pasta == 'cn11') {
+    var url = "canais.todos/cn11.html";
+    window.open("canais.todos/cn11.html", target="Ponta Negra");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+} 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
