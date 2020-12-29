@@ -1,0 +1,59 @@
+<html>
+
+ <head>
+
+ </head>
+
+ <body>
+
+  <form method="post" action="comentario.php">
+
+   <table>
+
+    <tr>
+
+     <td>Nome: </td><td><input type="text" name="nome" size=44 /></td>
+
+    </tr>
+
+    <tr>
+
+     <td>E-Mail: </td><td><input type="text" name="email" size=44 /></td>
+
+    </tr>
+
+    <tr>
+
+     <td>Comentario: </td><td><textarea  name="mensagem"  rows=5 cols=35/></textarea></td>
+
+    </tr>
+
+    <tr>
+
+     <td></td><td><input  type=submit  value=Comentar></td>
+
+    </tr>
+
+  </form>
+
+ </body>
+
+</html>
+
+comentario.php
+<?php
+
+
+  $conn = mysql_connect("localhost" , "usuario_db", "senha_db");
+
+  mysql_select_db("nome_do_banco_de_dados",$conn);
+
+
+  $sql = "INSERT INTO nome_tabela(nome,email,mensagem) VALUES('".$_POST['nome']."','".$_POST['email']."','".$_POST['mensagem']."'";
+
+  if(mysql_query($sql)) echo "Comentario realizado com sucesso!";
+
+  else echo "Erro no servidor.Tente mais tarde";
+
+
+?>

@@ -1,0 +1,107 @@
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gray; /* #2f4456*/
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}
+</style>
+<body bgcolor=#000>
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ------------------------>
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
+                                               <!------------este seletor esta em root inicio.html --------------->
+<!----------------------Menu Mundo 2021 ini ----------------------->
+<style>
+html, body { height: 100%; }
+</style>
+</head>
+<body>
+<!---------------------------------------------------------Home | World-------------------------------------------------------------------------------------->
+<a href="https://tvmundo.github.io/Mundo/banner/paypal.doar.html" style="color: #FFFF00; font-family: Arial ; font-size: 30px;" onClick="window.location.reload()" target="_parent">
+💲 doar para TV Mundo 💲 </a>  <br/>
+
+<a href="http://tvmundo.sytes.net/TV_Mundo.apk" style="color: #FFFF00; font-family: Arial ; font-size: 28px;" onClick="window.location.reload()" target="_top">
+📥 Baixe o app TV Mundo 📥 </a>  <br/>
+
+<a href="#" style="background-color: #000; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; border: 0px; box-sizing: border-box; color: white; display: inline-block; font-family: Flama; font-size: 20px; font-style: normal; font-variant: normal; font-weight: bold; line-height: normal; margin: 0px; padding: 10px; text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: baseline; width: 100%;"></a></div>
+
+  <!--------------------------------------------------Vídeos 02/11/2020------------------------------------------------------------------>
+ <div class="box">
+ <span class="descricao-sobre" style="color: #fff; font-family: Arial ; font-size: 30px;" >
+ Vídeos 02/11/2020</span>
+ <div class="texto">
+<a href="#" style="background-color: #000; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; border: 0px; box-sizing: border-box; color: white; display: inline-block; font-family: Flama; font-size: 20px; font-style: normal; font-variant: normal; font-weight: bold; line-height: normal; margin: 0px; padding: 5px; text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: baseline; width: 100%;"></a>
+ <a href="cn6 LA NACION/2020/dez//02/Reconocimiento a la mujer destacada en el ámbito empresarial  WCD.html" style="color: #00BFFF ; font-family: Arial ; font-size: 25px;"  target="LA NACION">
+ Reconocimiento a la mujer destacada en el ámbito empresarial  WCD </a> <br/>
+ <a href="#" style="background-color: #000; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; border: 0px; box-sizing: border-box; color: white; display: inline-block; font-family: Flama; font-size: 20px; font-style: normal; font-variant: normal; font-weight: bold; line-height: normal; margin: 0px; padding: 5px; text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: baseline; width: 100%;"></a><br/>
+ </div>
+  <!--------------------------------------------------Vídeos 15/11/2020------------------------------------------------------------------>
+ <div class="box">
+ <span class="descricao-sobre" style="color: #fff; font-family: Arial ; font-size: 30px;" >
+ Vídeos 15/11/2020</span>
+ <div class="texto">
+<a href="#" style="background-color: #000; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; border: 0px; box-sizing: border-box; color: white; display: inline-block; font-family: Flama; font-size: 20px; font-style: normal; font-variant: normal; font-weight: bold; line-height: normal; margin: 0px; padding: 5px; text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: baseline; width: 100%;"></a>
+ <a href="cn6 LA NACION/2020/dez/15/INTELIGENCIA ARTIFICIAL Capítulo 3.html" style="color: #00BFFF ; font-family: Arial ; font-size: 25px;"  target="LA NACION">
+ INTELIGENCIA ARTIFICIAL: Capítulo 3 </a> <br/>
+ <a href="#" style="background-color: #000; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; border: 0px; box-sizing: border-box; color: white; display: inline-block; font-family: Flama; font-size: 20px; font-style: normal; font-variant: normal; font-weight: bold; line-height: normal; margin: 0px; padding: 5px; text-align: center; text-decoration: none; text-transform: uppercase; vertical-align: baseline; width: 100%;"></a>
+ </div>
+
+<script src="http://tvmundo.sytes.net/menu.mostra.mundo.jquery-2.0.3.min.js"></script>
+<script>
+jQuery(document).ready(function(){
+    var $box = jQuery(".box"),
+        $descricao = jQuery(".descricao-sobre"),
+        $texto = jQuery(".texto");
+
+    $texto.hide();
+    $descricao.on("click", function(){
+        var $this = jQuery(this);
+
+        $this.addClass("selecionado").siblings(".descricao-sobre").removeClass("selecionado");
+
+        $texto.not($this.next()).hide();
+        $this.next().slideToggle('slow');
+    });
+    $box.on("click", function(e){
+        e.stopPropagation();
+    });
+    jQuery("body").on("click", function(){
+        $texto.hide();
+        $descricao.removeClass("selecionado");
+    });
+
+});
+</script>
+</body>
+</html>
+<br/><br/><br/><br/><br/><br/>
+<div style="text-align: center;">
+<a href="#" style="color: #fff; font-family: Arial ; font-size: 30px;" onClick="window.location.reload()"> ↻ </a>
+
+<br/><br/><br/><br/><br/><br/>
+<!-----------------------------------------------------------texto auto--------------------------------------------------------------------------------->
