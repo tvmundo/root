@@ -1,0 +1,184 @@
+<body bgcolor=#000>
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ----------------------->
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+<label id="lblSelect">
+<style type="text/css">
+            /*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;)*/
+            select#selectPointOfInterest
+            {
+               width                    : 100%; /*300pt*/
+               height                   : 25pt; /*40pt*/
+			   top                      : 0; /*0*/ /*nao funciona*/
+			   background-color         : #2f4456; /*esse background fio add #2f4456 */
+               line-height              : 25pt; /*40pt*/
+               padding-right            : 40pt; /*20pt*/
+               text-indent              : 4pt;  /*4pt*/
+               text-align               : left;
+               vertical-align           : middle;
+               box-shadow               : inset 0 0 3px #606060;
+               border                   : 1px solid #acacac;
+               -moz-border-radius       : 6px;  /*6px*/
+               -webkit-border-radius    : 6px;  /*6px*/
+               border-radius            : 6px;  /*6px*/
+               -webkit-appearance       : none;
+               -moz-appearance          : none;
+               appearance               : none;  /*IMPORTANT*/
+               font-family              : Arial,  Calibri, Tahoma, Verdana;
+               font-size                : 15pt;  /*15pt*/
+               font-weight              : 500;   /*500*/
+               color                    : #fff; /*#000099*/
+               cursor                   : pointer;
+               outline                  : none;
+            }
+            select#selectPointOfInterest::-ms-expand {display: none;} /*FOR IE*/
+            select#selectPointOfInterest option
+            {
+                padding             : 4px 10px 4px 10px; /*4px 10px 4px 10px;*/
+                font-size           : 12pt; /*11pt*/
+                font-weight         : normal;
+            }
+            select#selectPointOfInterest option[selected]{ font-weight:bold}
+            select#selectPointOfInterest option:nth-child(even) { background-color:#2f4456; } /*background-color:#f5f5f5*/
+            select#selectPointOfInterest:hover {font-weight: 700;}
+            select#selectPointOfInterest:focus {box-shadow: inset 0 0 5px #000099; font-weight: 600;}
+
+            /*LABEL FOR SELECT*/
+            label#lblSelect{ position: relative; display: inline-block;}
+            /*DOWNWARD ARROW (25bc)*/
+            label#lblSelect::after
+            {
+                content                 : "\25bc";
+                position                : absolute; /* orig>absolute relative*/
+                top                     : 0; /*0*/
+                right                   : 2; /*0*/
+                bottom                  : 0; /*0*/
+                width                   : 20pt; /*20pt;*/
+                line-height             : 30pt; /*40pt;*/ /*diminuindo sobe*/
+                vertical-align          : middle;
+                text-align              : center;
+                background              : red;  /*#000099*/  /*Blog#2f4456*/ /*canto esq*/
+                color                   : #fff;  /*#fefefe*/
+               -moz-border-radius       : 0 6px 6px 0;  /*0 6px 6px 0*/
+               -webkit-border-radius    : 0 6px 6px 0;  /*0 6px 6px 0*/
+                border-radius           : 0 6px 6px 0;  /*0 6px 6px 0*/
+                pointer-events          : none;
+            }
+        </style>
+</style>
+ <select id="selectPointOfInterest" id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Videos &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; &nbsp; Procurar Video
+	<option value="Estamos PARANDO O BRASIL" />&nbsp; &nbsp; Urgente ! Estamos PARANDO O BRASIL: ninguém vota NADA enquanto o auxílio não voltar a R$ 600,00!
+	<option value="Deputados aderem à nossa luta auxílio 600" />&nbsp; &nbsp; Deputados aderem à nossa luta e auxílio pode voltar a R$ 600,00!
+	<option value="auxílio emergencial bloqueado" />&nbsp; &nbsp; auxílio emergencial bloqueado e com valor indefinido!
+	<option value="AUXÍLIO ANDRÉ JANONES X MARCOS P" />&nbsp; &nbsp; AUXÍLIO EMERGENCIAL: ANDRÉ JANONES X MARCOS PEREIRA
+	<option value="deputados pressionam por auxílio de R$ 600,00 2109" />&nbsp; &nbsp; Clima tenso: deputados pressionam por auxílio de R$ 600,00!
+	<option value="desabafo" />&nbsp; &nbsp; desabafo
+	<option value="RODRIGO MAIA COM COVID" />&nbsp; &nbsp; RODRIGO MAIA COM COVID! E agora ?
+	<option value="Articulação pesada pra calar" />&nbsp; &nbsp; Articulação pesada pra calar A VOZ DO POVO!
+	<option value="Auxílio alta alimentos" />&nbsp; &nbsp; Auxílio emergencial e alta nos alimentos!
+    <option value="pode ficar em R$ 600" />&nbsp; &nbsp; AGORA É OFICIAL Auxílio Emergencial pode ficar em R$ 600,00!
+	</option>
+       </div>   </div>    
+<!--------------------select pop up inicio---------------> 
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="TV Tropical");<!----abre na mesma janela----->
+ }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Estamos PARANDO O BRASIL') {
+    var url = "#";
+    window.open("2020/out/06/Estamos PARANDO O BRASIL ninguém vota NADA enquanto o auxílio não voltar a R$ 600,00!.html", target="André Janones");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'auxílio emergencial bloqueado') {
+    var url = "#";
+    window.open("AO VIVO auxílio emergencial bloqueado e com valor indefinido!.html", target="André Janones");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Deputados aderem à nossa luta auxílio 600') {
+    var url = "#";
+    window.open("2020/out/03/Deputados aderem à nossa luta e auxílio pode voltar a R$ 600,00!.html", target="André Janones");
+  }
+	if (pasta == 'Cidade Alerta') {
+    var url = "Cidade Alerta.html";
+    window.open ("Cidade Alerta.html", target="André Janones");
+  }
+	if (pasta == 'DESTINOS DO RN') {
+    var url = "DESTINOS DO RN.html";
+    window.open("DESTINOS DO RN.html", target="André Janones");
+  }
+	if (pasta == 'AUXÍLIO ANDRÉ JANONES X MARCOS P') {
+    var url = "#";
+    window.open("AUXÍLIO EMERGENCIAL ANDRÉ JANONES X MARCOS PEREIRA.html", target="André Janones");
+  }
+  if (pasta == 'deputados pressionam por auxílio de R$ 600,00 2109') {
+    var url = "#";
+    window.open("Clima tenso deputados pressionam por auxílio de R$ 600,00!.html", target="André Janones"); 
+  } 
+	if (pasta == 'desabafo') {
+    var url = "#";
+    window.open("desabafo.html", target="André Janones");
+  }
+	if (pasta == 'RODRIGO MAIA COM COVID') {
+    var url = "#";
+    window.open("RODRIGO MAIA COM COVID! E agora .html", target="André Janones");
+  }
+	if (pasta == 'Articulação pesada pra calar') {
+    var url = "#";
+    window.open("URGENTE AO VIVO Articulação pesada pra calar A VOZ DO POVO!.html", target="André Janones");
+  }
+	if (pasta == 'Auxílio alta alimentos') {
+    var url = "Auxílio emergencial e alta nos alimentos!.html";
+    window.open("Auxílio emergencial e alta nos alimentos!.html", target="André Janones");
+  }
+	if (pasta == 'pode ficar em R$ 600') {
+    var url = "AGORA É OFICIAL Auxílio Emergencial pode ficar em R$ 600,00!.html";
+    window.open("AGORA É OFICIAL Auxílio Emergencial pode ficar em R$ 600,00!.html", target="André Janones");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->

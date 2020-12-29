@@ -1,0 +1,172 @@
+<body bgcolor=#000>
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ----------------------->
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+<label id="lblSelect">
+<style type="text/css">
+            /*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;)*/
+            select#selectPointOfInterest
+            {
+               width                    : 100%; /*300pt*/
+               height                   : 25pt; /*40pt*/
+			   top                      : 0; /*0*/ /*nao funciona*/
+			   background-color         : #2f4456; /*esse background fio add #2f4456 */
+               line-height              : 25pt; /*40pt*/
+               padding-right            : 40pt; /*20pt*/
+               text-indent              : 4pt;  /*4pt*/
+               text-align               : left;
+               vertical-align           : middle;
+               box-shadow               : inset 0 0 3px #606060;
+               border                   : 1px solid #acacac;
+               -moz-border-radius       : 6px;  /*6px*/
+               -webkit-border-radius    : 6px;  /*6px*/
+               border-radius            : 6px;  /*6px*/
+               -webkit-appearance       : none;
+               -moz-appearance          : none;
+               appearance               : none;  /*IMPORTANT*/
+               font-family              : Arial,  Calibri, Tahoma, Verdana;
+               font-size                : 15pt;  /*15pt*/
+               font-weight              : 500;   /*500*/
+               color                    : #fff; /*#000099*/
+               cursor                   : pointer;
+               outline                  : none;
+            }
+            select#selectPointOfInterest::-ms-expand {display: none;} /*FOR IE*/
+            select#selectPointOfInterest option
+            {
+                padding             : 4px 10px 4px 10px; /*4px 10px 4px 10px;*/
+                font-size           : 12pt; /*11pt*/
+                font-weight         : normal;
+            }
+            select#selectPointOfInterest option[selected]{ font-weight:bold}
+            select#selectPointOfInterest option:nth-child(even) { background-color:#2f4456; } /*background-color:#f5f5f5*/
+            select#selectPointOfInterest:hover {font-weight: 700;}
+            select#selectPointOfInterest:focus {box-shadow: inset 0 0 5px #000099; font-weight: 600;}
+
+            /*LABEL FOR SELECT*/
+            label#lblSelect{ position: relative; display: inline-block;}
+            /*DOWNWARD ARROW (25bc)*/
+            label#lblSelect::after
+            {
+                content                 : "\25bc";
+                position                : absolute; /* orig>absolute relative*/
+                top                     : 0; /*0*/
+                right                   : 2; /*0*/
+                bottom                  : 0; /*0*/
+                width                   : 20pt; /*20pt;*/
+                line-height             : 30pt; /*40pt;*/ /*diminuindo sobe*/
+                vertical-align          : middle;
+                text-align              : center;
+                background              : red;  /*#000099*/  /*Blog#2f4456*/ /*canto esq*/
+                color                   : #fff;  /*#fefefe*/
+               -moz-border-radius       : 0 6px 6px 0;  /*0 6px 6px 0*/
+               -webkit-border-radius    : 0 6px 6px 0;  /*0 6px 6px 0*/
+                border-radius           : 0 6px 6px 0;  /*0 6px 6px 0*/
+                pointer-events          : none;
+            }
+        </style>
+</style>
+ <select id="selectPointOfInterest" id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Politicos &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; &nbsp; Procurar Video
+	<option value="André Janones" />&nbsp; &nbsp; André Janones
+    <option value="Cabo.Daciolo" />&nbsp; &nbsp; Cabo Daciolo
+	<option value="Ciro Gomes" />&nbsp; &nbsp; Ciro Gomes
+	</option>
+       </div>   </div>    
+<!--------------------select pop up inicio---------------> 
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="TV Tropical");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'André Janones') {
+    var url = "#";
+    window.open("André.Janones.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Cabo.Daciolo') {
+    var url = "#";
+    window.open("Cabo Daciolo.html", target="_parent");
+  }
+	if (pasta == 'Ciro Gomes') {
+    var url = "#";
+    window.open ("Ciro.Gomes.html", target="_parent");
+  }
+	if (pasta == 'DESTINOS DO RN') {
+    var url = "DESTINOS DO RN.html";
+    window.open("DESTINOS DO RN.html", target="politicos");
+  }
+	if (pasta == 'Sabadão Tropical com Priscilla Freire e Zezo') {
+    var url = "Sabadão Tropical com Priscilla Freire e Zezo.html";
+    window.open("Sabadão Tropical com Priscilla Freire e Zezo.html", target="TV Tropical");
+  }
+  if (pasta == '1º JORNAL') {
+    var url = "1º JORNAL.html";
+    window.open("1º JORNAL.html", target="band"); 
+  } 
+	if (pasta == 'Embraer anuncia demissão') {
+    var url = "2020/set/03/Embraer anuncia demissão de 2,5 mil funcionários.html";
+    window.open("2020/set/03/Embraer anuncia demissão de 2,5 mil funcionários.html", target="band");
+  }
+	if (pasta == 'Bora Trabalhar') {
+    var url = "Estágio na pandemia  Bora Trabalhar.html";
+    window.open("Estágio na pandemia  Bora Trabalhar.html", target="band");
+  }
+	if (pasta == 'Prevenção ao Suicídio') {
+    var url = "2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html";
+    window.open("2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html", target="band");
+  }
+	if (pasta == 'cn10') {
+    var url = "canais.todos/cn10.html";
+    window.open("canais.todos/cn10.html", target="band");
+  }
+	if (pasta == 'cn11') {
+    var url = "canais.todos/cn11.html";
+    window.open("canais.todos/cn11.html", target="band");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->

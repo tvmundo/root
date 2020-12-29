@@ -1,0 +1,184 @@
+<body bgcolor=#000>
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ----------------------->
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+<label id="lblSelect">
+<style type="text/css">
+            /*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;)*/
+            select#selectPointOfInterest
+            {
+               width                    : 100%; /*300pt*/
+               height                   : 25pt; /*40pt*/
+			   top                      : 0; /*0*/ /*nao funciona*/
+			   background-color         : #2f4456; /*esse background fio add #2f4456 */
+               line-height              : 25pt; /*40pt*/
+               padding-right            : 40pt; /*20pt*/
+               text-indent              : 4pt;  /*4pt*/
+               text-align               : left;
+               vertical-align           : middle;
+               box-shadow               : inset 0 0 3px #606060;
+               border                   : 1px solid #acacac;
+               -moz-border-radius       : 6px;  /*6px*/
+               -webkit-border-radius    : 6px;  /*6px*/
+               border-radius            : 6px;  /*6px*/
+               -webkit-appearance       : none;
+               -moz-appearance          : none;
+               appearance               : none;  /*IMPORTANT*/
+               font-family              : Arial,  Calibri, Tahoma, Verdana;
+               font-size                : 15pt;  /*15pt*/
+               font-weight              : 500;   /*500*/
+               color                    : #fff; /*#000099*/
+               cursor                   : pointer;
+               outline                  : none;
+            }
+            select#selectPointOfInterest::-ms-expand {display: none;} /*FOR IE*/
+            select#selectPointOfInterest option
+            {
+                padding             : 4px 10px 4px 10px; /*4px 10px 4px 10px;*/
+                font-size           : 12pt; /*11pt*/
+                font-weight         : normal;
+            }
+            select#selectPointOfInterest option[selected]{ font-weight:bold}
+            select#selectPointOfInterest option:nth-child(even) { background-color:#2f4456; } /*background-color:#f5f5f5*/
+            select#selectPointOfInterest:hover {font-weight: 700;}
+            select#selectPointOfInterest:focus {box-shadow: inset 0 0 5px #000099; font-weight: 600;}
+
+            /*LABEL FOR SELECT*/
+            label#lblSelect{ position: relative; display: inline-block;}
+            /*DOWNWARD ARROW (25bc)*/
+            label#lblSelect::after
+            {
+                content                 : "\25bc";
+                position                : absolute; /* orig>absolute relative*/
+                top                     : 0; /*0*/
+                right                   : 2; /*0*/
+                bottom                  : 0; /*0*/
+                width                   : 20pt; /*20pt;*/
+                line-height             : 30pt; /*40pt;*/ /*diminuindo sobe*/
+                vertical-align          : middle;
+                text-align              : center;
+                background              : red;  /*#000099*/  /*Blog#2f4456*/ /*canto esq*/
+                color                   : #fff;  /*#fefefe*/
+               -moz-border-radius       : 0 6px 6px 0;  /*0 6px 6px 0*/
+               -webkit-border-radius    : 0 6px 6px 0;  /*0 6px 6px 0*/
+                border-radius           : 0 6px 6px 0;  /*0 6px 6px 0*/
+                pointer-events          : none;
+            }
+        </style>
+</style>
+ <select id="selectPointOfInterest" id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Videos Ciro Gomes &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; &nbsp; Procurar Video
+	<OPTION value="Tela Inicial Ciro Gomes" />&nbsp; &nbsp; Tela Inicial Ciro Gomes
+	<option value="1 entrevista de Ciro Gomes após as eleições 20" />&nbsp; &nbsp; Primeira entrevista de Ciro Gomes após as eleições municipais
+	<option value="Mauricio Meirelles entrevista" />&nbsp; &nbsp; Mauricio Meirelles entrevista Ciro Gomes
+	<option value="Ciro Gomes no Pânico Jovem Pan" />&nbsp; &nbsp; Entrevista: Ciro Gomes no Pânico Jovem Pan
+	<option value="Palestra Magna: Projeto Nacional no pós-pandemia!" />&nbsp; &nbsp; Palestra Magna: Projeto Nacional no pós-pandemia
+	<option value="pra não esquecer: BOLSONARO CORRUPTO" />&nbsp; &nbsp; Só pra não esquecer: BOLSONARO CORRUPTO!
+	<option value="Existe esperança para o Brasil" />&nbsp; &nbsp; Existe esperança para o Brasil? Ciro Gomes no canal O Historiador
+	<option value="Ciro na CNN 140920" />&nbsp; &nbsp; Ciro na CNN: “O discurso de Bolsonaro e Guedes é falso como uma nota de 3 reais”
+    <option value="Traidores da Pátria!" />&nbsp; &nbsp; Traidores da Pátria!
+	<option value="Estão destruindo a indústria nacional" />&nbsp; &nbsp; Estão destruindo a indústria nacional!
+	</option>
+       </div>   </div>    
+<!--------------------select pop up inicio---------------> 
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="Ciro.Gomes");<!----abre na mesma janela----->
+   }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Tela Inicial Ciro Gomes') {
+    var url = "#";
+    window.open("tela1.html", target="Ciro.Gomes");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Ciro na CNN 140920') {
+    var url = "Ciro na CNN “O discurso de Bolsonaro e Guedes é falso.html";
+    window.open("Ciro na CNN “O discurso de Bolsonaro e Guedes é falso.html", target="Ciro.Gomes");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Traidores da Pátria!') {
+    var url = "Traidores da Pátria!.html";
+    window.open("Traidores da Pátria!.html", target="Ciro.Gomes");
+  }
+	if (pasta == 'Estão destruindo a indústria nacional') {
+    var url = "Estão destruindo a indústria nacional!.html";
+    window.open ("Estão destruindo a indústria nacional!.html", target="Ciro.Gomes");
+  }
+	if (pasta == 'Existe esperança para o Brasil') {
+    var url = "#";
+    window.open("Existe esperança para o Brasil Ciro Gomes no canal O Historiador.html", target="Ciro.Gomes");
+  }
+	if (pasta == 'pra não esquecer: BOLSONARO CORRUPTO') {
+    var url = "#";
+    window.open("Só pra não esquecer BOLSONARO CORRUPTO!.html", target="Ciro.Gomes");
+  }
+  if (pasta == 'Palestra Magna: Projeto Nacional no pós-pandemia!') {
+    var url = "#";
+    window.open("Palestra Magna Projeto Nacional no pós-pandemia.html", target="Ciro.Gomes"); 
+  } 
+	if (pasta == 'Ciro Gomes no Pânico Jovem Pan') {
+    var url = "#";
+    window.open("Entrevista Ciro Gomes no Pânico Jovem Pan.html", target="Ciro.Gomes");
+  }
+	if (pasta == 'Mauricio Meirelles entrevista') {
+    var url = "#";
+    window.open("2020/out/06/Mauricio Meirelles entrevista Ciro Gomes.html", target="Ciro.Gomes");
+  }
+	if (pasta == '1 entrevista de Ciro Gomes após as eleições 20') {
+    var url = "#";
+    window.open("2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html", target="Ciro.Gomes");
+  }
+	if (pasta == '22222222222222') {
+    var url = "#";
+    window.open("Auxílio emergencial e alta nos alimentos!.html", target="Ciro.Gomes");
+  }
+	if (pasta == '1 entrevista de Ciro Gomes após as eleições 20') {
+    var url = "#";
+    window.open("2020/dez/01/Primeira entrevista de Ciro Gomes após as eleições municipais.html", target="Ciro.Gomes");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
