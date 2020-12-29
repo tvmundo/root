@@ -1,0 +1,106 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
+background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; &nbsp; Procurar Video
+	<option value="Notícias da Manhã" />&nbsp; &nbsp; Notícias da Manhã
+	<option value="Tudo de Bom" />&nbsp; &nbsp; Tudo de Bom
+    <option value="Patrulha da Cidade" />&nbsp; &nbsp; Patrulha da Cidade
+	<option value="Patrulha da Cidade2" />&nbsp; &nbsp; Patrulha da Cidade 2
+	<option value="Jornal do Dia" />&nbsp; &nbsp; Jornal do Dia
+	<option value="Jornal do Estado" />&nbsp; &nbsp; Jornal do Estado
+	
+</div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="band");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Notícias da Manhã') {
+    var url = "#";
+    window.open("Notícias da Manhã.html", target="Ponta Negra");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Tudo de Bom') {
+    var url = "#";
+    window.open("Tudo de Bom.html", target="Ponta Negra");
+  }
+	if (pasta == 'Patrulha da Cidade') {
+    var url = "#";
+    window.open ("Patrulha da Cidade.html", target="Ponta Negra");
+  }
+	if (pasta == 'Patrulha da Cidade2') {
+    var url = "#";
+    window.open ("Patrulha da Cidade2.html", target="Ponta Negra");
+  }
+	if (pasta == 'Jornal do Dia') {
+    var url = "#";
+    window.open("Jornal do Dia.html", target="Ponta Negra");
+  }
+	if (pasta == 'Jornal do Estado') {
+    var url = "#";
+    window.open("Jornal do Estado.html", target="Ponta Negra");
+  }
+  if (pasta == '1º JORNAL') {
+    var url = "1º JORNAL.html";
+    window.open("1º JORNAL.html", target="Ponta Negra"); 
+  } 
+	if (pasta == 'Embraer anuncia demissão') {
+    var url = "2020/set/03/Embraer anuncia demissão de 2,5 mil funcionários.html";
+    window.open("2020/set/03/Embraer anuncia demissão de 2,5 mil funcionários.html", target="Ponta Negra");
+  }
+	if (pasta == 'Bora Trabalhar') {
+    var url = "Estágio na pandemia  Bora Trabalhar.html";
+    window.open("Estágio na pandemia  Bora Trabalhar.html", target="Ponta Negra");
+  }
+	if (pasta == 'Prevenção ao Suicídio') {
+    var url = "2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html";
+    window.open("2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html", target="Ponta Negra");
+  }
+	if (pasta == 'cn10') {
+    var url = "canais.todos/cn10.html";
+    window.open("canais.todos/cn10.html", target="Ponta Negra");
+  }
+	if (pasta == 'cn11') {
+    var url = "canais.todos/cn11.html";
+    window.open("canais.todos/cn11.html", target="Ponta Negra");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+} 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
