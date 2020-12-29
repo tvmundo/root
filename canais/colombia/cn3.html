@@ -1,0 +1,588 @@
+<body bgcolor=#000>
+<div style="float: left; width: 27%">
+<a href="#" onclick="document.getElementById('pop').style.display='block';"><img src="../../imagens/menu1.jpg" style="border: 5px solid #808080" width="110" height="70"/>
+</div>
+
+<div style="float: left; width: 23%">
+<a href="cn2.html"><img src="../../imagens/seta.branca.esquerda.jpg"border="0" width="50" height="80"/>
+</div>
+
+<div style="float: left; width: 10%">
+<span style="color: #fff; font-size: 40px;"><b>3</b></span>
+</div>
+
+<div style="float: right; width: 30%">
+<a href="cn4.html"><img src="../../imagens/seta.branca.direita.jpg"border="0" width="50" height="80"/>
+</div>
+
+<style>
+#pop{
+display: none;
+position: fixed;
+background-color:#000;
+top:1%;
+left:auto%;
+padding:10px;
+width:100%;
+height:600px;
+border:0px solid #000}
+</style>
+
+<body> 
+<div id="pop">
+<a href="#" onclick="document.getElementById('pop').style.display='none';"><img src="https://tvmundo.github.io/Mundo/imgs/fechar%201%20fundo%20preto.jpg"border="0" width="70" height="70"/>
+<br /><br /><br />
+
+<!---------------------select canais ini---------------------->
+<iframe width="100%" height="50"  scrolling="no" src="../../select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         <!---------------------select canais fim---------------------->
+<br /><br /><br />
+<!---------------------select colombia tv ini------------------>
+<iframe width="100%" height="40"  scrolling="no" src="select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   <!---------------------select colombia tv fim ------------------>             
+                
+</div>
+<div style="clear: both">
+<div style="text-align: center;">
+<span style="color: #fff; font-size: 20px;"><b></a>
+ <a href="#" onmouseover="Tip(' Canal 3 Telecaribe en Vivo | Informe canal fora do ar <br/>Contato TV mundo whatsapp & telegram (55) 84 9 8780-4100')" onmouseout="UnTip()">
+                                                 <!----------------Canal 3 Telecaribe en Vivo abaixo------------------->
+												 <div class="separator" style="clear: both; text-align: center;">
+	<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #000;
+  border: none;
+  color: white; 32px;
+  padding: 0px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {width: 100%;}
+</style>
+</head>
+<body>
+<input type="button" class="button" value="3 Telecaribe en Vivo Atualizado 03.08 | Reload" onClick="window.location.reload()">
+</body>
+												 
+        <div id="cc-matrix-2406080686"><div id="cc-m-9693830886" class="j-module n j-htmlCode "><center>
+    <script src="https://live.telecaribe.co/app/download/9669754586/springstreams.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script> <video id="video" controls="" width="90%" height="90%"/> 
+    <script>
+
+
+    /* <![CDATA[ */
+
+    if(Hls.isSupported())
+    {
+        var video = document.getElementById('video');
+        var hls = new Hls();
+        hls.loadSource('https://tkx.apis.anvato.net/rest/v2/mcp/video/adstB64MXYxqLZwy?anvack=4gXmVVoVIp3YeECJWm6af3j0mlHwl6vO&eud=SKjoH1L%2F9Enwo5zQBiBTRfTSNGfENMNO6udm4CQNVvix%2FL9XX8kucBOvzWalIghNrL5GllGH8ou17ICYGv29Rg%3D%3D');
+        /*hls.loadSource('https://mcp-media-telecaribe.storage.googleapis.com/telecaribe/video/10000002/20/07/28/10175958/10175958_B730CAA6AB584477A7E5AED5C130063A_200728_10175958_Pedagogia_Buenas_2500.m3u8');*/
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED,function()
+        {
+            video.play();
+        });
+    }
+    else if (video.canPlayType('application/vnd.apple.mpegurl'))
+    {
+        video.src = 'playlist.m3u8';
+        video.addEventListener('canplay',function()
+        {
+            video.play();
+        });
+    }
+    /*]]>*/
+
+    /* <![CDATA[ */
+
+    function getPlatformType() {
+        if(navigator.userAgent.match(/mobile/i)) {
+                return 'Mobile';
+        } else if (navigator.userAgent.match(/iPad|Android|Touch/i)) {
+                return 'Tablet';
+        } else {
+                return 'PC';
+        }
+    } 
+    var sensors = new SpringStreams("telecaribe-browser");   
+    var video = document.querySelector("video"); 
+        
+    var descriptions = {
+    "sitename": "telecaribe-browser",
+    "cq": null, 
+    "stream": "live/22",
+    "ct": getPlatformType(),
+    };
+    sensors.HTML5Adapter.getMeta = function (p) {
+    return {
+    pl: "anvato",
+    plv: "v3",
+    sx: screen.width,
+    sy: screen.height
+    }
+    };
+    // this callback it is used only live stream, not necessary for VOD with HTML5 adapter
+    sensors.HTML5Adapter.getDuration = function (p) {
+    return 0;
+    }
+    sensors.track(video, descriptions, sensors.HTML5Adapter); 
+
+
+
+    var handle = sensors.track(this, descriptions, sensors.HTML5Adapter);
+
+    function unload() { 
+        sensors.unload();
+        var start= new Date(); var now = null; do now = new Date();
+        while(now-start < 100);   
+    }
+
+    /*]]>*/
+
+
+    </script>
+</center></div><div id="cc-m-8947395786" class="j-module n j-hgrid ">    <div class="cc-m-hgrid-column" style="width: 10.01%;">
+        <div id="cc-matrix-2224589386"><div id="cc-m-8947470686" class="j-module n j-imageSubtitle "><figure class="cc-imagewrapper cc-m-image-align-1 cc-m-width-maxed">
+<a href="http://www.telecaribe.co/" target="_blank"><img srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/i7d43228ffa61ab1d/version/1518159890/image.png 60w, https://image.jimcdn.com/app/cms/image/transf/dimension=120x10000:format=png/path/sb90de8c558fa15ec/image/i7d43228ffa61ab1d/version/1518159890/image.png 120w" sizes="(min-width: 60px) 60px, 100vw" id="cc-m-imagesubtitle-image-8947470686" src="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/i7d43228ffa61ab1d/version/1518159890/image.png" alt="" class="" data-src-width="500" data-src-height="500" data-src="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/i7d43228ffa61ab1d/version/1518159890/image.png" data-image-id="6313950086"/></a>    
+
+</figure>
+
+<div class="cc-clear"></div>
+<script id="cc-m-reg-8947470686">// <![CDATA[
+
+    window.regModule("module_imageSubtitle", {"data":{"imageExists":true,"hyperlink":"http:\/\/www.telecaribe.co","hyperlink_target":"_blank","hyperlinkAsString":"http:\/\/www.telecaribe.co","pinterest":"0","id":8947470686,"widthEqualsContent":"1","resizeWidth":"60","resizeHeight":60},"id":8947470686});
+// ]]>
+</script></div></div>    </div>
+            <div class="cc-m-hgrid-separator" data-display="cms-only"><div></div></div>
+        <div class="cc-m-hgrid-column" style="width: 10.01%;">
+        <div id="cc-matrix-2224589486"><div id="cc-m-8947471186" class="j-module n j-imageSubtitle "><figure class="cc-imagewrapper cc-m-image-align-1">
+<a href="/"><img srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/icf9b38d14094f9f7/version/1559721198/image.png 60w, https://image.jimcdn.com/app/cms/image/transf/dimension=120x10000:format=png/path/sb90de8c558fa15ec/image/icf9b38d14094f9f7/version/1559721198/image.png 120w" sizes="(min-width: 60px) 60px, 100vw" id="cc-m-imagesubtitle-image-8947471186" src="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/icf9b38d14094f9f7/version/1559721198/image.png" alt="" class="" data-src-width="160" data-src-height="160" data-src="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/icf9b38d14094f9f7/version/1559721198/image.png" data-image-id="6313950386"/></a>    
+
+</figure>
+
+<div class="cc-clear"></div>
+<script id="cc-m-reg-8947471186">// <![CDATA[
+
+    window.regModule("module_imageSubtitle", {"data":{"imageExists":true,"hyperlink":"\/app\/sb90de8c558fa15ec\/p0bf66e8c131a1ad8\/","hyperlink_target":"","hyperlinkAsString":"HD","pinterest":"0","id":8947471186,"widthEqualsContent":"0","resizeWidth":"60","resizeHeight":60},"id":8947471186});
+// ]]>
+</script></div></div>    </div>
+            <div class="cc-m-hgrid-separator" data-display="cms-only"><div></div></div>
+        <div class="cc-m-hgrid-column" style="width: 10.01%;">
+        <div id="cc-matrix-2224589586"><div id="cc-m-8947471486" class="j-module n j-imageSubtitle "><figure class="cc-imagewrapper cc-m-image-align-1">
+<a href="/plus/"><img srcset="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/i30532b76afee66d4/version/1559721208/image.png 60w, https://image.jimcdn.com/app/cms/image/transf/dimension=120x10000:format=png/path/sb90de8c558fa15ec/image/i30532b76afee66d4/version/1559721208/image.png 120w" sizes="(min-width: 60px) 60px, 100vw" id="cc-m-imagesubtitle-image-8947471486" src="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/i30532b76afee66d4/version/1559721208/image.png" alt="" class="" data-src-width="160" data-src-height="160" data-src="https://image.jimcdn.com/app/cms/image/transf/dimension=60x10000:format=png/path/sb90de8c558fa15ec/image/i30532b76afee66d4/version/1559721208/image.png" data-image-id="6313950586"/></a>    
+
+</figure>
+
+<div class="cc-clear"></div>
+<script id="cc-m-reg-8947471486">// <![CDATA[
+
+    window.regModule("module_imageSubtitle", {"data":{"imageExists":true,"hyperlink":"\/app\/sb90de8c558fa15ec\/p0714c22b4e4c0b12\/","hyperlink_target":"","hyperlinkAsString":"Plus","pinterest":"0","id":8947471486,"widthEqualsContent":"0","resizeWidth":"60","resizeHeight":60},"id":8947471486});
+// ]]>
+</script></div></div>    </div>
+            <div class="cc-m-hgrid-separator" data-display="cms-only"><div></div></div>
+        <div class="cc-m-hgrid-column last" style="width: 63.96%;">
+        <div id="cc-matrix-2406081486"><div id="cc-m-9491851086" class="j-module n j-htmlCode "><script>
+        /* <![CDATA[ */
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_CO/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        /*]]>*/
+</script>
+<div class="fb-comments" data-href="https://www.facebook.com/Telecaribe/" data-order-by="reverse_time" data-numposts="5">
+</div></div></div>    </div>
+    
+<div class="cc-m-hgrid-overlay" data-display="cms-only"></div>
+
+<br class="cc-clear"/>
+
+</div></div>
+        
+        </div>
+      </div>
+    </div>
+    <!-- END _section-main.sass -->
+
+    <!-- _section-aside.sass -->
+    <aside class="jtpl-section-aside sidebar-options"><div class="jtpl-section-aside__inner">
+        <div data-container="sidebar"><div id="cc-matrix-2224589086"></div></div>
+      </div>
+    </aside><!-- END _section-aside.sass --><!-- _footer.sass --><footer class="jtpl-footer footer-options"><div class="jtpl-footer__inner">
+        <div id="contentfooter" data-container="footer">
+
+    
+    <div class="j-meta-links">
+        <a href="javascript:window.CookieControl.showCookieSettings();">Política de cookies</a>    </div>
+
+    <div class="j-admin-links">
+        
+<span class="loggedin">
+    <a rel="nofollow" id="logout" target="_top" href="https://cms.e.jimdo.com/app/cms/logout.php">
+        Salir    </a>
+    |
+    <a rel="nofollow" id="edit" target="_top" href="https://a.jimdo.com/app/auth/signin/jumpcms/?page=1679456686">Editar</a>
+</span>
+        </div>
+
+    
+</div>
+
+      </div>
+    </footer><!-- END _footer.sass -->
+</div>
+  <!-- END _main.sass -->
+
+</div>    <script type="text/javascript">
+//<![CDATA[
+var _gaq = [];
+
+_gaq.push(['_gat._anonymizeIp']);
+if (window.CookieControl.isCookieAllowed("jimdo_analytics")) {
+    _gaq.push(['a._setAccount', 'UA-162534037-1'],
+        ['a._trackPageview']
+        );
+}
+if (window.CookieControl.isCookieAllowed("ga")) {
+    _gaq.push(['b._setAccount', 'UA-24230418-86'],
+        ['b._setCustomVar', '1', 'websiteid', 'sb90de8c558fa15ec'],
+        ['b._setDomainName', 'none'],
+        ['b._setAllowLinker', true],
+        ['b._trackPageview']);
+}
+
+if (window.CookieControl.isCookieAllowed("jimdo_analytics") || window.CookieControl.isCookieAllowed("ga")) {
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = 'https://www.google-analytics.com/ga.js';
+
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+}
+//]]>
+</script>
+<div class="cc-individual-cookie-settings" id="cc-individual-cookie-settings" style="display: none" data-nosnippet="true">
+                        <div data-render-group="category-view" data-category-name="Estrictamente necesarias" class="category-view">
+                <div class="cc-individual-cookie-settings-texts">
+                    <h2 title="Estrictamente necesarias">Estrictamente necesarias</h2>
+                    <p>Las cookies estrictamente necesarias garantizan funciones que son indispensables para el funcionamiento adecuado de la página web. Como resultado, estas cookies no pueden desactivarse. Se utilizan de forma exclusiva en esta página web y, por lo tanto, son cookies propias. Esto significa que toda la información almacenada en las cookies solo se mandará a esta web.</p>
+                </div>
+                <div class="cc-individual-cookie-settings-categories">
+                    <ul class="cookie-list">
+                        <li class="cookie">
+                                                            
+            <button class="toggle" data-type="toggle" data-always-on="true" data-value="all" data-action="" data-params="Estrictamente necesarias">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        <span class="name" title="Habilitar todo">
+                                    Habilitar todo                                </span>
+                                                    </li>
+                    </ul>
+                    <ul class="cookie-list">
+                                                    <li class="cookie" data-cookiekey="cookielaw">
+                                <div class="selection">
+                                    
+            <button class="toggle" data-type="toggle" data-always-on="true" data-value="all" data-action="" data-params="cookielaw">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        </div>
+                                <span class="name" title="cookielaw">cookielaw</span>
+                                <div class="more">
+                                    <p class="description">Cookie Law
+
+Esta cookie muestra el banner de cookies y guarda las preferencias sobre las cookies de los visitantes.
+
+Proveedor:
+Jimdo GmbH, Stresemannstrasse 375, 22761 Hamburg, Germany
+
+Nombre de la cookie: ckies_cookielaw
+Duración de la cookie: 1 año
+
+Política de la cookie:
+https://www.jimdo.com/es/info/cookies/policy/
+
+Política de privacidad:
+https://www.jimdo.com/es/info/politica-de-privacidad/</p>
+                                </div>
+                            </li>
+                                                    <li class="cookie" data-cookiekey="control-cookies-wildcard">
+                                <div class="selection">
+                                    
+            <button class="toggle" data-type="toggle" data-always-on="true" data-value="all" data-action="" data-params="control-cookies-wildcard">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        </div>
+                                <span class="name" title="ckies_*">ckies_*</span>
+                                <div class="more">
+                                    <p class="description">Jimdo Control Cookies
+
+Son cookies de control para habilitar los servicios o las cookies que los visitantes de la página web seleccionan, y para guardar dichas preferencias de cookies. 
+
+Proveedor:
+Jimdo GmbH, Stresemannstrasse 375, 22761 Hamburg, Germany.
+
+Nombre de las cookies:
+ckies_*, ckies_postfinance, ckies_stripe, ckies_powr, ckies_google, ckies_cookielaw, ckies_ga, ckies_jimdo_analytics, ckies_fb_analytics, ckies_fr
+
+Duración de la cookie: 1 año
+
+Política de cookies:
+https://www.jimdo.com/es/info/cookies/policy/
+
+Política de privacidad:
+https://www.jimdo.com/es/info/privacy/</p>
+                                </div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+                    <div data-render-group="category-view" data-category-name="Funcionamiento" class="category-view">
+                <div class="cc-individual-cookie-settings-texts">
+                    <h2 title="Funcionamiento">Funcionamiento</h2>
+                    <p>Las cookies de funcionamiento permiten que esta página web pueda ofrecer ciertas opciones y guardar la información ya proporcionada (como el nombre o la selección del idioma) para brindar funciones mejoradas y más personalizadas.</p>
+                </div>
+                <div class="cc-individual-cookie-settings-categories">
+                    <ul class="cookie-list">
+                        <li class="cookie">
+                                                            
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCategory" data-params="Funcionamiento">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        <span class="name" title="Habilitar todo">
+                                    Habilitar todo                                </span>
+                                                    </li>
+                    </ul>
+                    <ul class="cookie-list">
+                                                    <li class="cookie" data-cookiekey="powr">
+                                <div class="selection">
+                                    
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCookie" data-params="powr">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        </div>
+                                <span class="name" title="powr">powr</span>
+                                <div class="more">
+                                    <p class="description">Cookies POWr.io 
+
+Estas cookies registran datos estadísticos anónimos sobre el comportamiento de los visitantes en esta página web y son las responsables de garantizar el funcionamiento de ciertos widgets que se utilizan en esta página web. 
+
+Proveedor:
+Powr.io, POWr HQ, 340 Pine Street, San Francisco, California 94104, USA
+Nombre y duración de las cookies: yahoy_unique_[unique id] (duración: sesión), POWR_PRODUCTION (duración: sesión), ahoy_visitor (duración: 2 años), ahoy_visit (duración: 1 día), src 30 Days Security, _gid Persistent (duración: 1 día).
+
+Política de la cookie:
+https://www.powr.io/privacy 
+
+Política de privacidad:
+https://www.powr.io/privacy  </p>
+                                </div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+                    <div data-render-group="category-view" data-category-name="Rendimiento" class="category-view">
+                <div class="cc-individual-cookie-settings-texts">
+                    <h2 title="Rendimiento">Rendimiento</h2>
+                    <p>Las cookies de rendimiento recopilan información sobre el uso de una página web. Se utilizan para entender mejor el funcionamiento de una página web y poder mejorar su apariencia, contenido y funcionalidad.</p>
+                </div>
+                <div class="cc-individual-cookie-settings-categories">
+                    <ul class="cookie-list">
+                        <li class="cookie">
+                                                            
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCategory" data-params="Rendimiento">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        <span class="name" title="Habilitar todo">
+                                    Habilitar todo                                </span>
+                                                    </li>
+                    </ul>
+                    <ul class="cookie-list">
+                                                    <li class="cookie" data-cookiekey="jimdo_analytics">
+                                <div class="selection">
+                                    
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCookie" data-params="jimdo_analytics">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        </div>
+                                <span class="name" title="jimdo_analytics">jimdo_analytics</span>
+                                <div class="more">
+                                    <p class="description">Jimdo Statistics
+
+Es una tecnología de rastreo basada en Google Analytics, llamada función de estadísticas de Jimdo, que se opera por Jimdo GmbH. Estas cookies recopilan información anónima con motivos de análisis, como la manera en que los visitantes usan esta página web e interactúan con ella.
+
+Proveedor:
+Jimdo GmbH, Stresemannstrasse 375, 22761 Hamburg, Germany.
+
+Nombre y duración de las cookies:
+ckies_jimdo_analytics (duración: 2 años), __utma (duración: 2 años), __utmb (duración: 30 minutos), __utmc (duración: sesión), __utmz (duración: 6 meses), __utmt_b (duración: 1 día),__utm[unique ID] (duración: 2 años), __ga (duración: 2 años), __gat (duración: 1 minuto), __gid (duración: 24 horas), __ga_disable_* (duración: 100 años).
+
+Política de la cookie:
+https://www.jimdo.com/es/info/cookies/policy/
+
+Política de privacidad:
+https://www.jimdo.com/es/info/politica-de-privacidad/</p>
+                                </div>
+                            </li>
+                                                    <li class="cookie" data-cookiekey="ga">
+                                <div class="selection">
+                                    
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCookie" data-params="ga">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                        </div>
+                                <span class="name" title="ga">ga</span>
+                                <div class="more">
+                                    <p class="description">Google Analytics
+
+Estas cookies recopilan información anónima con motivos de análisis, como ver el uso y la interacción de los visitantes en esta página web.
+
+Proveedor:
+Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; o, para residentes de la UE, Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.
+
+Nombre y duración de las cookies:
+__utma (duración: 2 años), __utmb (duración: 30 minutos), __utmc (duración: sesión), __utmz (duración: 6 meses), __utmt_b (duración: 1 día), __utm[unique ID] (duración: 2 años), __ga (duración: 2 años), __gat (duración: 1 minuto), __gid (duración: 24 horas), __ga_disable_* (duración: 100 años).
+
+Política de la cookie:
+https://policies.google.com/technologies/cookies?hl=es
+
+Política de privacidad:
+https://policies.google.com/privacy?hl=es</p>
+                                </div>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+                    <div data-render-group="category-view" data-category-name="Marketing / Terceros" class="category-view">
+                <div class="cc-individual-cookie-settings-texts">
+                    <h2 title="Marketing / Terceros">Marketing / Terceros</h2>
+                    <p>Las cookies de marketing o de terceros provienen de empresas de publicidad externas (entre otras) y se utilizan para recopilar información sobre las páginas web que los usuarios visitan; por ejemplo, para crear publicidad personalizada.</p>
+                </div>
+                <div class="cc-individual-cookie-settings-categories">
+                    <ul class="cookie-list">
+                        <li class="cookie">
+                                                            <span class="name no-cookies-in-category" title="no existen cookies en esta categoría">
+                                    no existen cookies en esta categoría                                </span>
+                                                    </li>
+                    </ul>
+                    <ul class="cookie-list">
+                                            </ul>
+                </div>
+            </div>
+            
+    <div data-render-group="all-categories-view" class="all-categories-view">
+        <div class="cc-individual-cookie-settings-texts">
+            <h2>Política de cookies</h2>
+            <p>Esta página web utiliza cookies para brindarte la mejor experiencia online. Haznos saber si estás de acuerdo haciendo clic en la opción "Sí, acepto" a continuación. Si deseas obtener más información sobre las cookies que utilizamos y establecer tus preferencias con respecto a las cookies individuales, revisa nuestra Política de cookies.</p>
+            <div class="links">
+                                                    <a href="/j/privacy">Política de privacidad</a>
+                            </div>
+        </div>
+        <div class="cc-individual-cookie-settings-categories">
+            <ul class="category-list">
+                                                            <li class="category">
+                            
+            <button class="toggle" data-type="toggle" data-always-on="true" data-value="all" data-action="" data-params="Estrictamente necesarias">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                    <span class="name">Estrictamente necesarias</span>
+                            <div class="more">
+                                <button data-action="viewCategory" data-params="Estrictamente necesarias"/>
+                            </div>
+                        </li>
+                                            <li class="category">
+                            
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCategory" data-params="Funcionamiento">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                    <span class="name">Funcionamiento</span>
+                            <div class="more">
+                                <button data-action="viewCategory" data-params="Funcionamiento"/>
+                            </div>
+                        </li>
+                                            <li class="category">
+                            
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCategory" data-params="Rendimiento">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                    <span class="name">Rendimiento</span>
+                            <div class="more">
+                                <button data-action="viewCategory" data-params="Rendimiento"/>
+                            </div>
+                        </li>
+                                            <li class="category">
+                            
+            <button class="toggle" data-type="toggle" data-always-on="false" data-value="none" data-action="toggleCategory" data-params="Marketing / Terceros">
+                <span class="fill">
+                    <span class="ball"></span>
+                </span>
+            </button>
+                                    <span class="name">Marketing / Terceros</span>
+                            <div class="more">
+                                <button data-action="viewCategory" data-params="Marketing / Terceros"/>
+                            </div>
+                        </li>
+                                                </ul>
+        </div>
+    </div>
+
+    <div class="cc-individual-cookie-settings-actions">
+        <button data-render-group="all-categories-view" data-action="acceptAll" id="cookie-settings-all" class="btn btn-primary" autofocus="true">
+            Aceptar todo        </button>
+        <button data-render-group="all-categories-view" data-action="acceptSelected" id="cookie-settings-selected" class="btn">
+            Aceptar solo lo seleccionado        </button>
+        <button data-render-group="category-view" data-action="viewAllCategories" id="cookie-settings-back" class="btn">
+            <span class="back"></span>
+            <span>Guardar y volver</span>
+        </button>
+    </div>
+</div>
+	                                </div></div><!----------------Canal 3 Telecaribe en Vivo acima------------------->
+	
+	
+	
+	
+	
+<!------------
+- <script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/msgsobretxt/wz_tooltip.js"></script>
+
+-
+- ediçao    >>> https://github.com/soanatareportagens/tv/blob/master/canais/Colombia/cn3.html
+- visitante >>> https://rawgit.com/soanatareportagens/tv/master/canais/Colombia/cn3.html
+-               https://live.telecaribe.co/
+-
+---------------> 
