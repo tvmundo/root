@@ -1,0 +1,85 @@
+
+<!------------ cod publicidade -------------->
+<div id="mat_olho" itemprop="description" style="background-color:#0B3861; outline: 0px; padding: 0px; text-align: -webkit-auto; vertical-align: right;">
+<div style="text-align: right;"><span style="color: #E6E8FA; font-size: 10px;"><b> PUBLICIDADE
+
+<div style="text-align: center;">  
+<script type="text/javascript">  
+
+// Neste Array, você deve colocar o Endereço URL das imagens (banners) que serão exibidos
+// Sempre seguindo esta ordem. Neste exemplo há 5 banners 468x60 rotativos, mas não há 
+// limites para a quantidade de banners que se pode colocar em rotação, 
+// O Último Banners não deve utilizar virgula (,) no final da linha
+var imgs5 = new Array(
+"anuncieaqui.gif",<!------------2 extra 2------------->
+"bitcoin_accepted.png",<!------------3 casas bahia------------->
+"anuncieaqui.gif",<!------------4 eletronica uniao------------->
+"pague-com-bitcoin-1.jpg",<!-------------5 crv------------>
+"anuncieaqui.gif", <!-----------6 repet casa bahia-------------->
+"pague-com-bitcoin-1.jpg" <!-------------7 repet extra 1------------>
+);
+
+// Neste Array, você vai colocar as URLs, links de destinos dos sites quando clicarem em um
+// banner rotativo.
+// Neste Exemplo, todos os banners acima estão direcionando só para um site, mas lembre-se
+// que CADA LINHA abaixo deve corresponder ao banner acima iformado.
+// O Último Link do site não deve utilizar virgula (,) no final da linha
+var lnks5 = new Array(
+"anuncieaqui.gif",<!------------2 extra 2------------->
+"#",<!------------3 casas bahia------------->
+"#",<!------------4 eletronica uniao------------->
+"#",<!-------------5 crv------------>
+"#",<!-----------6repet casas bahia-------------->
+"#"<!-----------7 repet extra 1-------------->
+);
+
+// Neste Array, você irá registrar a TAG alt='' das imagens/banners que é exibido quando 
+// passamos o mouse sobre a imagem.
+// Deve-se seguir o mesmo padrão das Array acima, a última linha correspondente ao último
+// banner, deve ser finalizada sem a virgula (,) no final da linha.
+var alt5 = new Array(
+"google+",
+"2twiter",
+"3curtir snr",
+"4add snr",
+"5whatsapp",
+"6vulcovulco"
+);
+
+var currentAd5 = 0;
+
+// Nesta variável abaixo, que está marcada como 5, você deverá ALTERAR para o nº correspondente
+// total de banners que você adicionou.
+var imgCt5 = 6; <!---------numero de banneres----------->
+
+function cycle5() {
+  if (currentAd5 == imgCt5) {
+    currentAd5 = 0;
+  }
+  
+var banner5 = document.getElementById('adBanner5');
+var link5 = document.getElementById('adLink5');
+
+  banner5.src=imgs5[currentAd5]
+  banner5.alt=alt5[currentAd5]
+
+  document.getElementById('adLink5').href=lnks5[currentAd5]
+  currentAd5++;
+}
+
+// Nesta linha de comando abaixo, será responsável pelo intervalo de rotação, ou seja, tempo
+// que cada banner será exibido. Neste Exemplo está configurado para mudar de banner a cada
+// 10 segundos (10000), só alterar este valor, caso queira um intervalo maior entre os banners
+window.setInterval("cycle5()",3000);
+</script>
+<!-- Nas 2 linhas abaixo, você configura o BANNER PADRÃO, o que é exibido quando o site é carregado
+Altere somente o LINK do site, é o que está dentro de: [ href="" ] e o link da imagem/banner, que é o que é 
+exibido dentro de: [ src="" ]
+ -->
+<a href="#" id="adLink5" target="_blank">
+<img src="pague-com-bitcoin-1.jpg" title=extra 1 id="adBanner5" border="0" width="350" height="250" /></a>
+</div>
+
+<!// end anuncios--> <br/>
+</!></b></span></div></div></div>
+

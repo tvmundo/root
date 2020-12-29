@@ -1,0 +1,43 @@
+<body style="background-color: transparent">
+<!---visitante https://tvmundo.github.io/Mundo/banner/banner300x250.html--->
+<!------------anuncio----------->
+<div style="text-align: center;">
+<script language="JavaScript">
+var ultimo=-1, dBanner;
+function carrega(x) {dBanner=x;Banners()}
+function Banners()
+{
+<!---1---------extra--------------------->           
+
+var MNews = new Array();
+MNews[0]= '<A HREF=" https://bit.ly/2IVKn7B " target="_blank"><IMG SRC="anuncieaqui.gif" WIDTH="310" HEIGHT="250" BORDER="0" ALT="extra tem"></a>';
+                                                <!---0---------banner0 HD externo magazineelianefelix--------------------->
+
+<!---1-----banner1 hotmart descubra como montar o seu negocio------------------------->
+MNews[1]= '<A HREF=" https://go.hotmart.com/A7932613P " target="_blank"><IMG SRC="bitcoin_accepted.png" WIDTH="310" HEIGHT="250" BORDER="0" ALT="smartfone lg"></a>'
+                                                 <!---1-----banner1 hotmart descubra como montar o seu negocio------------------------->
+
+<!---2-------hotmart enfermagem para concursos----------------->
+MNews[2]= '<A HREF=" https://go.hotmart.com/S7931356X " target="_blank"><IMG SRC="anuncieaqui.gif" WIDTH="310" HEIGHT="250" BORDER="0" ALT="mudar para ifone"></a>'
+                                                 <!---2-------hotmart enfermagem para concursos----------------->
+
+<!---3-----------celulares e telefones magazineelianefelix------------------->
+MNews[3]= '<A HREF=" https://bit.ly/2HmMXGJ " target="_blank"><IMG SRC="bitcoin_accepted.png" WIDTH="310" HEIGHT="250" BORDER="0" ALT="pneus"></a>'
+                                                  <!---3-----------celulares e telefones magazineelianefelix------------------->
+
+<!---4--------magazineelianefelix Smart TV LED 32" Samsung---------------------->
+MNews[4]= '<A HREF=" https://bit.ly/2H0lpre " target="_blank"><IMG SRC="anuncieaqui.gif" WIDTH="310" HEIGHT="250" BORDER="0" ALT="pneus"></a>'
+                                                  <!---4--------magazineelianefelix Smart TV LED 32" Samsung---------------------->
+  
+MNews[00]= '<A HREF=" https://bit.ly/2H3GJIr " target="_blank"><IMG SRC="bitcoin_accepted.png" WIDTH="310" HEIGHT="250" BORDER="0" ALT="Marquinho Motos BR"></a>'
+<!---11----------eletronica uniao-------------------->
+while((Numero = parseInt(Math.random()*MNews.length))==ultimo);
+dBanner.innerHTML=MNews[Numero];
+
+setTimeout("Banners()",90000);
+}
+</script>
+<body bgcolor="" topmargin=0 leftmargin=0 text="#000000" onLoad=carrega(this.divBanner)>
+<table width="305" border="0" cellspacing="0" cellpadding="0" height="255" bordercolor="">
+<td>
+<div align="center" id=divBanner></div>
