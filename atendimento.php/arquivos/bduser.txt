@@ -1,0 +1,5 @@
+
+<?
+$# = "#"; /* ocupado */
+$nickuser = "Zeze";
+?>

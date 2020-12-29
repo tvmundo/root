@@ -1,0 +1,111 @@
+*****************************************************************
+*****************************************************************
+*****************************************************************
+******                                                     ******
+******                                                     ******
+******   sistema  desenvolvido  por  marcos brinner        ******
+******   email: marcosbrinner2@uol.com.br                  ******
+******   site: www.eitabirano.com.br                       ******
+******   msn:marcosbrinner1993@hotmail.com                 ******
+******   telefone=(031)87386342                            ******
+******                                                     ******
+******                                                     ******
+*****************************************************************
+*****************************************************************
+*****************************************************************
+*****************************************************************
+para ver  o  sistema  funcionando 
+visite  o  site www.eitabirano.com e  clique em atendimento
+
+
+
+
+ola  tudo bem  eu  sou  marcos tenho  17 anos  estou  aprendedendo  php  a  um 3 meses eu  estou  amando  a  linguagem conclúi
+esses sistema em uma semana  "graças  a deus "
+
+
+
+explicando como  o sistema funciona
+
+
+temos  varias  paginas  no  nosso  sitema  vou  lhe  dizer o  que cada uma  faz
+
+*** area.php *** esta pagina  contem o  include  do  banco  a onde  fica  armazenado  as  mensagens e é a  onde  damos o  refresh
+para atualizar a pagina  e tambem temos a dunção  que  faz a barra de  rolagem descer 
+
+*** função_user.php *** esta apgina e  a onde  vamos saber  se  quem esta "logado" e o  atendente ou  o cliente, bom ai  tbm 
+nos  temos algumas  funççoes  para o  atendente temos a  funçaõ que envia a  mesagem e eclui o  usuario tbm, e  para o  usuario
+temos  a  função  que  permite lhe  envia msg e tbm para se  desconectar
+
+*** index.php *** esta e  a  pagina  que so  voc~e  pode  ter acesso ela  e  a onde  voce  fara o login para ser  o atendente
+ do  site por  padrão o  login esta como "marcos brinner" e a senha esta como "mb180693" para  voce fazer essas mudanças  basta
+abrir  o  bloco  de  notas e editar mas  se voce  alterar isso  tambem tera que  fazer  uma mudança  na pagina
+>>enviar.php<< e >> funcao_suer.php  a onde  estão  os nomes  marcos brinner voce  deve mudar  para o  novo  nome  que  voc~e
+decidiu  colocar.
+
+
+*** jq.js *** por  padrão  recomendo  não  mexer  nessa  pagina  pois  ela  e a  responsavel pelo  funcionamento  do envio
+das mesagens ela e a responsavel  por pegar a  mensagem  e  enviar  sem  da  reflesh  na  padina a  onde  fica  os botões
+para dar  um visual  melhor  ao  sistema
+
+
+*** envia.php *** essa pagina e  reponsavel  por  recer os dados  do jq.js e enviar  para o nosso  banco.txt e tambem
+diferenciar  atendente   de cliente na  hora que  o testo  for impresso na tela  para fazer  a  cor  ficar  diferenre
+
+
+*** entrar.php *** esta pagia  e  aberta quando  a pessoa  clica em  atendimento  da  pagina  inicio ela  e  responsavel
+por fazer o login da  pessoa  que vai  ser atendida, e  tbm  de  verificar  se  o atendente ja esta atendendo  alguem, caso
+ja estja atendendo  ele  imprima  uma  faze de que esta  ocupado
+
+
+*** inicio *** esta e  a  pagina a  onde  contem  o link  que dara acessoa as pessoas  para entra no  sitema de atendimento
+copie o  link  e cole nos  locais do  seu  site/blog que voce  quer 
+tambem copie  o  java script  que esta nessa pagina  pois ele e o  responsavel por abri  uma  novo  janela do  tamanho que necessitamos
+
+
+*** carregando.gif *** essa  imagem  e exibida  quando a  pessoa esta  enviando  a  mesagem  ou  se  vc  tbm esta  enviando  a
+mensagem  depois que  ela  e  enviada  a imagem some  e aparece  uma  frase "  mensagem enviada  com  sucesso"
+
+
+***  verificauser.php *** esta pagina  e  assionada  quando   A  pessoa  entra pela  pagina >> entrar.php<<  ela  vai  armazena
+os  dados  do  usuario no bduser.txt 
+
+
+*** banco.txt *** armazena as frazes  mensagens *** 
+
+*** bduser.txt *** armazena  os  dados  do  usuario e  tbm  uma  variavel que diz  se  voce  esta  ou  não  ocupado
+que  e  exibida  na  pagina  entrar.php
+
+
+*** deletar_user.php *** esta  pagina  tem a função  de  deletar  as  mesagens  e os dados  do  usuario  do sistema
+use-a  sempre  que  voce  precisar  para que  possa  atender novos  usuarios
+
+
+*** logo.png *** este eu  deixei o  logo do  meu  site  mas  voc~e  pode  trocar  pelo seu mas  eu  usei  a extençaã .png 
+se voc~e  foruser  alguma otra lembre se de ir  em pagina por  pagina e mudar a extenção em breve no  verção 2.0 eu  irei 
+disponibilizar o  etndimento com css fica  mais facio
+
+
+
+
+
+
+              como usar
+
+
+coloque  todos arquivos  em  seu  diretorio
+para voce  fazer login  como  adm mude a senha como foi  explicado  acima
+então  va  no  seu navegador  e digite www.seusite.com/atendimento/index.php
+ e na  pagina index.php que  voc~e  faz  login não  se  preucupe  ao  fechar o  navegador voce  e deslogado
+automaticamente  por  isso não  coloquei um sistema  de  logoff
+ 
+para  o  usuario  censegui  te contata  voce  precisa  fazer o  siguinte voce  vai  copiar o  conteudo
+ da pagina inicio.php  e  color  nas suaas paginas   e pronto
+
+caso  tenha duvidas  meu  e-mail ta lah  em cima celular  e msn tbm,
+ 
+
+embreve  a  verção 2.0 estara disponivel
+
+
+
