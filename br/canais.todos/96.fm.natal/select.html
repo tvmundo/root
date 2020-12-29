@@ -1,0 +1,106 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
+background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; Procurar Video
+	<option value="play" />&nbsp; play 96 FM
+	<option value="O Povo no Rádio" />&nbsp; O Povo no Rádio
+	<option value="Jornal 96" />&nbsp; Jornal 96
+    <option value="Acontece" style="font-size:20px; color: #fff;" enabled="disabled">&nbsp; Acontece
+    <option value="Meio dia RN" />&nbsp; Meio dia RN  	
+	<option value="Jornal das Seis" />&nbsp; Jornal das Seis
+	
+</div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="band");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Jornal 96') {
+    var url = "#";
+    window.open("Jornal 96.html", target="cbn");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'O Povo no Rádio') {
+    var url = "#";
+    window.open("O Povo no Rádio.html", target="cbn");
+  }
+	if (pasta == 'Jornal das Seis') {
+    var url = "#";
+    window.open ("Jornal das Seis.html", target="cbn");
+  }
+	if (pasta == 'Acontece') {
+    var url = "#";
+    window.open ("ACONTECE.html", target="cbn");
+  }
+	if (pasta == 'play') {
+    var url = "#";
+    window.open("play.html", target="cbn");
+  }
+	if (pasta == 'CBN Rio') {
+    var url = "#";
+    window.open("CBN Rio.html", target="cbn");
+  }
+  if (pasta == 'Meio dia RN') {
+    var url = "#";
+    window.open("Meio dia RN.html", target="cbn"); 
+  } 
+	if (pasta == 'Estúdio CBN') {
+    var url = "#";
+    window.open("Estúdio CBN.html", target="cbn");
+  }
+	if (pasta == 'Jornal da CBN 2ª Edição') {
+    var url = "#";
+    window.open("Jornal da CBN 2ª Edição.html", target="cbn");
+  }
+	if (pasta == 'CBN Primeiras Notícias') {
+    var url = "#";
+    window.open("CBN Primeiras Notícias.html", target="cbn");
+  }
+	if (pasta == 'cn10') {
+    var url = "canais.todos/cn10.html";
+    window.open("canais.todos/cn10.html", target="Ponta Negra");
+  }
+	if (pasta == 'cn11') {
+    var url = "canais.todos/cn11.html";
+    window.open("canais.todos/cn11.html", target="Ponta Negra");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+} 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
