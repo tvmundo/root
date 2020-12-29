@@ -1,0 +1,189 @@
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+<!----------------style css option select ini------------>
+  <style>
+    body {
+      background-color: #000;
+      font-family: 'Source Sans Pro', sans-serif;
+
+    }
+    .demo {
+      margin: 100px auto;
+    }
+
+    .dropdown-container {
+      width: 350px;
+	  left: -10px; /*diminuindo vai pra direita*/
+	  top:-100px;  /*aumentando sobe*/
+      margin: 100px auto;
+      position: relative;
+    }
+
+    select {
+      width: 100%;
+      height: 50px;
+      font-size: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 0;
+      background-color: #2f4456; /*#c0392b*/ /*fundo*/
+      border: none;
+      border-bottom: 2px solid #000; /*#962d22*/
+      color: white;  /*white*/
+      appearance: none;
+      padding: 10px;
+      padding-right: 38px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+    }
+
+    /* For IE <= 11 */
+    select::-ms-expand {
+      display: none; 
+    }
+
+    .select-icon {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      width: 30px;
+      height: 36px;
+      pointer-events: none;
+      border: 2px solid #fff; /*#962d22*/ /*borda do icon*/
+      padding-left: 5px;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+    .select-icon svg.icon {
+      transition: fill 0.3s ease;
+      fill: white;
+    }
+
+    select:hover,
+    select:focus {
+      color: #000; /*#c0392b*/ /*cor do texto*/
+      background-color: gray; /*white*/ /*fundo reverso*/
+      border-bottom-color: #000;  /*#DCDCDC*/ /*borda*/
+    }
+    select:hover ~ .select-icon,
+    select:focus ~ .select-icon {
+      background-color: white; /*fundo do icon reverso*/
+      border-color: #DCDCDC; /*#DCDCDC*/ /*borda do icon reverso*/
+    }
+    select:hover ~ .select-icon svg.icon,
+    select:focus ~ .select-icon svg.icon {
+      fill: #c0392b;
+    }
+
+  </style>
+<!----------------style css option select Fim------------>
+</head>
+<body>
+  <div class="demo">
+    <div class="dropdown-container">
+      <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+        <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; Procurar Video
+	<option value="Balanço Geral Manhã" />&nbsp; Balanço Geral Manhã 6h45
+	<option value="RN no AR" />&nbsp; RN No AR 7h50
+	<option value="Balanço Geral RN" />&nbsp; Balanço Geral RN 11h50
+	<option value="Jornal da Tropical" />&nbsp; Jornal da Tropical 13h30
+	<option value="tudo com Priscilla Freire" />&nbsp; tudo com Priscilla Freire 14h
+	<option value="Cidade Alerta" enabled="disabled">&nbsp; Cidade Alerta 18h
+    <option value="DESTINOS DO RN" />&nbsp; DESTINOS DO RN
+	<option value="Sabadão Tropical com Priscilla Freire e Zezo" disabled="disabled">&nbsp; &nbsp; Sabadão Tropical
+      </select>
+<!----------------parte do style css option select ini------------>
+      <div class="select-icon">
+        <svg focusable="false" viewBox="0 0 104 128" width="25" height="35" class="icon">
+          <path d="m2e1 95a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm14 55h68v1e1h-68zm0-3e1h68v1e1h-68zm0-3e1h68v1e1h-68z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+<!----------------parte do style css option select Fim------------>
+<!--------------------select pop up inicio---------------> 
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="TV Tropical");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Balanço Geral Manhã') {
+    var url = "Balanço Geral Manhã.html";
+    window.open("Balanço Geral Manhã.html", target="TV Tropical");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Balanço Geral RN') {
+    var url = "Balanço Geral RN.html";
+    window.open("Balanço Geral RN.html", target="TV Tropical");
+  }
+	if (pasta == 'Cidade Alerta') {
+    var url = "Cidade Alerta.html";
+    window.open ("Cidade Alerta.html", target="TV Tropical");
+  }
+	if (pasta == 'DESTINOS DO RN') {
+    var url = "DESTINOS DO RN.html";
+    window.open("DESTINOS DO RN.html", target="TV Tropical");
+  }
+	if (pasta == 'Sabadão Tropical com Priscilla Freire e Zezo') {
+    var url = "Sabadão Tropical com Priscilla Freire e Zezo.html";
+    window.open("Sabadão Tropical com Priscilla Freire e Zezo.html", target="TV Tropical");
+  }
+  if (pasta == 'RN no AR') {
+    var url = "#";
+    window.open("RN no AR.html", target="TV Tropical"); 
+  } 
+	if (pasta == 'Jornal da Tropical') {
+    var url = "#";
+    window.open("Jornal da Tropical.html", target="TV Tropical");
+  }
+	if (pasta == 'tudo com Priscilla Freire') {
+    var url = "#";
+    window.open("tudo com Priscilla Freire.html", target="TV Tropical");
+  }
+	if (pasta == '22222222222222') {
+    var url = "#";
+    window.open("2020/set/11/Setembro Amarelo Prevenção ao Suicídio.html", target="TV Tropical");
+  }
+	if (pasta == '1111111111111') {
+    var url = "#";
+    window.open("canais.todos/cn10.html", target="TV Tropical");
+  }
+	if (pasta == '00000000000000') {
+    var url = "canais.todos/cn11.html";
+    window.open("canais.todos/cn11.html", target="band");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+ } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
+</body>
+</html>
