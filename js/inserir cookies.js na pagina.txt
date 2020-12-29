@@ -1,0 +1,6 @@
+<!-- Begin Cookie Consent plugin by - MeninozinhoManso -->
+<script type='text/javascript'>
+    window.cookieconsent_options = {"message":"(Este site usa cookies para garantir que você tenha a melhor experiência em nosso Site.)","dismiss":"OK !","learnMore":"Mais Informação","link":"http://meninozinhomanso.blogspot.com/2018/06/politica-de-utilizacao-de-cookies.html","theme":"dark-top"};
+</script>
+<script src='http://tv.tvmundo.tk/js/cookies.js' type='text/javascript'></script>
+<!-- End Cookie Consent plugin -->
