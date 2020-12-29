@@ -1,0 +1,136 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
+background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    <OPTION value="doação" />&nbsp; Fazer uma doação para este site
+	<OPTION value="filtro" />&nbsp; Procurar Video
+	<OPTION value="Record News" />&nbsp; 1 - Record News
+	<OPTION value="Jornal da Record" />&nbsp; 2 - Jornal da Record
+	<option value="Balanço Geral RN" />&nbsp; 3 - Balanço Geral RN
+	<option value="Balanço Geral Maringá" />&nbsp; 4 - Balanço Geral Maringá
+	<option value="Balanço Geral Curitiba" />&nbsp; 5 - Balanço Geral Curitiba
+	<option value="Balanço Geral Londrina" />&nbsp; 6 - Balanço Geral Londrina
+	<option value="Balanço Geral Vale do Peixoto" />&nbsp; 7 Balanço Geral Vale do Peixoto
+	<option value="Balanço Geral TV Buritis" />&nbsp; 8 - Balanço Geral TV Buritis - Mato Grosso
+	<option value="Balanço Geral Nova Mutum" />&nbsp; 9 - Balanço Geral Nova Mutum - Mato Grosso
+	<option value="Balanço Geral Oeste" />&nbsp; 10 - Balanço Geral Oeste
+	<option value="Balanço Geral CE" />&nbsp; 11 - Cidade 190 e Balanço Geral CE
+	<option value="Balanço Geral Gov Valadares" />&nbsp; 12 - Balanço Geral TV LESTE - Governador Valadares
+	<option value="Cidade Alerta Nova Mutum" />&nbsp; 13 - Cidade Alerta Nova Mutum - Mato Grosso
+	<option value="Cidade Alerta Nacional" disabled="disabled">&nbsp; 14 - Cidade Alerta Nacional
+	<option value="Cidade Alerta RN" enabled="disabled"> &nbsp; 15 - Cidade Alerta RN
+	<option value="Cidade Alerta Maringá" />&nbsp; 16 - Cidade Alerta Maringá - Paraná
+	<option value="Cidade Alerta CE" />&nbsp; 17 - Cidade Alerta CE e Jornal da Cidade - TV Cidade Fortaleza • Record TV
+</div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.todos.html";
+    window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'filtro') {
+    var url = "filtro/filtro.html";
+    window.open("filtro/filtro.html", target="band");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Balanço Geral Maringá') {
+    var url = "#";
+    window.open("../parana/Balanço Geral Maringá.html", target="record");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Balanço Geral Curitiba') {
+    var url = "#";
+    window.open("../parana/Balanço Geral Curitiba.html", target="record");
+  }
+	if (pasta == 'Balanço Geral Londrina') {
+    var url = "#";
+    window.open ("../parana/Balanço Geral Londrina.html", target="record");
+  }
+	if (pasta == 'Record News') {
+    var url = "#";
+    window.open ("../RECORD/Record News.html", target="record");
+  }
+	if (pasta == 'Balanço Geral RN') {
+    var url = "#";
+    window.open("../tvtropical/Balanço Geral RN.html", target="record");
+  }
+	if (pasta == 'Balanço Geral Vale do Peixoto') {
+    var url = "#";
+    window.open("../record/Balanço Geral Vale do Peixoto.html", target="record");
+  }
+  if (pasta == 'Balanço Geral TV Buritis') {
+    var url = "#";
+    window.open("../record/Balanço Geral TV Buritis.html", target="record"); 
+  } 
+	if (pasta == 'Balanço Geral Nova Mutum') {
+    var url = "#";
+    window.open("../record/Balanço Geral Nova Mutum.html", target="record");
+  }
+	if (pasta == 'Cidade Alerta Nova Mutum') {
+    var url = "#";
+    window.open("../record/Cidade Alerta Nova Mutum.html", target="record");
+  }
+	if (pasta == 'Cidade Alerta RN') {
+    var url = "#";
+    window.open("../tvtropical/Cidade Alerta.html", target="record");
+  }
+	if (pasta == 'Cidade Alerta Nacional') {
+    var url = "#";
+    window.open("canais.todos/cn10.html", target="record");
+ }
+	if (pasta == 'Jornal da Record') {
+    var url = "#";
+    window.open("Jornal da Record.html", target="record");
+  }
+	if (pasta == 'Balanço Geral Oeste') {
+    var url = "#";
+    window.open("Balanço Geral Oeste.html", target="record");
+    }
+	if (pasta == 'Balanço Geral CE') {
+    var url = "#";
+    window.open("Cidade 190 e Balanço Geral CE.html", target="record");
+     }
+	if (pasta == 'Balanço Geral CE') {
+    var url = "#";
+    window.open("../TV Cidade Fortaleza/Cidade 190 e Balanço Geral CE.html", target="record");
+    }
+	if (pasta == 'Cidade Alerta Maringá') {
+    var url = "#";
+    window.open("../parana/Cidade Alerta Maringá.html", target="record");
+  }
+	if (pasta == 'Cidade Alerta CE') {
+    var url = "#";
+    window.open("../TV Cidade Fortaleza/Cidade Alerta CE e Jornal da Cidade.html", target="record");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+} 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                         <!--------------------select pop up fim--------------->
