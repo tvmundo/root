@@ -1,4 +1,3 @@
-<body bgcolor=#000>
 <script language="Javascript">
 function showDiv(div)
 {
@@ -12,13 +11,89 @@ document.getElementById(div).className = "visivel";
 .invisivel { display: none; }
 .visivel { visibility: visible; }
 </style>
+<!----------------style css option select ini------------>
+  <style>
+    body {
+      background-color: #000;
+      font-family: 'Source Sans Pro', sans-serif;
 
-<style type="text/css"> /* Para todos os options */ select, option{ width:280pt; height:30pt; padding:1pt 17pt; 
-background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; color: #fff; "></b></span> } 
-       </style>
-</style>
- <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-    <option value="plano1" /> ▼ &nbsp; Canais &nbsp;  ▼
+    }
+    .demo {
+      margin: 100px auto;
+    }
+
+    .dropdown-container {
+      width: 350px;
+	  left: -10px; /*diminuindo vai pra direita*/
+	  top:-100px;  /*aumentando sobe*/
+      margin: 100px auto;
+      position: relative;
+    }
+
+    select {
+      width: 100%;
+      height: 50px;
+      font-size: 20;  /*Fonte 100% */
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 0;
+      background-color: #2f4456; /*#c0392b*/ /*fundo*/
+      border: none;
+      border-bottom: 2px solid #000; /*#962d22*/
+      color: white;  /*white*/
+      appearance: none;
+      padding: 10px;
+      padding-right: 38px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+    }
+
+    /* For IE <= 11 */
+    select::-ms-expand {
+      display: none; 
+    }
+
+    .select-icon {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      width: 30px;
+      height: 36px;
+      pointer-events: none;
+      border: 2px solid #fff; /*#962d22*/ /*borda do icon*/
+      padding-left: 5px;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+    .select-icon svg.icon {
+      transition: fill 0.3s ease;
+      fill: white;
+    }
+
+    select:hover,
+    select:focus {
+      color: #000; /*#c0392b*/ /*cor do texto*/
+      background-color: gray; /*white*/ /*fundo reverso*/
+      border-bottom-color: #000;  /*#DCDCDC*/ /*borda*/
+    }
+    select:hover ~ .select-icon,
+    select:focus ~ .select-icon {
+      background-color: white; /*fundo do icon reverso*/
+      border-color: #DCDCDC; /*#DCDCDC*/ /*borda do icon reverso*/
+    }
+    select:hover ~ .select-icon svg.icon,
+    select:focus ~ .select-icon svg.icon {
+      fill: #c0392b;
+    }
+
+  </style>
+<!----------------style css option select Fim------------>
+</head>
+<body>
+  <div class="demo">
+    <div class="dropdown-container">
+      <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+        <option value="plano1" style="font-size:40px; color: #fff;" enabled="disabled"> ▼ &nbsp; CanaisL &nbsp;  ▼
     <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<OPTION value="filtro" />&nbsp; &nbsp; Procurar Video
 	<option value="Borborema Notícias" />&nbsp; &nbsp; Borborema Notícias
@@ -26,9 +101,17 @@ background: url() no-repeat left #000; border: px solid #000;  font-size: 22px; 
 	<option value="PATRULHA DA CIDADE" />&nbsp; &nbsp; PATRULHA DA CIDADE
 	<option value="VEM COM A GENTE" />&nbsp; &nbsp; VEM COM A GENTE
 	
-	
-</div>      
-<!--------------------select pop up inicio--------------->
+      </select>
+<!----------------parte do style css option select ini-----gray------->
+      <div class="select-icon">
+        <svg focusable="false" viewBox="0 0 104 128" width="25" height="35" class="icon">
+          <path d="m2e1 95a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm0-3e1a9 9 0 0 1 -9 9 9 9 0 0 1 -9 -9 9 9 0 0 1 9 -9 9 9 0 0 1 9 9zm14 55h68v1e1h-68zm0-3e1h68v1e1h-68zm0-3e1h68v1e1h-68z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+<!----------------parte do style css option select Fim------------>
+<!--------------------select pop up inicio---------------> 
 <SCRIPT language=Javascript>
 function showDiv2(pasta) {
   if (pasta == 'inicio') {
@@ -103,3 +186,5 @@ function showDiv2(pasta) {
 }
  </SCRIPT>
                          <!--------------------select pop up fim--------------->
+</body>
+</html>
