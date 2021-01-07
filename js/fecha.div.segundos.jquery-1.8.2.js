@@ -1,3 +1,4 @@
+/* <script type="text/javascript" src="https://raw.githubusercontent.com/tvmundo/root/gh-pages/js/fecha.div.segundos.jquery-1.8.2.js"> */
 /*!
  * jQuery JavaScript Library v1.8.2
  * http://jquery.com/
