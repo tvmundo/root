@@ -1,0 +1,172 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+<label id="lblSelect">
+<style type="text/css">
+            /*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;)*/
+            select#selectPointOfInterest
+            {
+               width                    : 100%; /*300pt*/
+               height                   : 25pt; /*40pt*/
+			   top                      : 0; /*0*/ /*nao funciona*/
+			   background-color         : #2f4456; /*esse background fio add #2f4456 */
+               line-height              : 25pt; /*40pt*/
+               padding-right            : 40pt; /*20pt*/
+               text-indent              : 4pt;  /*4pt*/
+               text-align               : left;
+               vertical-align           : middle;
+               box-shadow               : inset 0 0 3px #606060;
+               border                   : 1px solid #acacac;
+               -moz-border-radius       : 6px;  /*6px*/
+               -webkit-border-radius    : 6px;  /*6px*/
+               border-radius            : 6px;  /*6px*/
+               -webkit-appearance       : none;
+               -moz-appearance          : none;
+               appearance               : none;  /*IMPORTANT*/
+               font-family              : Arial,  Calibri, Tahoma, Verdana;
+               font-size                : 15pt;  /*15pt*/
+               font-weight              : 500;   /*500*/
+               color                    : #fff; /*#000099*/
+               cursor                   : pointer;
+               outline                  : none;
+            }
+            select#selectPointOfInterest::-ms-expand {display: none;} /*FOR IE*/
+            select#selectPointOfInterest option
+            {
+                padding             : 4px 10px 4px 10px; /*4px 10px 4px 10px;*/
+                font-size           : 12pt; /*11pt*/
+                font-weight         : normal;
+            }
+            select#selectPointOfInterest option[selected]{ font-weight:bold}
+            select#selectPointOfInterest option:nth-child(even) { background-color:#2f4456; } /*background-color:#f5f5f5*/
+            select#selectPointOfInterest:hover {font-weight: 700;}
+            select#selectPointOfInterest:focus {box-shadow: inset 0 0 5px #000099; font-weight: 600;}
+
+            /*LABEL FOR SELECT*/
+            label#lblSelect{ position: relative; display: inline-block;}
+            /*DOWNWARD ARROW (25bc)*/
+            label#lblSelect::after
+            {
+                content                 : "\25bc";
+                position                : absolute; /* orig>absolute relative*/
+                top                     : 0; /*0*/
+                right                   : 2; /*0*/
+                bottom                  : 0; /*0*/
+                width                   : 20pt; /*20pt;*/
+                line-height             : 30pt; /*40pt;*/ /*diminuindo sobe*/
+                vertical-align          : middle;
+                text-align              : center;
+                background              : red;  /*#000099*/  /*Blog#2f4456*/ /*canto esq*/
+                color                   : #fff;  /*#fefefe*/
+               -moz-border-radius       : 0 6px 6px 0;  /*0 6px 6px 0*/
+               -webkit-border-radius    : 0 6px 6px 0;  /*0 6px 6px 0*/
+                border-radius           : 0 6px 6px 0;  /*0 6px 6px 0*/
+                pointer-events          : none;
+            }
+        </style>
+</style>
+ <select id="selectPointOfInterest" id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="br" />▼ Vídeos ▼
+    <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site 
+	<option value="br" style="font-size:20px; color: gray;" enabled="disabled"> &nbsp; 🏠 Brasil canais
+	 </optgroup>
+	<option value="Eles PROVARAM no leito de dor" />&nbsp; 1 Eles PROVARAM no leito de dor
+	<option value="Oração às 18h com o Bispo Júlio Freitas" />&nbsp; 2 Oração às 18h com o Bispo Júlio Freitas
+   	
+	</option>
+       </div>   </div>    
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'inicio') {
+    var url = "inicio.html";
+    window.open("inicio.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Eles PROVARAM no leito de dor') {
+    var url = "#";
+    window.open("videos/2020/dez/18/Eles PROVARAM no leito de dor.html", target="Igreja Universal");<!----abre na mesma janela----->
+  }
+	// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'br') {
+    var url = "#";
+    window.open("../inicio.todos.html", target="_parent");
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Oração às 18h com o Bispo Júlio Freitas') {
+    var url = "#";
+    window.open("videos/2020/dez/19/Oração às 18h com o Bispo Júlio Freitas.html", target="Igreja Universal");
+  }
+	if (pasta == 'CULTO NO LAR') {
+    var url = "#";
+    window.open("videos/2020/dez/09/CULTO NO LAR.html", target="Igreja Universal");
+  }
+	if (pasta == 'CÍRCULO DE ORAÇÃO') {
+    var url = "#";
+    window.open("videos/2020/dez/09/CÍRCULO DE ORAÇÃO.html", target="Igreja Universal");
+  }
+	if (pasta == '555555555555555') {
+    var url = "#";
+    window.open("../tvcrista/cn5.html", target="Igreja Universal");
+  }
+	if (pasta == '444444444444444444444') {
+    var url = "#";
+    window.open("../tvcrista/cn6.html", target="Igreja Universal");
+  }
+	if (pasta == '33333333333333333') {
+    var url = "#";
+    window.open("../canais.todos/cn7.html", target="_parent");
+  }
+	if (pasta == '222222222222222222222') {
+    var url = "#";
+    window.open("../tvcrista/cn8.html", target="_parent");
+  }
+	if (pasta == '111111111111111111') {
+    var url = "#";
+    window.open("../tvcrista/cn9.html", target="_parent");
+  }
+	if (pasta == '99999999999999999') {
+    var url = "cn10.html";
+    window.open("cn10.html", target="_parent");
+  }
+  	if (pasta == '8888888888888888888') {
+    var url = "#";
+    window.open("cn10 Boas Novas.BN Play.html", target="_parent");
+}
+	if (pasta == '7777777777777777777') {
+    var url = "#";
+    window.open("IEADPE OFICIAL/cn11.IEADPE OFICIAL.html", target="_parent");
+  }
+	if (pasta == '666666666666666666666') {
+    var url = "#";
+    window.open("Jovem Pan/live.html", target="_parent");
+}
+	if (pasta == '55555555555555555555') {
+    var url = "#";
+    window.open("Jovem Pan/live.html", target="_parent");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                <!--------------------select pop up fim--------------->
+</div>
