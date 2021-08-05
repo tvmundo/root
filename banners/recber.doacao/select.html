@@ -38,8 +38,8 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
 <option value="plano1" />...→&nbsp; enviar-nos uma Gorjeta 💲💰 🏧 &nbsp; ↶ + Wallets aqui ↷
-	
-    <OPTION value="USDT.TRC20" /> &nbsp; &nbsp; USDT - Rede TRC20
+	<OPTION value="Contato.WhatsApp" /> &nbsp; &nbsp; Contato - Apenas WhatsApp
+        <OPTION value="USDT.TRC20" /> &nbsp; &nbsp; USDT - Rede TRC20
 	<option value="Rublo" /> &nbsp; &nbsp; &nbsp; Rublo Russo 
 	<option value="BitcoinZ" /> &nbsp; &nbsp; &nbsp; wallet BitcoinZ
 	<option value="BBScoin" /> &nbsp; &nbsp; &nbsp; wallet BBScoin
@@ -120,6 +120,11 @@ function showDiv2(pasta) {
   if (pasta == 'BTT') {
     var url = "";
     window.open("wallets.QR/BTT.html", target="Receber.Doaçao");
+  }
+	// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Contato.WhatsApp') {
+    var url = "";
+    window.open("wallets.QR/WhatsApp.tvmundo.QR.html", target="Receber.Doaçao");
  } 
 	// copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'Filtro.postagens') {
