@@ -41,7 +41,8 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
 	<optgroup label="">
 	<OPTION value="Contato.WhatsApp" /> &nbsp; &nbsp; Contato - Apenas WhatsApp
         <OPTION value="USDT.TRC20" /> &nbsp; &nbsp; USDT - Rede TRC20
-	<option value="Rublo" /> &nbsp; &nbsp; &nbsp; Rublo Russo 
+	<option value="Rublo" /> &nbsp; &nbsp; &nbsp; Rublo Russo
+	<option value="Ethereum" /> &nbsp; &nbsp; &nbsp; Ethereum
 	<option value="BitcoinZ" /> &nbsp; &nbsp; &nbsp; wallet BitcoinZ
 	<option value="BBScoin" /> &nbsp; &nbsp; &nbsp; wallet BBScoin
 	<option value="Ravencoin" /> &nbsp; &nbsp; &nbsp; wallet Ravencoin
@@ -66,6 +67,11 @@ function showDiv2(pasta) {
   if (pasta == 'Rublo') {
     var url = "";
     window.open("wallets.QR/Rublo.payeer.html", target="Receber.Doaçao");<!----abre na mesma janela----->
+}
+	// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Ethereum') {
+    var url = "";
+    window.open("wallets.QR/wallet-ETH-ERC-20.html", target="Receber.Doaçao");
   }
 	// copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'BitcoinZ') {
