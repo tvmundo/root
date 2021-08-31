@@ -95,7 +95,8 @@ document.getElementById(div).className = "visivel";
     <OPTION value="doação" />&nbsp; Fazer uma doação para este site
 	<OPTION value="filtro" />&nbsp; Procurar Video
 	<option value="rj" />&nbsp; &nbsp; Rio de Janeiro
-    <option value="rs" />&nbsp; &nbsp; Rio Grande do Sul ao vivo 24h por dia em FullHD
+        <option value="rs" />&nbsp; &nbsp; Rio Grande do Sul ao vivo 24h por dia
+	<option value="Pará" />&nbsp; &nbsp; SBT - Pará
 	<option value="Estão destruindo a indústria nacional" />&nbsp; &nbsp; ---------------
 	<option value="DESTINOS DO RN" />&nbsp; &nbsp; ---------------
        </div>   </div>    
@@ -120,6 +121,11 @@ function showDiv2(pasta) {
   if (pasta == 'rs') {
     var url = "#";
     window.open("rs/live.html", target="sbt");
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Pará') {
+    var url = "#";
+    window.open("SBT-Pará/live.html", target="sbt");
   }
 	if (pasta == 'Estão destruindo a indústria nacional') {
     var url = "Estão destruindo a indústria nacional!.html";
