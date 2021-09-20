@@ -94,10 +94,11 @@ document.getElementById(div).className = "visivel";
     <option value="plano1" /> ▼ &nbsp; Canais SBT &nbsp;  ▼
     <OPTION value="doação" />&nbsp; Fazer uma doação para este site
 	<OPTION value="filtro" />&nbsp; Procurar Video
-	<option value="rj" />&nbsp; &nbsp; Rio de Janeiro
-	<option value="Santa-Catarina" />&nbsp; &nbsp; Santa Catarina
-        <option value="rs" />&nbsp; &nbsp; Rio Grande do Sul ao vivo 24h por dia
-	<option value="Pará" />&nbsp; &nbsp; Pará
+	<option value="rj" />&nbsp; &nbsp; SBT Rio de Janeiro
+	<option value="Santa-Catarina" />&nbsp; &nbsp; SBT Santa Catarina
+        <option value="rs" />&nbsp; &nbsp; SBT Rio Grande do Sul
+	<option value="Pará" />&nbsp; &nbsp; SBT Pará
+	<option value=Brasília" />&nbsp; &nbsp; SBT Brasília
 	<option value="Estão destruindo a indústria nacional" />&nbsp; &nbsp; ---------------
 	<option value="DESTINOS DO RN" />&nbsp; &nbsp; ---------------
        </div>   </div>    
@@ -133,6 +134,11 @@ function showDiv2(pasta) {
     var url = "#";
     window.open("Santa-Catarina/live.html", target="sbt");
   }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Brasília') {
+    var url = "#";
+    window.open("Santa-Brasília/live.html", target="sbt");
+}  
 	if (pasta == 'DESTINOS DO RN') {
     var url = "DESTINOS DO RN.html";
     window.open("DESTINOS DO RN.html", target="politicos");
