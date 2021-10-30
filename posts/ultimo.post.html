@@ -321,9 +321,64 @@ window.onload=staticbar
 </script>
 </div></div>
 <!-----------------------------------------botao subri descer------------------------------------------------->
-<div id='navigation_up_down_35349'><script src='http://tvmundo.sytes.net/posts/js/updown.js' type='text/javascript'/></div></script></div>
-<!-----------------------------------------botao subri descer------------------------------------------------->
-                
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 2px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">⇧</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 3000 || document.documentElement.scrollTop > 3000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
+<!-----------------------------------------botao subri descer------------------------------------------------->              
 							<div class="separator" style="clear: both; text-align: center;"><span style="font-weight:bold;">Cidades online</span>
 <script type="text/javascript" src="http://jj.revolvermaps.com/r.js"></script><script type="text/javascript">rm_f1st('0','290','true','false','000000','99v8wmm7jwr','true','ff0000');</script><noscript><applet codebase="http://rj.revolvermaps.com/j" code="core.RE" width="290" height="220" archive="g.jar"><param name="cabbase" value="g.cab" /><param name="r" value="true" /><param name="n" value="false" /><param name="i" value="99v8wmm7jwr" /><param name="m" value="0" /><param name="s" value="290" /><param name="c" value="ff0000" /><param name="v" value="true" /><param name="b" value="000000" /><param name="rfc" value="true" /></applet></noscript></div>
                          <!-----------------------ini div temporizada incistente temp----------------------> 
