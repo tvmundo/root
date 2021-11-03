@@ -40,6 +40,7 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
         <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Veja Também
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+	<OPTION value="Mais uma madrugada de paralisação no Porto de Santos" />&nbsp; &nbsp; Greve dos caminhoneiros Mais uma madrugada de paralisação no Porto de Santos
 	<OPTION value="Caminhoneiros de Santo Augusto (RS) param nesta quarta-feira (3)" />&nbsp; &nbsp; Caminhoneiros de Santo Augusto (RS) param nesta quarta-feira (3)
 	<OPTION value="hhhhhhhhhhh" />&nbsp; &nbsp; 
 		
@@ -52,8 +53,8 @@ function showDiv2(pasta)
         window.open("Caminhoneiros de Santo Augusto (RS) param nesta quarta-feira (3).html", target="CNTTL");
 	<!----abre na mesma janela-----> 
  }
-  if (pasta == '222222222222') {
-        window.open("Tem um tempo para conversar sobre os preços dos combustíveis.html", target="CNTTL");
+  if (pasta == 'Mais uma madrugada de paralisação no Porto de Santos') {
+        window.open("Greve dos caminhoneiros Mais uma madrugada de paralisação no Porto de Santos.html", target="CNTTL");
 	<!----abre na mesma janela-----> 
  }
   if (pasta == '333333333333') {
@@ -110,7 +111,7 @@ function showDiv2(pasta)
   } 
 // copie abaixo para adicionar mais uma janela Tecnologia//
   if (pasta == 'doação') {
-    var url = "../../../../banners/doar.mupixtv.html";
+    var url = "banners/doar.mupixtv.html";
     window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
   }
 // copie acima para adicionar mais uma janela //
