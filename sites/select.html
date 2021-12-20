@@ -1,0 +1,62 @@
+<body bgcolor=#000>
+<!---
+-
+->>> https://github.com/tvmundo/Mundo/blob/master/canais/br/select.html
+->>> https://tvmundo.github.io/Mundo/canais/br/select.html
+-
+---->
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      document.getElementById("plano2").className = "invisivel";
+           
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+
+<style type="text/css"> /* Para todos os options */ select, option{ width:350pt; height:30pt; padding:1pt 22pt; 
+background: url(#) no-repeat left #2f4456; border: px solid #2f4456;  font-size: 22px; color: #fff; "></b></span> } 
+       </style>
+</style>
+ <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="br" /> Recarga OI com PIX
+    <OPTION value="doação" disabled="disabled">&nbsp; &nbsp; Fazer uma doação para este site
+	<option value="br" disabled="disabled">&nbsp; &nbsp; Inicio
+	<option value="br" disabled="disabled">&nbsp; &nbsp; Brasil turismo
+	
+       </div>      
+<!--------------------select pop up inicio--------------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'br') {
+    var url = "inicio.html";
+    window.open("inicio.html", target="_parent");<!----abre na mesma janela----->
+  }
+    // cn1 tv justiça //
+  if (pasta == 'cn1') {
+    var url = "cn1.html";
+    window.open("cn1.html", target="_parent");<!----abre na mesma janela----->
+  }
+ 	// cn16 TV Teresópolis //
+	if (pasta == 'cn16') {
+    var url = "tv.teresopolis.html";
+    window.open("tv.teresopolis.html", target="_parent");
+  }
+  if (pasta == 'magazinevoce') {
+    var url = "https://www.magazinevoce.com.br/magazineelianefx";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+                       <!--------------------select pop up fim--------------->
