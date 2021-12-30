@@ -1,0 +1,305 @@
+<body bgcolor=#000>
+<script language="Javascript">
+function showDiv(div)
+{
+      document.getElementById("plano1").className = "invisivel";
+      
+     
+document.getElementById(div).className = "visivel";
+}
+</script>
+<style>
+.invisivel { display: none; }
+.visivel { visibility: visible; }
+</style>
+<label id="lblSelect">
+<style type="text/css">
+            /*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;)*/
+            select#selectPointOfInterest
+            {
+               width                    : 100%; /*300pt*/
+               height                   : 25pt; /*40pt*/
+			   top                      : 0; /*0*/ /*nao funciona*/
+			   background-color         : #2f4456; /*esse background fio add #2f4456 */
+               line-height              : 25pt; /*40pt*/
+               padding-right            : 40pt; /*20pt*/
+               text-indent              : 4pt;  /*4pt*/
+               text-align               : left;
+               vertical-align           : middle;
+               box-shadow               : inset 0 0 3px #606060;
+               border                   : 1px solid #acacac;
+               -moz-border-radius       : 6px;  /*6px*/
+               -webkit-border-radius    : 6px;  /*6px*/
+               border-radius            : 6px;  /*6px*/
+               -webkit-appearance       : none;
+               -moz-appearance          : none;
+               appearance               : none;  /*IMPORTANT*/
+               font-family              : Arial,  Calibri, Tahoma, Verdana;
+               font-size                : 15pt;  /*15pt*/
+               font-weight              : 500;   /*500*/
+               color                    : #fff; /*#000099*/
+               cursor                   : pointer;
+               outline                  : none;
+            }
+            select#selectPointOfInterest::-ms-expand {display: none;} /*FOR IE*/
+            select#selectPointOfInterest option
+            {
+                padding             : 4px 10px 4px 10px; /*4px 10px 4px 10px;*/
+                font-size           : 12pt; /*11pt*/
+                font-weight         : normal;
+            }
+            select#selectPointOfInterest option[selected]{ font-weight:bold}
+            select#selectPointOfInterest option:nth-child(even) { background-color:#2f4456; } /*background-color:#f5f5f5*/
+            select#selectPointOfInterest:hover {font-weight: 700;}
+            select#selectPointOfInterest:focus {box-shadow: inset 0 0 5px #000099; font-weight: 600;}
+
+            /*LABEL FOR SELECT*/
+            label#lblSelect{ position: relative; display: inline-block;}
+            /*DOWNWARD ARROW (25bc)*/
+            label#lblSelect::after
+            {
+                content                 : "\25bc";
+                position                : absolute; /* orig>absolute relative*/
+                top                     : 0; /*0*/
+                right                   : 2; /*0*/
+                bottom                  : 0; /*0*/
+                width                   : 20pt; /*20pt;*/
+                line-height             : 30pt; /*40pt;*/ /*diminuindo sobe*/
+                vertical-align          : middle;
+                text-align              : center;
+                background              : red;  /*#000099*/  /*Blog#2f4456*/ /*canto esq*/
+                color                   : #fff;  /*#fefefe*/
+               -moz-border-radius       : 0 6px 6px 0;  /*0 6px 6px 0*/
+               -webkit-border-radius    : 0 6px 6px 0;  /*0 6px 6px 0*/
+                border-radius           : 0 6px 6px 0;  /*0 6px 6px 0*/
+                pointer-events          : none;
+            }
+        </style>
+</style>
+ <select id="selectPointOfInterest" id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
+    <option value="m" />▼ Mundo | World ▼
+	<option value="mundo" />&nbsp; Home | World
+    <OPTION value="doação" />&nbsp; 💲 Fazer uma doação para este site 💲
+	<option value="app TV Mundo" /> &nbsp; 📥 Baixe o app TV Mundo 1.2 📥
+	<option value="sites" /> &nbsp; sites
+	<option value="unoticias" /> &nbsp; Últimas Notícias
+	<option value="cn4" />&nbsp; 4 Argentina
+    <option value="cn7" />&nbsp; 7 Chile  
+        
+</option></option>
+</div> </div>     
+<!--------------------select pop up inicio-------https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/seta%20D%20color.GIF----------->
+<SCRIPT language=Javascript>
+function showDiv2(pasta) {
+  if (pasta == 'filmes') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/apresenta%C3%A7ao.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+  }
+// Mundo | World //
+  if (pasta == 'mundo') {
+    var url = "#";
+    window.open("live.html", target="_parent");<!----abre na mesma janela----->
+  }
+// cn-un - United Nations //
+  if (pasta == 'cn-un') {
+    var url = "canais/United.Nations.html";
+    window.open("canais/United.Nations.html", target="_parent");<!----abre na mesma janela----->
+   }
+	if (pasta == 'app TV Mundo') {
+    var url = "#";
+    window.open("http://tvmundo.sytes.net/TV Mundo 1.2_1_1.23 12 20.apk", target="outra pagina");
+  }
+// Ultimos Videos //
+  if (pasta == 'uvideos') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/un.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/un.html", target="_parent");<!----abre na mesma janela----->
+  }
+// Últimas Notícias //
+  if (pasta == 'unoticias') {
+    var url = "posts/ultimo.post.html";
+    window.open("posts/ultimo.post.html", target="_top"); <!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Daciolo') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/daciolo/apresenta%C3%A7ao.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/daciolo/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'un') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Ultimas.Noticias/apresenta%C3%A7ao.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Ultimas.Noticias/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'br-tv') {
+    var url = "#";
+    window.open("br/inicio.todos.html", target="_parent");<!----abre na mesma janela----->
+  }
+	if (pasta == 'cn39') {
+    var url = "#";
+    window.open("canais/cuba/cn1.html", target="_parent");
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn3') {
+    var url = "br/radios/inicio.html";
+    window.open("br/canais.todos/radios.br.html", target="_parent");
+   }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'TV Cristã.br') {
+    var url = "br/radios/inicio.html";
+    window.open("br/canais.todos/crista.ini.html", target="_parent");
+  }
+	if (pasta == 'cn4') {
+    var url = "";
+    window.open("https://tvmundoblog.blogspot.com/2021/12/argentina-tv.html", target="_parent");
+  }
+	if (pasta == 'cn5') {
+    var url = "canais/eua/inicio.html";
+    window.open("canais/eua/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn6') {
+    var url = "canais/colombia/inicio.html";
+    window.open("canais/colombia/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn7') {
+    var url = "canais/chile/inicio.html";
+    window.open("canais/chile/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn8') {
+    var url = "canais/euronews/inicio.html";
+    window.open("canais/euronews/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn9') {
+    var url = "canais/venezuela/inicio.html";
+    window.open("canais/venezuela/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn10') {
+    var url = "https://tvmundo.github.io/Mundo/canais/guatemala/apresenta%C3%A7ao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/guatemala/apresenta%C3%A7ao.html", target="_parent");
+  }
+	if (pasta == 'cn11') {
+    var url = "canais/india/inicio.html";
+    window.open("canais/india/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn12') {
+    var url = "canais/africa/inicio.html";
+    window.open("canais/africa/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn13') {
+    var url = "canais/france.24/inicio.html";
+    window.open("canais/france.24/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn14') {
+    var url = "canais/china/inicio.html";
+    window.open("canais/china/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn15') {
+    var url = "canais/espanha/inicio.html";
+    window.open("canais/espanha/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn16') {
+    var url = "canais/rt/inicio.html";
+    window.open("canais/rt/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn17') {
+    var url = "canais/alJazeera/alJazeera.html";
+    window.open("canais/alJazeera/alJazeera.html", target="_parent");
+  }
+	if (pasta == 'cn18') {
+    var url = "canais/cn18.html";
+    window.open("canais/cn18.html", target="_parent");
+  }
+	if (pasta == 'cn19') {
+    var url = "canais/cn19.html";
+    window.open("canais/cn19.html", target="_parent");
+  }
+	if (pasta == 'cn20') {
+    var url = "canais/turquia/inicio.html";
+    window.open("canais/turquia/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn21') {
+    var url = "canais/Korea/inicio.html";
+    window.open("canais/Korea/inicio.html", target="_parent");
+  }
+	// cn22 esta em cn2 Emisión en directo de 100 NOTICIAS NICARAGUA //
+	if (pasta == 'cn22') {
+    var url = "canais/nicarauga/inicio.html";
+    window.open("canais/nicarauga/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn23') {
+    var url = "canais/mexico/inicio.html";
+    window.open("canais/mexico/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn24') {
+    var url = "canais/portugal/inicio.html";
+    window.open("canais/portugal/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn25') {
+    var url = "canais/russia/inicio.html";
+    window.open("canais/russia/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn26') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Uruguay/apresenta%C3%A7ao.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Uruguay/apresenta%C3%A7ao.html", target="_parent");
+  }
+	  if (pasta == 'cn27') {
+    var url = "canais/canais.dw/inicio.html";
+    window.open("canais/canais.dw/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn28') {
+    var url = "canais/bolivia/inicio.html";
+    window.open("canais/bolivia/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn29') {
+    var url = "canais/republica.d/inicio.html";
+    window.open("canais/republica.d/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn30') {
+    
+    window.open("canais/equador/inicio.html", target="_parent");
+ }
+	if (pasta == 'cn31') {
+    var url = "https://tvmundo.github.io/Mundo/canais/costa.rica/apresenta%C3%A7ao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/costa.rica/apresenta%C3%A7ao.html", target="_parent");
+  }
+	if (pasta == 'cn32') {
+    var url = "https://tvmundo.github.io/Mundo/canais/peru/apresenta%C3%A7ao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/peru/apresenta%C3%A7ao.html", target="_parent");
+  }
+	if (pasta == 'cn33') {
+    var url = "https://tvmundo.github.io/Mundo/canais/Vatican.News.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/Vatican.News.html", target="_parent");
+  }
+	if (pasta == 'cn34') {
+    var url = "canais/italia/inicio.html";
+    window.open("canais/italia/inicio.html", target="_parent");
+  }
+	if (pasta == 'cn35') {
+    var url = "https://tvmundo.github.io/Mundo/canais/p.rico/apresenta%C3%A7ao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/p.rico/apresenta%C3%A7ao.html", target="_parent");
+  }
+	if (pasta == 'cn36') {
+    var url = "https://tvmundo.github.io/Mundo/canais/Croacia/apresenta%C3%A7ao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/Croacia/apresenta%C3%A7ao.html", target="_parent");
+  }
+	if (pasta == 'cn37') {
+    var url = "https://tvmundo.github.io/Mundo/canais/georgia/apresenta%C3%A7ao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/georgia/apresenta%C3%A7ao.html", target="_parent");
+ }
+	if (pasta == 'cn38') {
+    var url = "https://tvmundo.github.io/Mundo/canais/arabes/apresenta%C3%A7ao.html";
+    window.open("canais/arabes/inicio.html", target="_parent");
+  }
+	if (pasta == 'sites') {
+    var url = "#";
+    window.open("https://tvmundo.github.io/root/sites/o/oi1.html", target="outra pagina");
+  } 
+// copie abaixo para adicionar mais uma janela Tecnologia//
+  if (pasta == 'doação') {
+    var url = "https://tvmundo.github.io/Mundo/banner/paypal.doar.html";
+    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
+  }
+// copie acima para adicionar mais uma janela //
+}
+ </SCRIPT>
+ </SCRIPT>
+</div> 
