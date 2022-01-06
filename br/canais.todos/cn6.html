@@ -13,105 +13,45 @@ text-decoration:none;
 <?xml version="1.0" encoding="utf-8"?>
 
 <!----------------------correçao de caracteres Fim ----------------------->
-<div class="container2">
-<div style="float: left; width: -11%">
-<a href="#janela2" rel="modal2" class="btn btn-primary2" onclick="location.href='#'"><span style="color: #fff; font-size: 50px;"><b>  📺 <span style="color: #fff; font-size: 25px;"></b></span></a>
+<div style="float: left; width: 27%">
+<a href="#" onclick="document.getElementById('pop').style.display='block';"><span style="color: #fff; font-size: 60px;"><b>  📺  </b></span>
 </div>
+
+<div style="float: left; width: 23%">
+<a href="cn5.html"><span style="color: #fff; font-size: 35px;"><b> ❮ </b></span>
 </div>
-<div style="text-align: center; width: 90%">
- 
-<a href="cn5.html"><span style="color: #fff; font-size: 38px;"><b> ❮ </b></span>
 
-<a href="#" style="color: #fff; font-size: 30px;" onClick="window.location.reload()"><b> &nbsp &nbsp 6 &nbsp &nbsp </b></span>
+<div style="float: left; width: 10%">
+<a href="../inicio.todos.html"><span style="color: #fff; font-size: 40px;"><b>&nbsp &nbsp  6 &nbsp &nbsp </b></span>
+</div>
 
+<div style="float: right; width: 30%">
 <a href="cn7.html"><span style="color: #fff; font-size: 40px;"><b> ❯ </b></span>
 </div>
 </div>
 
-<html>  <!-----------Menu Mundo------------>
-	<head>
-		<script src="jquery-1.12.4.min.js" ></script>
-  		<script type="text/javascript">
-			$(document).ready(function(){
-				$("a[rel=modal2]").click( function(ev){
-					ev.preventDefault();
+<style>
+#pop{
+display: none;
+position: fixed;
+background-color:#000;
+top:1%;
+left:auto%;
+padding:10px;
+width:400px;
+height:700px;
+border:0px solid #000}
+</style>
 
-					var id = $(this).attr("href");
-
-					var alturaTela = $(document).height();
-					var larguraTela = $(window).width();
-	
-					//colocando o fundo preto
-					$('#mascara').css({'width':larguraTela,'height':alturaTela});
-					$('#mascara').fadeIn(1000);	
-					$('#mascara').fadeTo("slow",0.6);
-
-					var left = ($(window).width() /2) - ( $(id).width() / 2 );
-					var top = ($(window).height() / 2) - ( $(id).height() / 2 );
-					
-					$(id).css({'':top,'':left}); /*$(id).css({'top':top,'left':left});*/
-					$(id).show();	
- 				});
-
- 				$("#mascara").click( function(){
- 					$(this).hide();
- 					$(".window").hide();
- 				});
-
- 				$('.fechar2').click(function(ev){
- 					ev.preventDefault();
- 					$("#mascara").hide();
- 					$(".window").hide();
- 				});
-			});
-		</script>
-
-		<style type="text/css">
-
-		.container{
-			padding:0px;
-			left:1;
-		}
-
-		.window{
-			display:none;
-            left:1; /*left:0*/
-			top:20;
-			width:400px;
-			height:900px;
-			position:absolute;  /*absolute*/
-			
-			background:#2f4456; /* #2f4456 */
-			z-index:9999;  /*z-index:9900*/
-			padding:10px;
-			border-radius:10px;
-		}
-
-		#mascara{
-			position:fixed;
-  			left:0;
-  			top:0;
-  			z-index:5555;  /*z-index:9000*/
-  			background-color:#000;
-  			display:none;
-		}
-
-		.fechar{display:block; text-align:right;}
-
-		</style>
-	</head>
-	<body>
-		</div>
-		<div class="window" id="janela2">
-<div id="descricao" style="position:relative; height:650px; width:100%; background:#000; top:15px;left:auto">
-			<a href="#" class="fechar"><span style="color: #fff; font-size: 30px;"><b>  ❌ Close </b></span></a>
-			<br /><br /><br />
-<a href="../inicio.todos.html"><span style="color: #fff; font-size: 30px;"><b>&nbsp <img border="0" width="30" height="25" src="../br.png" width="50" /> Você está em Brasil &nbsp &nbsp &nbsp </b></span>
-
+<body> 
+<div id="pop">
+<a href="#" onclick="document.getElementById('pop').style.display='none';"><span style="color: #fff; font-size: 50px;"><b>  ❌  </b></span>
+<br /><br /><br />
+<a href="../inicio.todos.html"><span style="color: #fff; font-size: 30px;"><b>&nbsp <img border="0" width="30" height="25" src="../br.png" width="50" /> Você está em Brasil &nbsp &nbsp &nbsp </b></span></a>
 <!---------------------select canais ini---------------------->
 <iframe width="100%" height="40"  scrolling="no" src="../../select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
          <!---------------------select canais fim---------------------->
-<br /><br />
+<br /><br /><br />
 <!---------------------select Brasil tv ini------------------>
 <iframe width="100%" height="40"  scrolling="no" src="../select.todos.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    <!---------------------select Brasil tv fim ------------------>
@@ -123,206 +63,49 @@ text-decoration:none;
 <!---------------------select Rádios ini------------------>
 <iframe width="100%" height="40"  scrolling="no" src="../tvcrista/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    <!---------------------select Rádios fim ------------------>
-</div></div></div></div>
+<br /><br /><br />
+
+</div>
+
+</div>
 <div style="clear: both">
 <div style="text-align: center;">
- <!-----------------------Inicio poster aleatorio----------------------->
-<iframe width="100%" height="530" id="band" name="band" scrolling="no" src="band/1.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
-                                   <!-----------------------------Video da pagina6 aqui = band/1.html acima-------------------------------------->                         
-</div>
-                                     <!---------------------6 Band Jornalismo acima-------------------->
-<!--------------
-
-<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvtropicalrn/videos/620350175543067%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>
-
-<iframe width="100%" height="530" scrolling="no" src="https://www.youtube.com/embed/lzKMDczA49o?autoplay=1;rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-
---------------->
-<!--------------pop2 ini-------------->						
-<div style="float: left; width: 27%">
-<!--------Nova poup 07 11 20-----Menu Band------>
-
+<div style="clear: both">
+<div style="text-align: center;">
+<iframe width="830" height="500" src="https://zoevideos.net/player/aovivo/942" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+												   <!----------------- TV ALEGO - Goiás --------------->
+												   
+						   
+	<div class="separator" style="clear: both; text-align: center;">
+	<!DOCTYPE html>
 <html>
-	<head>
-		<!---<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >--->
-		<!---<script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>--->
-		<script src="jquery-1.12.4.min.js" ></script>
-  		<script type="text/javascript">
-			$(document).ready(function(){
-				$("a[rel=modal]").click( function(ev){
-					ev.preventDefault();
-
-					var id = $(this).attr("href");
-
-					var alturaTela = $(document).height();
-					var larguraTela = $(window).width();
-	
-					//colocando o fundo preto
-					$('#mascara').css({'width':larguraTela,'height':alturaTela});
-					$('#mascara').fadeIn(1000);	
-					$('#mascara').fadeTo("slow",0.6);
-
-					var left = ($(window).width() /2) - ( $(id).width() / 2 );
-					var top = ($(window).height() / 2) - ( $(id).height() / 2 );
-					
-					$(id).css({'':top,'':left}); /*$(id).css({'top':top,'left':left});*/
-					$(id).show();	
- 				});
-
- 				$("#mascara").click( function(){
- 					$(this).hide();
- 					$(".window").hide();
- 				});
-
- 				$('.fechar').click(function(ev){
- 					ev.preventDefault();
- 					$("#mascara").hide();
- 					$(".window").hide();
- 				});
-			});
-		</script>
-
-		<style type="text/css">
-
-		.container{    /* Menu Band */
-			padding:0px;
-			left:1;
-		}
-
-		.window{
-			display:none;
-            left:1; /*left:0*/
-			top:20;
-			width:400px;
-			height:900px;
-			position:absolute;  /*absolute*/
-			
-			background:#2f4456; /* #2f4456 */
-			z-index:9999;  /*z-index:9900*/
-			padding:10px;
-			border-radius:10px;
-		}
-
-		#mascara{
-			position:fixed;
-  			left:0;
-  			top:0;
-  			z-index:5555;  /*z-index:9000*/
-  			background-color:#000;
-  			display:none;
-		}
-
-		.fechar{display:block; text-align:right;}
-
-		</style>
-	</head>
-	<body>
-		<div class="container">
-		<div style="text-align: left;">
-			<a href="#janela1" rel="modal" class="btn btn-primary" onclick="location.href='#'"><span style="color: #fff; font-size: 25px;"><b>  📺 Menu Band </b></span></a>
-			<!---<a href="#janela1" rel	="modal" class="btn btn-primary">Janela 1 modal</a>--->
-		</div>
-
-		<div class="window" id="janela1">
-			<a href="#" class="fechar"><span style="color: #fff; font-size: 30px;"><b>  ❌ Close </b></span></a>
-			<!---------------------select Brasil tv ini------------------>
-<iframe width="390" height="50"  scrolling="no" src="band/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <!---------------------select Brasil tv fim ------------------>
-<br/> <br/>
-<!---------------------select Rádio Bandeirantes sp ini------------------>
-<iframe width="390" height="50"  scrolling="no" src="band/radio/sp/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <!---------------------select Rádio Bandeirantes sp fim ------------------>
-<br/> <br/>
-<!---------------------select Rádio BandNews FM sp ini------------------>
-<iframe width="390" height="50"  scrolling="no" src="band/radio/BandNews FM SP/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <!---------------------select Rádio BandNews FM sp fim ------------------>
-<br/> <br/>		
-		<!---------------------select Rádio BandNews FM RJ ini------------------>
-<iframe width="390" height="50"  scrolling="no" src="band/radio/BandNews FM RJ/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <!---------------------select Rádio BandNews FM sp fim ------------------>
-   <br/><br/>			
-<!---------------------select Brasil Urgente ini------------------>
-<iframe width="390" height="50"  scrolling="no" src="band/brasil.urgente/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <!---------------------select Brasil Urgente fim ------------------>
-   <br/><br/>
-		</div>
-
-		<!---<div class="window" id="janela1"> /* Menu band */
-			<a href="#" class="fechar">X Fechar</a>
-			<h4>Formulario</h4>
-			<form action="#" method="post">
-				<label for="nome">Nome:</label>
-				<input type="text" name="nome" id="nome" class="form-control">
-				
-
-				<label for="nome">Senha:</label>
-				<input type="text" name="senha" id="senha"  class="form-control">
-				<input type="submit" value="enviar" class="btn btn-primary mt-3">
-
-			</form>--->
-		</div>
-
-		<!-- mascara para cobrir o site -->	
-		<div id="mascara"></div>
-	</body>
-</html> 
-<!--------Nova poup 07 11 20 Fim----------->
-<!------>	
-</div>						
-<div style="text-align: left;">
-<a href="#" style="color: #fff; font-size: 20px;" onClick="window.location.reload()">&nbsp; &nbsp; 6 - Band Jornalismo | Reload ↻"</a>
-</div>
-                                    <!---- Fora do AR ---->
+<head>
+<style>
+.button {
+  background-color: #000;
+  border: none;
+  color: white; 32px;
+  padding: 0px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {width: 100%;}
+</style>
+</head>
+<body>
+<input type="button" class="button" value="15 24/08 | Reload" onClick="window.location.reload()">
+</body>                                    <!---- Fora do AR ---->
 
 <!------------
 - <script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/msgsobretxt/wz_tooltip.js"></script>   
 -
 - ediçao    >>> https://github.com/soanatareportagens/tv/blob/master/canais/br/cn1.html
 - visitante >>> https://rawgit.com/soanatareportagens/tv/master/canais/br/cn1.html
-                https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw
+				https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw
 
-                file:///D:/root/br/canais.todos/cn4.teste.html
-
-
--------------->
-  </div>                                             <!--------------------Hora------------------------->
-<style type="text/css">
-  #horabr{
-  position:fixed;
-  z-index:999; 
-  left:9px; 
-  top:62px;
-  overflow:none;
-  border:0px dashed #000;
-  padding:0px;
-  margin:0 auto;
-  width: 0px;
-  height:0px;
-  background:#000;
-  {
-    visibility: none;id="horabr"
-  }
-</style>    
-<script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/calhora.js"></script>
-<script>
-document.write('<div id="horabr" style="margin:10px auto;padding:px 0;font-size:1.2em;font-weight:bold;color:#ffffff;border:3px solid #FF9900;background:#666666;">18:04:38</div><br/><div style="margin:5px 0 0 0;"><a href="#"></div></div>');var clockCiudad = new Clock();clockCiudad.startClock('horabr', '-3'); </script>
-<!------------------------hora fim ------------------------->  
-	<!-----------------------------------------No AR in --------------------------------------------->
- <style type="text/css">
-  #NoAR{
-  position:fixed;
-  z-index:999; 
-  left:9px; 
-  top:350px;
-  overflow:none;
-  border:0px dashed #000;
-  padding:0px;
-  margin:0 auto;
-  background:transparent;
-  {
-    visibility: none;
-  }
-</style>    
-<iframe id="NoAR" scrolling="no" width="200" height="200" src="https://tvmundo.github.io/root/br/canais.todos/band/NoAR.GiF.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<!-----------------------------------------No AR acima --------------------------------------------->
+				D:\root
+--------------->
