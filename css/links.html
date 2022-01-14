@@ -1,31 +1,85 @@
 
-<div class="row">  
-<a id="btn-1" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;">  Video 1 ⇒ </a><br/>
-<a id="btn-2" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;">  Video 2 ⇒ </a><br/>
-<a id="btn-3" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;"> Video 3 ⇒ </a><br/>
-<a id="btn-4" class="waves-effect waves-light btn"style="color: #fff; font-size: 25px;">  Video 4 ⇒ </a><br/>
+
+ <link rel="stylesheet" href="https://tvmundo.github.io/root/css/mostrar%20ocultar%20div.css"> <!--- apenas css --->
+<script src="https://tvmundo.github.io/root/js/prixima.div.js"></script>
+<!---------------------select Links ini------------------>
+   <!---------------------select Links fim ------------------>
+<br/>
+<div class="row">
+<a id="btn-3" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;"> Video 4 ⇒ </a><br/>
+<a id="btn-2" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;"> Video 3 ⇒ </a><br/>
+<a id="btn-1" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;"> Video 2 ⇒ </a><br/>
+<a id="btn-4" class="waves-effect waves-light btn"style="color: #fff; font-size: 25px;">  Video 1 ⇒ </a><br/>
 </div>
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/> 
+<!---------------------select Links fim ------------------>
+
+  </div> </div>
+
+  <div id="tela4">
+<a id="btn-2" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;">  ⬅ &nbsp; </a><a id="btn-4" class="waves-effect waves-light btn"style="color: #fff; font-size: 25px;">  4 &nbsp; ⇒ </a><br/>
+<div style="font-size: 35pt; font-weight: bold; text-align: center;"><span style="background-color: white; color: #666666; font-size: xx-large; font-weight: 20;"><b><br /></b></span></div><div style="font-size: 35pt; font-weight: bold; text-align: center;">
+<span style="background-color: white; color: #666666; font-size: 28px; font-weight: 20;"><b> Mistura de hoje </b></span></div>
+<div style="font-size: 35pt; font-weight: bold; text-align: center;">
+<span style="color: #666666; font-size: 18px; font-weight: 18;">➤ Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira </span></div>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FIzGBJfIC5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+  </div></div>
+</div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+
+  $('#tela2, #tela3, #tela4').hide();
+
+  $(".btn").click(function(e) {
+    botao = e.target.id;
+    //alert(botao);
+
+    if (botao == "btn-1") {
+      $('#tela2').show();
+      $('#tela1, #tela3, #tela4').hide();
+
+    } else if (botao == "btn-2") {
+      $('#tela3').show();
+      $('#tela1, #tela2, #tela4').hide();
+
+    } else if (botao == "btn-3") {
+      $('#tela4').show();
+      $('#tela1, #tela2, #tela3').hide();
+
+    } else if (botao == "btn-4") {
+      $('#tela1').show();
+      $('#tela4, #tela2, #tela3').hide();
+
+    }
+
+  });
+
+
+
+});
+    </script>
+</body>
+<!---<p align=center>&nbsp;</p>--->
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- Disable 
+function disableselect(e){ 
+return false 
+} 
+
+function reEnable(){ 
+return true 
+} 
+
+//if IE4+ 
+document.onselectstart=new Function ("return false") 
+document.oncontextmenu=new Function ("return false") 
+//if NS6 
+if (window.sidebar){ 
+document.onmousedown=disableselect 
+document.onclick=reEnable 
+} 
+//--> 
+</script>
