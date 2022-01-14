@@ -1,9 +1,4 @@
 
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> <!--- apenas css --->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
------------------------------------------------------------------------------------------------------------
 <div class="row">  
 <a id="btn-1" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;">  Video 1 ⇒ </a><br/>
 <a id="btn-2" class="waves-effect waves-light btn" style="color: #fff; font-size: 25px;">  Video 2 ⇒ </a><br/>
@@ -33,39 +28,4 @@
 <br/>
 <br/>
 <br/>
-<br/>
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-
-  $('#tela2, #tela3, #tela4').hide();
-
-  $(".btn").click(function(e) {
-    botao = e.target.id;
-    //alert(botao);
-
-    if (botao == "btn-1") {
-      $('#tela2').show();
-      $('#tela1, #tela3, #tela4').hide();
-
-    } else if (botao == "btn-2") {
-      $('#tela3').show();
-      $('#tela1, #tela2, #tela4').hide();
-
-    } else if (botao == "btn-3") {
-      $('#tela4').show();
-      $('#tela1, #tela2, #tela3').hide();
-
-    } else if (botao == "btn-4") {
-      $('#tela1').show();
-      $('#tela4, #tela2, #tela3').hide();
-
-    }
-
-  });
-
-
-
-});
-    </script>
-</body>
+<br/> 
