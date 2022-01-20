@@ -1,0 +1,210 @@
+ <style type="text/css">
+  #msglive{
+  position:fixed;
+  z-index:999; 
+  left:5px; 
+  top:50px;
+  overflow:none;
+  border:0px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 20px;
+  height:20px;
+  background:transparent;
+  {
+    visibility: none;
+  }
+</style>
+<!---<input type="msglive" class="msglive" id="msglive" style="color: #fff; font-size: 20px;" value="↻" onClick="window.location.reload()">--->    
+<a class="tags" type="msglive" class="msglive" id="msglive" style="color: red; font-size: 20px;" gloss="Atualiza o Vídeo" onClick="window.location.reload()">↻</a>
+
+<!---------style title Atualiza o Vídeo ini----------->
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <!-- Buttons for manually sliding the carousel -->
+    <div class="btn-group col-lg-8" role="group" aria-label="Carousel controls">
+        <button id="prevMovie" type="button" class="btn btn-danger">Prev</button>
+        <button id="nextMovie" type="button" class="btn btn-info">Next</button>
+    </div>
+
+    <!-- The carousel containing the Youtube iframe videos -->
+    <!-- Remember to add the ?enablejsapi=1 in the Youtube embed link as described in: -->
+    <!-- https://developers.google.com/youtube/iframe_api_reference#Example_Video_Player_Constructors -->
+    <div id="moviesCarousel" class="carousel slide col-lg-8" data-ride="carousel" data-interval="5000">
+        <div class="carousel-inner embed-responsive embed-responsive-16by9"> <!-- embed is used for responsive size regardless of device -->
+            <div class="carousel-item embed-responsive-item active">   
+<iframe id="v00" src="https://www.youtube.com/embed/CYHzfZ3JFQw?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+                                              <!-- Fixo Acima -->             </div>            
+  <div class="carousel-item embed-responsive-item">
+ <iframe id="v63" src="https://www.youtube.com/embed/gzTJGWN0oAk?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>
+         <div class="carousel-item embed-responsive-item">
+ <iframe id="v62" src="https://www.youtube.com/embed/41d3TAwAOGw?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>       
+            <div class="carousel-item embed-responsive-item">
+ <iframe id="v61" src="https://www.youtube.com/embed/ZotZp_nOhEU?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>
+            <div class="carousel-item embed-responsive-item">
+ <iframe id="v60" src="https://www.youtube.com/embed/xC1TDCsw0cY?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>
+            <div class="carousel-item embed-responsive-item">
+ <iframe id="v59" src="https://www.youtube.com/embed/x3Qssj__wyQ?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>
+            <div class="carousel-item embed-responsive-item">
+ <iframe id="v58" src="https://www.youtube.com/embed/LDwkDhloMCw?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>
+            <div class="carousel-item embed-responsive-item">
+ <iframe id="v57" src="https://www.youtube.com/embed/WhTmf-l-XkY?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>
+<div class="carousel-item embed-responsive-item">          
+<iframe id="v56" src="https://www.youtube.com/embed/sxnxwvDvdCA?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+</div>
+<div class="carousel-item embed-responsive-item">
+            <iframe id="v55" src="https://www.youtube.com/embed/j4Z0jgYPEzs?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="v54" src="https://www.youtube.com/embed/imbzbzhsr6g?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="v53" src="https://www.youtube.com/embed/KQFyk1C8l9E?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+             <div class="carousel-item embed-responsive-item">
+                <iframe id="v52" src="https://www.youtube.com/embed/tSOvHfk-uB4?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="v51" src="https://www.youtube.com/embed/ctKbSXGYrIE?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="v50" src="https://www.youtube.com/embed/aogRpQvkLpA?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+             </div>
+             <div class="carousel-item embed-responsive-item">
+                <iframe id="v49" src="https://www.youtube.com/embed/GH3tuT64Kno?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+             <div class="carousel-item embed-responsive-item">
+                <iframe id="v48" src="https://www.youtube.com/embed/-kMLQOHQLxw?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="v47" src="https://www.youtube.com/embed/rEMWdmaNy3k?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="v46" src="https://www.youtube.com/embed/WswVoUUCFwQ?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="v45" src="https://www.youtube.com/embed/26OFK8VQG6s?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+             <div class="carousel-item embed-responsive-item">
+                <iframe id="v44" src="https://www.youtube.com/embed/vedbslKouPo?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item embed-responsive-item">
+                <iframe id="logan" src="https://www.youtube.com/embed/1DIFS6Aw858?enablejsapi=1" width="100%" height="480" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.jqueryscript.net/demo/youtube-carousel-bootstrap/index.js"></script>
+
+    <script>
+        $(document).ready(function()
+        {
+            // Slide the carousel upon button click
+            // .carousel('prev') - Cycles to the previous item
+            // .carousel('next') - Cycles to the next item.
+            // Reference: https://getbootstrap.com/docs/4.4/components/carousel/#methods
+            $('#prevMovie').on('click', function() {
+                $('#moviesCarousel').carousel('prev');
+            });
+            $('#nextMovie').on('click', function() {
+                $('#moviesCarousel').carousel('next');
+            });
+
+            // When a slide occurs, pause the current iframe video that is playing
+            // player.pauseVideo():Void - Pauses the currently playing video.
+            // Reference: https://developers.google.com/youtube/iframe_api_reference#Playback_controls
+            $('#moviesCarousel').on('slide.bs.carousel', function(event) {
+                // The variable "players" contain each Youtube Player for each iframe video
+                // Reference: https://developers.google.com/youtube/iframe_api_reference#Loading_a_Video_Player
+                // event.from - The index of the current video (before the slide occurs)
+                //            - It is also the index of the corresponding player for the current video
+                // Reference: https://getbootstrap.com/docs/4.4/components/carousel/#events
+                players[event.from].pauseVideo();
+            });
+        });
+
+        // Start of snippet from: https://developers.google.com/youtube/iframe_api_reference
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var players = []; // would contain 1 player for each iframe video
+        function onYouTubeIframeAPIReady()
+        {
+            var allMovieIframes = document.getElementById("moviesCarousel").getElementsByTagName('iframe');
+            for (currentIFrame of allMovieIframes)
+            {
+                players.push(new YT.Player(
+                    currentIFrame.id, // the target iframe video, here it is  either katniss, rancho, or logan
+                    { events: { 'onStateChange': onPlayerStateChange } }
+                ));
+            }
+        }
+        function onPlayerStateChange(event) // triggered everytime ANY iframe video player among the "players" list is played, paused, ended, etc.
+        {
+            // Check if any iframe video is being played (or is currently buffering to be played)
+            // Reference: https://developers.google.com/youtube/iframe_api_reference#Events
+            if (event.data == YT.PlayerState.PLAYING || event.data == YT.PlayerState.BUFFERING)
+            {
+                // If any player has been detected to be currently playing or buffering, pause the carousel from sliding
+                // .carousel('pause') - Stops the carousel from cycling through items.
+                // Reference: https://getbootstrap.com/docs/4.4/components/carousel/#methods
+                $('#moviesCarousel').carousel('pause');
+            }
+            else
+            {
+                // If there are no currently playing nor buffering videos, resume the sliding of the carousel.
+                // This means that once the current video is in a state that is not playing (aside from buffering), either it was:
+                //     1. paused intentionally
+                //     2. paused as an effect of a slide
+                //     3. video has ended
+                //     4. wasn't totally played from the start
+                //     5. and literally any form where the video timer isn't running ;)
+                //     - then the carousel would now resume sliding.
+                $('#moviesCarousel').carousel();
+            }
+        }
+        // End of snippet from Youtube iframe API
+    </script>
+</body>
+</html>
+<!---------------------Mouse--------------------->
+<SCRIPT LANGUAGE="JavaScript"> 
+<!-- Disable 
+function disableselect(e){ 
+return false 
+} 
+
+function reEnable(){ 
+return true 
+} 
+
+//if IE4+ 
+document.onselectstart=new Function ("return false") 
+document.oncontextmenu=new Function ("return false") 
+//if NS6 
+if (window.sidebar){ 
+document.onmousedown=disableselect 
+document.onclick=reEnable 
+} 
+//--> 
+</script>
