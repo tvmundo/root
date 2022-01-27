@@ -248,7 +248,17 @@
 </html>
 <div style="font-size: 35pt; font-weight: bold; text-align: center;">
   <br/>  <br/>
-<input type=button onClick="self.close();" value="Close this window">
+<script type="text/javascript" src="jquery.js">
+  $(document).ready(function(){
+
+      $("#fechar").bind("click",function(){
+          $(window).close();
+        });
+    });
+</script>
+<br>
+<form name="form1" method="post" action="">
+  <input type="button" name="fechar" id="fechar" value="Close" onClick="window.close()">
 <!---------------------Mouse--------------------->
 <SCRIPT LANGUAGE="JavaScript"> 
 <!-- Disable 
