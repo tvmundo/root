@@ -14,11 +14,11 @@ text-decoration:none;
 
 <!----------------------correçao de caracteres Fim ----------------------->
 <div style="float: left; width: 27%">
-<a href="#" onclick="document.getElementById('pop').style.display='block';"><img src="https://tvmundo.github.io/Mundo/imgs/menu1jpg.jpg" style="border: 5px solid #808080" width="110" height="70"/>
+<a href="#" id="myBtn" onclick="document.getElementById('myBtn').style.display='block';"><span style="font-size:25px; color: #D3D3D3; cursor:pointer">&#9776; <span style="font-size:20px; color: #A9A9A9; cursor:pointer">Menu
 </div>
 
-<div style="float: left; width: 23%">
-<a href="r1.html"><img src="https://tvmundo.github.io/Mundo/imgs/seta.branca.esquerda.jpg"border="0" width="50" height="80"/>
+<div style="float: left; width: 20%">
+<a href="cn10.html"><span style="font-size:40px; color: #A9A9A9; cursor:pointer">❮<a/>
 </div>
 
 <div style="float: left; width: 10%">
@@ -26,25 +26,107 @@ text-decoration:none;
 </div>
 
 <div style="float: right; width: 30%">
-<a href="cn2.html"><img src="https://tvmundo.github.io/Mundo/imgs/seta.branca.direita.jpg"border="0" width="50" height="80"/>
+<a href="cn12.html"><span style="font-size:40px; color: #A9A9A9; cursor:pointer">❯<a/>
+</div>
 </div>
 
+<!--------------- Modal 26-11-20 ini abaixo------------------>
 <style>
-#pop{
-display: none;
-position: fixed;
-background-color:#000;
-top:1%;
-left:auto%;
-padding:10px;
-width:400px;
-height:800px;
-border:0px solid #000}
-</style>
+body {font-family: Arial, Helvetica, sans-serif;}
 
-<body> 
-<div id="pop">
-<a href="#" onclick="document.getElementById('pop').style.display='none';"><img src="https://tvmundo.github.io/Mundo/imgs/fechar%201%20fundo%20preto.jpg"border="0" width="70" height="70"/>
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* 0,0,0,0.4 muda a transparencia do fundo */ /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.2s;  /* 0.4s */
+  animation-name: fadeIn;
+  animation-duration: 0.9s   /* 0.4s */
+  
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: -10px;
+  background-color: #000; /* #fefefe*/ /* #5cb85c verde*/ /* #ff0 amarelo */ /* cor do fundo principal do modal */
+  width: 400px;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+The Close Button 
+.close {
+  color: #000; /* white */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+ 
+.close:hover,
+.close:focus {
+  color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #000; /* #5cb85c verde*/ /* #ff0 amarelo */
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+</style>
+</head>
+<body>
+<!-- Trigger/Open The Modal -->
+<!---<button id="myBtn">Open Modal</button>--->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+  <!--------------Conteudo Div modal-content abaixo------------------>
+  <div style="float: right; width: 48%"> <!---Aumentando leva o menu para a esq---> <br/>
+<a href="#" class="close" onclick="document.getElementById('close').style.display='none';"><span style="color: #fff; font-size: 30px;"><b>  ❌ Close  </b></span> </div> <br /><br />
 <br /><br /><br />
 <a href="inicio.html"><span style="color: #fff; font-size: 30px;"><b>&nbsp <img border="0" width="32" height="22" src="bandeira chile.jpg" width="50" /> Você está em Chile &nbsp &nbsp &nbsp </b></span></a>
 <!---------------------select canais ini---------------------->
@@ -55,46 +137,65 @@ border:0px solid #000}
 <iframe width="100%" height="40"  scrolling="no" src="select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div> <!---------------------select chile tv fim ------------------>               
                 
+  
+  <!--------------Conteudo Div modal-content Fim------------------>
+    <div class="modal-header">
+ <!--------<span class="close">&times;</span>--------->     
+<!--------------Conteudo Div modal-header abaixo------------------>
+
+ <!--------------Conteudo Div modal-header Fim------------------>
 </div>
+<!--------------Modais divs trancados abaixo
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>------------->
+  </div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+          <!--------------- Modal 26-11-20 Fim ------------------>
 <div style="clear: both">
 <div style="text-align: center;">
-<span style="color: #fff; font-size: 20px;"><b></a>
- <a href="#" onmouseover="Tip(' Canal 1 Señal Internacional / Mega en vivo | Informe canal fora do ar <br/>Contato TV mundo whatsapp & telegram (55) 84 9 8780-4100')" onmouseout="UnTip()">
 <iframe width="100%" height="510" scrolling="no" src="https://www.youtube.com/embed/iL4J10cuYYQ?autoplay=0;rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	</div></div><!----------------Canal 1 Señal Internacional / Mega en vivo acima------------------->
-                              <!----------------Canal 1 Meganoticias acima------------------->
-	 
-	<div class="separator" style="clear: both; text-align: center;">
-	<!DOCTYPE html>
-<html>
-<head>
-<style>
-.button {
-  background-color: #000;
-  border: none;
-  color: white; 32px;
-  padding: 0px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button {width: 100%;}
-</style>
-</head>
-<body>
-<input type="button" class="button" value="1 - Meganoticias Atualizado 17/12/21 | Reload" onClick="window.location.reload()">
-</body>
-
-<!---------------------------> 
-
-<!--------Nova poup 07 11 20-----Menu Meganoticias ------>
+                                                     <!----------------Canal 1 Meganoticias acima------------------->
+<!--------Nova poup 07 11 20-----Menu Band------>
 
 <html>
 	<head>
-		<script src="https://tvmundo.github.io/root/br/canais.todos/jquery-1.12.4.min.js" ></script>
+		<script src="jquery-1.12.4.min.js" ></script>
   		<script type="text/javascript">
 			$(document).ready(function(){
 				$("a[rel=modal]").click( function(ev){
@@ -165,16 +266,16 @@ border:0px solid #000}
 		</style>
 	</head>
 	<body>
-<div class="container">
-<div style="text-align: left;">
-<a href="#janela1" rel="modal" class="btn btn-primary" onclick="location.href='#'"><span style="color: #fff; font-size: 25px;"><b>📺 Menu Mega </b></span></a>
+		<div class="container">
+		<div style="text-align: left;">
+			<a href="#janela1" rel="modal" class="btn btn-primary" onclick="location.href='#'"><span style="color: #fff; font-size: 25px;"><b>📺 Menu Mega </b></span></a>
 			<!---<a href="#janela1" rel	="modal" class="btn btn-primary">Janela 1 modal</a>--->
 		</div>
 
 		<div class="window" id="janela1">
 			<a href="#" class="fechar"><span style="color: #fff; font-size: 30px;"><b>  ❌ Close </b></span></a> <br/>
  <!---------------------select Brasil tv ini------------------>
-<iframe width="100%" height="40"  scrolling="no" src="mega/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="40"  scrolling="no" src="sbt/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    <!---------------------select Brasil tv fim ------------------>					
 </div>
   </div>
@@ -200,5 +301,40 @@ border:0px solid #000}
 		<div id="mascara"></div>
 	</body>
 </html> 
-<!--------Nova poup 07 11 20 Menu Meganoticias Fim----------->	   
+<!--------Nova poup 07 11 20 Fim----------->				   
 			   
+<!---<input type="button" class="button" value="9 - SBT Atualizado 27/11 | Reload" onClick="window.location.reload()">--->
+<div style="text-align: center;">
+<a href="#" style="color: #fff; font-family: Arial Black; font-size: 20px;" onClick="window.location.reload()"> 1 - Meganoticias | Refresh ↻ </a>
+</body>                                    <!---- Fora do AR ---->
+
+<!------------
+- <script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/msgsobretxt/wz_tooltip.js"></script>   
+-
+- ediçao    >>> https://github.com/soanatareportagens/tv/blob/master/canais/br/cn1.html
+- visitante >>> https://rawgit.com/soanatareportagens/tv/master/canais/br/cn1.html
+				https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw
+
+				D:\root
+--------------->
+<!--------------------Hora------------------------->
+<style type="text/css">
+  #horabr{
+  position:fixed;
+  z-index:999; 
+  left:9px; 
+  top:650px; /* Diminuindo sobe */
+  overflow:none;
+  border:0px dashed #000;
+  padding:0px;
+  margin:0 auto;
+  width: 0px;
+  height:0px;
+  background:#000;
+  {
+    visibility: none;id="horabr"
+  }
+</style>    
+<script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/calhora.js"></script>
+<script>
+document.write('<div id="horabr" style="margin:10px auto;padding:px 0;font-size:1.1em;font-weight:bold;color:#ffffff;border:3px solid #FF9900;background:#666666;">18:04:38</div><br/><div style="margin:5px 0 0 0;"><a href="#"></div></div>');var clockCiudad = new Clock();clockCiudad.startClock('horabr', '-3'); </script>	
