@@ -128,6 +128,100 @@ body {
   <div class="overlay-content">
    
     <a href="#">About</a>
+<!------------------ Menu select ini --------------->
+<!--select ini-->
+<div class="select">
+<select name="format" id="format" onchange=" showDiv(this.value);"> 
+<option disabled="" selected=""> &nbsp; 👉 &nbsp; Menu ▼ Imagen Televisión ▼ </option>
+<optgroup label="   ">
+                        /*   Fixo Acima   */
+<option value="Imagen TV">Imagen TV </option>
+<option value="Imagen Radio">Imagen Radio </option>
+<option value="Mañanera de López Obrador">Mañanera de López Obrador, conferencia 9 de febrero de 2022 </option>
+</select> </div>
+                                                  <!--embed Aqui-->                                    
+<div style="text-align: center;">
+<script language="Javascript">
+function showDiv(pasta) {
+  // CHINA: POTÊNCIA CIENTÍFICA? //
+  if (pasta == 'uso futuro') {
+     window.open("https://www.youtube.com/embed/Czunz78G_nQ", target="Imagen");
+                 /*       Fixo Acima       */
+}
+  // Imagen TV  //
+  if (pasta == 'Imagen TV') {
+     window.open("https://www.youtube.com/embed/bzs-kNULFwQ", target="Imagen");
+  }
+  // Imagen Radio  //
+  if (pasta == 'Imagen Radio') {
+     window.open("https://www.youtube.com/embed/XGOmFGx7gnY", target="Imagen");
+  }
+  // Mañanera de López Obrador  //
+  if (pasta == 'Mañanera de López Obrador') {
+     window.open("https://www.youtube.com/embed/3oNkxfVspoY", target="Imagen");
+  }
+  // uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu  //
+  if (pasta == 'v124') {
+     window.open("https://www.youtube.com/embed/HKABYDtn_xU", target="Imagen");  
+ }
+  }
+</script> 
+<!--SCRIPT Fim-->
+<style>
+body {
+   
+}
+select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: #363636; /* #5c6664 */
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: 100%;
+   height: 3em;
+   line-height: 3;
+   background: #5c6664;
+   overflow: hidden;
+   border-radius: .25em;
+}
+.select::after {
+   content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
+   position: absolute;
+   width: 12px;
+   height: 3em;
+   color: yellow; /* yellow seta #23b499  */
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: #696969; /* #2b2e2e */
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select:hover::after {
+   color: #00FF7F; /* cor ao passar o mouse #23b499 */
+   width: 15px; /* faz o efeito esticar pra esquerda */
+   /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
+}
+</style>	  
+<!------------------ Menu select Fim --------------->
 <a href="https://www.youtube.com/embed/bzs-kNULFwQ"target="Imagen">Imagen TV</a>
 <a href="https://www.youtube.com/embed/XGOmFGx7gnY"target="Imagen">Imagen Radio</a>
 <a href="https://www.youtube.com/embed/3oNkxfVspoY"target="Imagen">Mañanera de López Obrador, conferencia 9 de febrero de 2022 </a>
