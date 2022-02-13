@@ -45,7 +45,7 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
 	 <option value="cn15" />&nbsp; Canal 15 Telediario Monterrey
 	 <option value="cn16" />&nbsp; Canal 16 Noticieros Televisa - Noticias en vivo 24/7
 	 <option value="cn17" />&nbsp; Canal 17 En vivo - adn40
-	 <option value="cn17" />&nbsp; Canal 18 Televisa Ciudad Juarez
+	 <option value="cn18" />&nbsp; Canal 18 Televisa Ciudad Juarez
                 <optgroup label="Rádios Mexicanas">
                <option value="r50"> 1 - Rádio martinezserrano </option>
                <option value="r51">2 - Central FM Equilibrio (Señal vivo) </option>
@@ -58,7 +58,12 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
 function showDiv2(pasta) {
   if (pasta == 'inicio') {
     var url = "inicio.html";
-    window.open("inicio.html", target="_parent");<!----abre na mesma janela----->
+    window.open("inicio.html", target="_parent");
+	  /* Fixo Acima */
+}
+	if (pasta == 'cn18') {
+    
+    window.open("cn17.html", target="_parent");
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'cn1') {
