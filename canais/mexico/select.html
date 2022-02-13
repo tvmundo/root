@@ -46,6 +46,7 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
 	 <option value="cn16" />&nbsp; Canal 16 Noticieros Televisa - Noticias en vivo 24/7
 	 <option value="cn17" />&nbsp; Canal 17 En vivo - adn40
 	 <option value="cn18" />&nbsp; Canal 18 Televisa Ciudad Juarez
+	 <option value="cn19" />&nbsp; Canal 19 Canal 66 Mexicali
                 <optgroup label="Rádios Mexicanas">
                <option value="r50"> 1 - Rádio martinezserrano </option>
                <option value="r51">2 - Central FM Equilibrio (Señal vivo) </option>
@@ -61,6 +62,9 @@ function showDiv2(pasta) {
     window.open("inicio.html", target="_parent");
 	  /* Fixo Acima */
 }
+	if (pasta == 'cn19') {    
+    window.open("cn19.html", target="_parent");
+  }
 	if (pasta == 'cn18') {    
     window.open("cn18.html", target="_parent");
   }
