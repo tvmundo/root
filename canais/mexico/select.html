@@ -35,7 +35,7 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
         <option value="cn5" />&nbsp; Canal 5 Televisa Estado de México
         <option value="cn6" />&nbsp; Canal 6 Televisa Aguascalientes
         <option value="cn7" />&nbsp; Canal 7 Televisa Del Bajio Oficial
-        <option value="cn8" />&nbsp; Canal 8 Televisa Laguna Oficial
+        <option value="cn8" />&nbsp; Canal 8 Azteca Noreste 
         <option value="cn9" />&nbsp; Canal 9 Televisa Puebla
         <option value="cn10" />&nbsp; Canal 10 Milenio Televisión
         <option value="cn11" enabled="disabled">&nbsp; Canal 11 Imagen Televisión 
@@ -47,6 +47,7 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
 	 <option value="cn17" />&nbsp; Canal 17 En vivo - adn40
 	 <option value="cn18" />&nbsp; Canal 18 Televisa Ciudad Juarez
 	 <option value="cn19" />&nbsp; Canal 19 Canal 66 Mexicali
+	 <option value="cn20" />&nbsp; Canal 20 Televisa Laguna Oficial
                 <optgroup label="Rádios Mexicanas">
                <option value="r50"> 1 - Rádio martinezserrano </option>
                <option value="r51">2 - Central FM Equilibrio (Señal vivo) </option>
@@ -62,6 +63,9 @@ function showDiv2(pasta) {
     window.open("inicio.html", target="_parent");
 	  /* Fixo Acima */
 }
+	if (pasta == 'cn20') {    
+    window.open("cn20.html", target="_parent");
+  }
 	if (pasta == 'cn19') {    
     window.open("cn19.html", target="_parent");
   }
