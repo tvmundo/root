@@ -28,7 +28,7 @@ text-decoration:none;
 <div style="clear: both">
 <div style="text-align: center;">
 <span style="color: #fff; font-size: 20px;"><b></a>
-<iframe width="100%" height="490"  scrolling="no" src="https://www.youtube.com/embed/2CN2zI5v5eY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="490"  scrolling="no" name="RTVE" src="https://www.youtube.com/embed/2CN2zI5v5eY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             <!------------Canal 4 betevé Barcelona tevé | Barcelona espanha ----------->
 							<!------------ Canal 4 RTVE Noticias RTVE é um serviço de rede pública de televisão da Espanha.----------->
     <div class="separator" style="clear: both; text-align: center;">             
@@ -137,8 +137,95 @@ text-decoration:none;
 
 		<div class="window" id="janela1">
 			<a href="#" class="fechar"><span style="color: #fff; font-size: 30px;"><b>  ❌ Close </b></span></a> <br/>
- <!---------------------select Brasil tv ini------------------>
-<iframe width="100%" height="40"  scrolling="no" src="sbt/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ <!---------------------select Brasil tv ini-------------------------------------------------------------------------->
+<!--select ini-->
+<div class="select">
+<select id="format" name="format" onchange=" showDiv(this.value);"> 
+<option disabled="" selected=""> &nbsp; 👉 &nbsp; Mais 🎥 de O POVO Online aqui </option>
+
+     /*                    Fixo Acima                */
+<option enabled="disabled" value="EN DIRECTO 🔴 Toda la actualidad nacional e internacional l RTVE Noticias 24H </option>
+<option enabled="disabled" value="EN DIRECTO2">2 EN DIRECTO 🔴 GUERRA CASADO-AYUSO: ALMEIDA un día después de la DIMISIÓN de CARROMERO | RTVE Noticias </option>
+<option enabled="disabled" value="EN DIRECTO3">1 Bolsonaro diz que não estava de férias
+ </option>
+ </select> </div> 
+ <!--SCRIPT ini-->  
+<script language="Javascript">
+function showDiv(pasta) {
+  // Live 24h em português //
+  if (pasta == 'Live 24h em português') {
+     window.open("https://www.youtube.com/embed/xsD6BXyBv3k", target="RTVE");
+                    /* Fixo Acima */
+ }  
+  // Cantora do Mastruz com Leite acusa músico de abuso //
+  if (pasta == 'EN DIRECTO3') {
+     window.open("https://www.youtube.com/embed/1_ghkUJOIKM", target="RTVE");
+  }
+  // Papa é contra 'animais como filhos' //
+  if (pasta == 'EN DIRECTO2') {
+     window.open("https://www.youtube.com/embed/RKy2KxyUnkc", target="RTVE");
+  }
+  // Bolsonaro diz que não estava de férias //
+  if (pasta == 'EN DIRECTO1') {
+     window.open("https://www.youtube.com/embed/2CN2zI5v5eY", target="RTVE");
+  }
+}
+</script>
+<!--SCRIPT Fim-->
+<style>
+body {
+   
+}
+select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: rgb(0, 83, 134); /* #5c6664 */
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: 100%;
+   height: 3em;
+   line-height: 3;
+   background: #5c6664;
+   overflow: hidden;
+   border-radius: .25em;
+}
+.select::after {
+   content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
+   position: absolute;
+   width: 12px;
+   height: 3em;
+   color: yellow; /* yellow seta #23b499  */
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: red; /* #2b2e2e */
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select:hover::after {
+   color: #00FF7F; /* cor ao passar o mouse #23b499 */
+   width: 15px; /* faz o efeito esticar pra esquerda */
+   /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
+}
+</style>
    <!---------------------select Brasil tv fim ------------------>					
 </div>
   </div>
