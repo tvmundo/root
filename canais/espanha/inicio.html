@@ -1,46 +1,242 @@
-<body bgcolor=#000> 
-<div style="float: left; width: 40%">
+<body bgcolor=#000>
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ------------------------>
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
+<div style="float: left; width: 27%">
+<a href="#" id="myBtn" onclick="document.getElementById('myBtn').style.display='block';"><span style="font-size:25px; color: #D3D3D3; cursor:pointer">&#9776; <span style="font-size:20px; color: #A9A9A9; cursor:pointer">Menu
+</div>
+
+<div style="float: left; width: 18%">
+<a href="cn9.html"><span style="font-size:40px; color: #A9A9A9; cursor:pointer">❮<a/>
+</div>
+
+<div style="float: left; width: 10%">
+<span style="color: #fff; font-size: 30px;"><b>Home</b></span>
+</div>
+
+<div style="float: right; width: 30%">
+<a href="cn1.html"><span style="font-size:40px; color: #A9A9A9; cursor:pointer">❯<a/>
+</div>
+
+<!--------------- Modal 26-11-20 ini abaixo------------------>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* 0,0,0,0.4 muda a transparencia do fundo */ /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.2s;  /* 0.4s */
+  animation-name: fadeIn;
+  animation-duration: 0.9s   /* 0.4s */
+  
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: -10px;
+  background-color: #000; /* #fefefe*/ /* #5cb85c verde*/ /* #ff0 amarelo */ /* cor do fundo principal do modal */
+  width: 400px;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+The Close Button 
+.close {
+  color: #000; /* white */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+ 
+.close:hover,
+.close:focus {
+  color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #000; /* #5cb85c verde*/ /* #ff0 amarelo */
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+</style>
+</head>
+<body>
+<!-- Trigger/Open The Modal -->
+<!---<button id="myBtn">Open Modal</button>--->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+  <!--------------Conteudo Div modal-content abaixo------------------>
+  <div style="float: right; width: 48%"> <!---Aumentando leva o menu para a esq---> <br/>
+<a href="#" class="close" onclick="document.getElementById('close').style.display='none';"><span style="color: #fff; font-size: 30px;"><b>  ❌ Close  </b></span> </div>     <br /><br /><br /><br /><br /><br />
+<a href="../inicio.todos.html"><img border="0" width="30" height="25" src="bandeira.espanha.jpg" width="50" /><span style="color: #fff; font-size: 25px;"> Você está em Paquistão &nbsp &nbsp &nbsp </b></span></a>
 <!---------------------select canais ini---------------------->
 <iframe width="100%" height="40"  scrolling="no" src="../../select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
          <!---------------------select canais fim---------------------->
-</div>
-<div style="float: Right; width: 60%">
-  <!---------------------select GRANADA CHANNEL TV Canal 1 | Directo ini------------------>
+<br /><br />
+<!---------------------select Brasil tv ini------------------>
 <iframe width="100%" height="40"  scrolling="no" src="select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   <!---------------------select GRANADA CHANNEL TV Canal 1 | Directo fim ------------------>
-  </div>       
-	<span style="color: #fff; font-size: 20px;"><b></a>
-<br/><br/>
-<a href="#"><img src="bandeira.espanha.jpg "border="0" width="100%" height="460"/>	</div></div>
-	 <!----------------Canal 1 apresentaçao jpg acima------------------->
-</div>
-<!------------
--
--
-- ediçao    >>> https://github.com/soanatareportagens/tv/blob/master/canais/espanha/apresenta%C3%A7ao.html
-- visitante >>> https://rawgit.com/soanatareportagens/tv/master/canais/espanha/apresenta%C3%A7ao.html
--
--
--------------> 
-</div>
+   <!---------------------select Brasil tv fim ------------------>
+<br /><br /><br />
+  
+  <!--------------Conteudo Div modal-content Fim------------------>
+    <div class="modal-header">
+ <!--------<span class="close">&times;</span>--------->     
+<!--------------Conteudo Div modal-header abaixo------------------>
 
- <style type="text/css">
-  #msglive{
+ <!--------------Conteudo Div modal-header Fim------------------>
+</div>
+<!--------------Modais divs trancados abaixo
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>------------->
+  </div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+          <!--------------- Modal 26-11-20 Fim ------------------>
+<div style="clear: both">
+<div style="text-align: center;">
+<br/>
+<div class="separator" style="clear: both; text-align: center;"><a href="#" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="274" data-original-width="274" height="400" src="bandeira.paquistao2.jpg" width="700" /></a></div><br />
+<br />
+						<!-----------------Canal 1 92 News HD ---------------->
+
+<style>
+.button {
+  background-color: #000;
+  border: none;
+  color: white; 32px;
+  padding: 0px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {width: 100%;}
+</style>
+</head>
+<body>
+<input type="button" class="button" value="Home | Reload" onClick="window.location.reload()">
+
+<!------------
+- <script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/msgsobretxt/wz_tooltip.js"></script>   
+-
+- ediçao    >>> https://github.com/soanatareportagens/tv/blob/master/canais/br/cn1.html
+- visitante >>> https://rawgit.com/soanatareportagens/tv/master/canais/br/cn1.html
+				https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw
+
+				D:\root
+--------------->
+<!--------------------Hora------------------------->
+<style type="text/css">
+  #horabr{
   position:fixed;
   z-index:999; 
-  left:700px; 
-  top:300px;
+  left:9px; 
+  top:650px; /* Diminuindo sobe */
   overflow:none;
-  border:0px dashed #FFFF00;
+  border:0px dashed #000;
   padding:0px;
   margin:0 auto;
-  width: 115px;
-  height:30px;
-  background:#f00;
+  width: 0px;
+  height:0px;
+  background:#000;
   {
-    visibility: none;id="msglive"
+    visibility: none;id="horabr"
   }
 </style>    
 <script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/calhora.js"></script>
 <script>
-document.write('<div id="msglive" style="margin:10px auto;padding:px 0;font-size:1.6em;font-weight:bold;color:#ffffff;border:3px solid #FF9900;background:#666666;">18:04:38</div><br/><div style="margin:5px 0 0 0;"><a href="#"></div></div>');var clockCiudad = new Clock();clockCiudad.startClock('msglive', '+2.0'); </script>	
+document.write('<div id="horabr" style="margin:10px auto;padding:px 0;font-size:1.1em;font-weight:bold;color:#ffffff;border:3px solid #FF9900;background:#666666;">18:04:38</div><br/><div style="margin:5px 0 0 0;"><a href="#"></div></div>');var clockCiudad = new Clock();clockCiudad.startClock('horabr', '-3'); </script>	
