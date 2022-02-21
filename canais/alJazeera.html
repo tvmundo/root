@@ -283,6 +283,7 @@ window.onclick = function(event) {
 <option enabled="disabled" value="Al Jazeera English"> EN DIRECTO 🔴 Al Jazeera English 24HS </option>
 <option enabled="disabled" value="Al Jazeera Arabic"> 🔴 Al Jazeera Arabic Live </option>
 <option enabled="disabled" value="Al Jazeera Mubasher"> 🔴 Al Jazeera Mubasher قناة الجزيرة مباشر  </option>
+<option enabled="disabled" value="Al Jazeera Balkans"> 🔴 Al Jazeera Balkans | Balcãs  </option>
  </select> </div> 
  <!--SCRIPT ini-->  
 <script language="Javascript">
@@ -291,12 +292,16 @@ function showDiv(pasta) {
   if (pasta == 'Live 24h em português') {
      window.open("https://www.youtube.com/embed/xsD6BXyBv3k", target="RTVE");
                     /* Fixo Acima */
- }  
-  // Cantora do Mastruz com Leite acusa músico de abuso //
+}  
+  // Al Jazeera Balkans //
+  if (pasta == 'Al Jazeera Balkans') {
+     window.open("https://www.youtube.com/embed/-upyPouRrB8", target="RTVE");
+  }  
+  // Al Jazeera English //
   if (pasta == 'Al Jazeera English') {
      window.open("https://www.youtube.com/embed/-upyPouRrB8", target="RTVE");
   }
-  // Papa é contra 'animais como filhos' //
+  // Al Jazeera Arabic' //
   if (pasta == 'Al Jazeera Arabic') {
      window.open("https://www.youtube.com/embed/eJ6ZMd4sVrI", target="RTVE");
   }
