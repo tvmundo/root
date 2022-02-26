@@ -93,7 +93,7 @@ document.getElementById(div).className = "visivel";
  <select id="selectPointOfInterest" id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
     <option value="plano1" /> ▼ &nbsp; Canais SBT &nbsp;  ▼
     <OPTION value="doação" />&nbsp; Fazer uma doação para este site
-	<OPTION value="filtro" />&nbsp; Procurar Video
+	<option value="vtv" />&nbsp; &nbsp; SBT Jornalismo VTV 
 	<option value="rj" />&nbsp; &nbsp; SBT Rio de Janeiro
 	<option value="Santa-Catarina" />&nbsp; &nbsp; SBT Santa Catarina
         <option value="rs" />&nbsp; &nbsp; SBT Rio Grande do Sul
@@ -108,10 +108,10 @@ function showDiv2(pasta) {
     var url = "inicio.todos.html";
     window.open("inicio.todos.html", target="_parent");<!----abre na mesma janela----->
   }
-// copie abaixo para adicionar mais uma janela smartfone //
+// vtv //
   if (pasta == 'filtro') {
-    var url = "filtro/filtro.html";
-    window.open("filtro/filtro.html", target="sbt");<!----abre na mesma janela----->
+    var url = "#";
+    window.open("Jornalismo.VTV//vtv.html", target="sbt");<!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'rj') {
