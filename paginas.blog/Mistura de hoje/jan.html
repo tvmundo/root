@@ -1,0 +1,649 @@
+<a onclick="window.open(document.URL, '_blank', 'location=yes,height=800,width=900,scrollbars=yes,status=yes');">
+Open New Window </a>
+<html>
+<head>
+<style>
+.button {
+  background-color: #fff;
+  border: none;
+  color: #000; 32px;
+  padding: 0px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {width: 100%;}
+</style>
+</head>
+<body>
+<input class="button" onclick="window.location.reload()" type="button" value=" Reload ↻" />
+<br/><br/><br/>
+<style>
+.mySlidesbutton {
+  background-color: #666666;
+  border: none;
+  color: #fff;
+  padding: 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  width: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<!DOCTYPE html>
+<link rel="stylesheet" href="/lib/w3.css">
+<style>
+.mySlides {display:none}
+</style>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+ <style type="text/css">
+  w3-section{
+  position:fixed;
+  z-index:999; 
+  left:100px; 
+  top:0px;
+  overflow:none;
+  border:10px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 360px;
+  height:260px;
+  background:#f00;
+  {
+    visibility: none;
+  }
+</style> 
+<!-------internas------->
+<!--<a href="#" onClick="window.open('https://tvmundo.github.io/root/sliding/esse.original/mistura.de.hoje.html','Janela','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=900,height=530'); return false;"><span style="color:rgb(0, 83, 134); font-size:18px;"> Click Slide <br/> &nbsp; &nbsp; &nbsp; 👆 </span></a>-->
+<!----popup Next > <prev ------>
+  <style type="text/css">
+<!--
+#popjan {border: 0px solid #000000;
+background-color: ;
+width:100%px;
+top: 35px; left:  -80px;
+text-align: center;
+z-index: 450;position:fixed;visibility: visible;}
+-->
+</style>
+<div style="font-size: 35pt; font-weight: bold; text-align: center;">
+<span style="background-color: white; color: #666666; font-size: 28px; font-weight: 20;"><b> Mistura de hoje </b></span></div>
+<div class="w3-section">
+    <button class="mySlidesbutton" class="w3-btn" onclick="plusDivs(-1)">❮❮❮</button>
+    <button class="mySlidesbutton" class="w3-btn" onclick="plusDivs(1)">❯❯❯</button>
+  </div>
+<div class="w3-content" style="max-width:100%px">
+<a href="https://www.youtube.com/embed/aKk5NkBX7ag" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 84 - Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado (31/01/22) </span></a>
+<a href="https://www.youtube.com/embed/jWfmjTlMC2c" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 83 - Criminosos explodem cofre em posto de combustíveis (31/01/22) </span></a>
+<a href="https://www.youtube.com/embed/Vv7hEks-mLY" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 82 - Balanço Geral RN com Elizabeth Biglione (31/01/22) </span></a>
+<a href="https://www.youtube.com/embed/fMgnw7t-Ed4" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 81 - Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (31/01/22) </span></a>
+<a href="https://www.youtube.com/embed/V89KsJ8PRl4" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 80 - Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro (31/01/22) </span></a>
+<a href="https://www.youtube.com/embed/t3J21KgnAk8" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 79 - URGENTE | 19 pessoas morreram durante temporal em São Paulo (30/01/22) </span></a>
+<a href="https://www.youtube.com/embed/miscsl3dxWk" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 78 - Balanço Geral RN com Elizabeth Biglione (29/01/22) </span></a>
+<a href="https://www.youtube.com/embed/ir1OgIBSwYQ" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 77 - Cidade Alerta RN com Salatiel de Souza (28/01/22) </span></a>
+<a href="https://www.youtube.com/embed/z2Yr2CeXfnQ" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 76 - Balanço Geral RN com Elizabeth Biglione (28/01/22) </span></a>
+<a href="https://www.youtube.com/embed/OLgzU4DWG6M" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 75 - Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (28/01/22) </span></a>
+<a href="https://www.youtube.com/embed/Vak2vcu-KKo" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 74 - Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro (28/01/22) </span></a>
+<a href="https://www.youtube.com/embed/W8P0slcyD98" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 73 - Cidade Alerta RN com Salatiel de Souza (27/01/22) </span></a>
+<a href="https://www.youtube.com/embed/dFFUVtqmpSY" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 72 - Balanço Geral RN com Elizabeth Biglione (27/01/22) </span></a>
+<a href="https://www.youtube.com/embed/4svbOgLcX_s" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 71 - Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (27/01/22) </span></a>
+<a href="https://www.youtube.com/embed/O-OHWZXfZ48" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 70 - Balanço Geral Manhã com Roberta Trindade (27/01/22) </span></a>
+<a href="https://www.youtube.com/embed/ZvfhQMFDTOk" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 69 - Cidade Alerta RN com Salatiel de Souza (26/01/22) </span></a>
+<a href="https://www.youtube.com/embed/Kke2ys4wqpo" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 68 - Balanço Geral RN com Elizabeth Biglione (26/01/22) </span></a>
+<a href="https://www.youtube.com/embed/6TQDJbPp45M" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 67 - Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (26/01/22) </span></a>
+<a href="https://www.youtube.com/embed/y41pWwTEUDI" class="mySlides" target="mistura"><span style="color:rgb(0, 83, 134);">🔗 66 - Balanço Geral Manhã com Roberta Trindade (26/01/22) </span></a>  
+</div>
+<!--------------post1 ini -------------->
+
+<!--------------post1 ini -------------->
+                                          <!--------------Titulo Abaixo-------------->
+
+                                    <!--select ini-->
+<div class="select">
+<select name="format" id="format" onchange=" showDiv(this.value);"> 
+<option disabled="" selected=""> &nbsp; 👉 &nbsp; Mais 🎥 Videos aqui </option>
+<optgroup label="  Segunda-Feira dia 24/01/2022 ">
+                        /*   Fixo Acima   */
+<option value="v84">84 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado (31/01/22) </option>
+<option value="v83">83 Criminosos explodem cofre em posto de combustíveis (31/01/22) </option>
+<option value="v82">82 Balanço Geral RN com Elizabeth Biglione (31/01/22) </option>
+<option value="v81">81 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (31/01/22) </option>
+<option value="v80">80 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro (31/01/22) </option>
+<option value="v79">79 URGENTE | 19 pessoas morreram durante temporal em São Paulo (30/01/22) </option>
+<option value="v78">78 Balanço Geral RN com Elizabeth Biglione (29/01/22) </option>
+<option value="v77">77 Cidade Alerta RN com Salatiel de Souza (28/01/22) </option>
+<option value="v76">76 Balanço Geral RN com Elizabeth Biglione (28/01/22) </option>
+<option value="v75">75 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (28/01/22) </option>
+<option value="v74">74 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro (28/01/22) </option>
+<option value="v73">73 Cidade Alerta RN com Salatiel de Souza (27/01/22) </option>
+<option value="v72">72 Balanço Geral RN com Elizabeth Biglione (27/01/22) </option>
+<option value="v71">71 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (27/01/22) </option>
+<option value="v70">70 Balanço Geral Manhã com Roberta Trindade (27/01/22) </option>
+<option value="v69">69 Cidade Alerta RN com Salatiel de Souza (26/01/22) </option>
+<option value="v68">68 Balanço Geral RN com Elizabeth Biglione (26/01/22) </option>
+<option value="v67">67 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (26/01/22) </option>
+<option value="v66">66 Balanço Geral Manhã com Roberta Trindade (26/01/22) </option>
+<option value="v65">65 Balanço Geral RN com Salatiel de Souza (25/01/22) </option>
+<option value="v64">64 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (25/01/22) </option>
+<option value="v63">63 Balanço Geral Manhã com Roberta Trindade (25/01/22) </option>
+<option value="v62">62 Cidade Alerta RN com Salatiel de Souza (24/01/22) </option>
+<option value="v61">61 Padre Julio Lancellotti critica censo: "mostra um dado abaixo do real" | SBT Notícias (24/01/22) </option>
+<option value="v60">60 SP: seguranças de trem são flagrados em briga com passageiros | Primeiro Impacto (24/01/22) </option>
+<option value="v59">59 Homem agride motorista de ônibus com barra de ferro em Belo Horizonte | Primeiro Impacto (24/01/22) </option>
+<option value="v58">58 Balanço Geral RN com Salatiel de Souza (24/01/22) </option>
+<option value="v57">57 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (24/01/21) </option>
+<option value="v56">56 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro </option>
+<optgroup label=" Sexta-Feira dia 21/01/2022">
+<option value="v55">55 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado 21/01/22 </option>
+<option value="v54">54 Balanço Geral RN com Salatiel de Souza (21/01/22) </option>
+<option value="v53">53 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (21/01/21) </option>
+<option value="v52">52 Balanço Geral Manhã com Roberta Trindade (21/01/22) </option>
+<optgroup label=" Quinta-Feira dia 20/01/2022">
+<option value="v51">51 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado </option>
+<option value="v50">50 RJ: Megaoperação abre caminho para Cidade Integrada (20/01/22) </option>
+<option value="v49">49 Helicóptero cai no mar em praia de Florianópolis | Primeiro Impacto (20/01/22) </option>
+<option value="v48">48 Balanço Geral RN com Salatiel de Souza (20/01/22) </option>
+<option value="v47">47 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (20/01/21) </option>
+<option value="v46">46 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro </option>
+<optgroup label=" Quarta-Feira dia 19/01/2022">
+<option value="v45">45 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado (19/01/22)  </option>
+<option value="v44">44 Balanço Geral RN com Salatiel de Souza (19/01/22)  </option>
+<option value="v43">43 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (19/01/22)  </option>
+<option value="v42">42 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro 19/01/22  </option>
+</optgroup>
+<optgroup label="Terça-Feira dia 18/01/2022">
+<option value="v41">41 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado 18/01/22  </option>
+<option value="v40">40 Balanço Geral RN com Salatiel de Souza (18/01/22)  </option>
+<option value="v39">39 tv pontanegra - Ônibus circulam com 30% da frota com greve de rodoviários em Natal (18/01/22)  </option>
+<option value="v38">38 Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias  </option>
+<option value="v37">37 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro 18/01/2022  </option>
+</optgroup>
+<optgroup label="Segunda-Feira dia 17/01/2022">
+<option value="v36">36 Videográfico: O vulcão submarino, os raios e o tsunami no Pacífico  </option>
+<option value="v35">35 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado 17/01/2022 </option>
+<option value="v34">34 Balanço Geral RN com Salatiel de Souza 17/01/2022 </option>
+<option value="v33">33 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro </option>
+</optgroup>
+<optgroup label="Sabado dia 15/01/2022">
+<option value="v32">32 Homem de confiança de Fernandinho Beira-Mar é morto em operação | Primeiro Impacto (14/01/22) </option>
+<option value="v31">31 Balanço Geral RN com Alanzinho do Povo </option>
+<optgroup label="">
+<option value="14 01 22">Sexta-Feira dia 14/01/2022 </option>
+<option value="v30">30 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado </option>
+<option value="v29">29 Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira </option>
+<option value="v28">28 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro </option>
+</optgroup>
+<option value="13 01 22">Quinta-Feira dia 13/01/2022 </option>
+<option value="v27">27 Médico é suspeito de abusar sexualmente de paciente | Primeiro Impacto (13/01/22) </option>
+<option value="v26">26 Casal sofre tentativa de execução | Primeiro Impacto (13/01/22) </option>
+<option value="v25">25 Patrulha da Cidade - 13 de janeiro </option>
+<option value="v24">24 Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira </option>
+<option value="v23">23 Deslizamento de terra atinge casarão em Outo Preto (MG) </option>
+<option value="v22">22 OMS rebate Bolsonaro: 'nenhum vírus é bem-vindo' </option>
+<option value="v21">21 Noticias da Manha - 13 de janeiro </option>
+<option value="v20">20 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro </option>
+<optgroup label="">
+<option value="12 01 22">Quarta-Feira dia 13/01/2022 </option>
+<option value="v19">19 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado </option>
+<option value="v18">18 EUA pedem resposta "forte e unida" ao Brasil </option>
+<option value="v17">17 Patrulha da Cidade - 12 de janeiro </option>
+<option value="v16">16 Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira </option>
+<option value="v15">15 Homem é preso após invadir casa e estuprar mulher em SP | Primeiro Impacto </option>
+<option value="v14">14 Família de ambientalistas é encontrada morta no Pará | SBT Brasil </option>
+<option value="v13">13 Homem recebe coração de porco em transplante pela primeira vez | SBT Brasil </option>
+<option value="v12">12 Três barragens estão em nível de emergência em Minas Gerais | SBT Brasil </option>
+<option value="v11">11 Duas crianças são mortas pela própria mãe na Baixada Fluminense | SBT Brasil </option>
+<option value="v10">10 Comece o dia bem informado com Rogério Fernandes (12/01/21) </option>
+<option value="v9">9 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro </option>
+<optgroup label="">
+<option value="11 01 22">Terça-Feira dia 11/01/2022 </option>
+<option value="v8">8 Cidade Alerta RN hj com Elizabeth Biglione, o programa policial mais assistido do estado RN </option>
+<option value="v7">7 Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira - Natal/RN </option>
+<option value="v6">6 Patrulha da Cidade - 11 de janeiro - TV Ponta Negra Natal/RN </option>
+<option value="v5">5 Mulher fica ferida após carro cair do 1º andar de estacionamento no RJ </option>
+<option value="v4">4 Sobrevivente conta como salvou família ao ver rocha despencando em MG </option>
+<option value="v3">3 Capitólio: foto já alertava sobre risco de queda da rocha </option>
+<option value="v2">2 apitólio: após tragédia, polícia inspecionará outras pedras na região | BOLETIM METRÓPOLES </option>
+<option value="v1">1 Turismo continua suspenso em Capitólio após acidente </option>
+</select> </div>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" name="mistura" scrolling="no" src="https://www.youtube.com/embed/aKk5NkBX7ag?autoplay=0;rel=0" width="100%" height="450" ></iframe>
+                                                  <!--embed Aqui-->                                    
+<div style="text-align: center;">
+<span style="font-size:16px;"><span style="font-family:georgia,serif;"><a href="https://tvmundoblog.blogspot.com/2022/01/mistura-de-hoje.html"><span style="color:rgb(0, 83, 134);">🔗 Mistura de hoje Janeiro de 2022</span></a></span></span></div>
+	
+<script language="Javascript">
+function showDiv(pasta) {
+  // CHINA: POTÊNCIA CIENTÍFICA? //
+  if (pasta == 'uso futuro') {
+     window.open("https://www.youtube.com/embed/Czunz78G_nQ", target="mistura");
+                 /*       Fixo Acima       */
+}
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado (31/01/22) //
+  if (pasta == 'v84') {
+     window.open("https://www.youtube.com/embed/aKk5NkBX7ag", target="mistura");
+  }
+  // Criminosos explodem cofre em posto de combustíveis (31/01/22) //
+  if (pasta == 'v83') {
+     window.open("https://www.youtube.com/embed/jWfmjTlMC2c", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione (31/01/22) //
+  if (pasta == 'v82') {
+     window.open("https://www.youtube.com/embed/Vv7hEks-mLY", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (31/01/22) //
+  if (pasta == 'v81') {
+     window.open("https://www.youtube.com/embed/fMgnw7t-Ed4", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro (31/01/22) //
+  if (pasta == 'v80') {
+     window.open("https://www.youtube.com/embed/V89KsJ8PRl4", target="mistura");
+  }
+  //URGENTE | 19 pessoas morreram durante temporal em São Paulo (30/01/22) //
+  if (pasta == 'v79') {
+     window.open("https://www.youtube.com/embed/t3J21KgnAk8", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione (29/01/22) //
+  if (pasta == 'v78') {
+     window.open("https://www.youtube.com/embed/miscsl3dxWk", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza (28/01/22) //
+  if (pasta == 'v77') {
+     window.open("https://www.youtube.com/embed/ir1OgIBSwYQ", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione (28/01/22) //
+  if (pasta == 'v76') {
+     window.open("https://www.youtube.com/embed/z2Yr2CeXfnQ", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (28/01/22) //
+  if (pasta == 'v75') {
+     window.open("https://www.youtube.com/embed/OLgzU4DWG6M", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro (28/01/22) //
+  if (pasta == 'v74') {
+     window.open("https://www.youtube.com/embed/Vak2vcu-KKo", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza (27/01/22) //
+  if (pasta == 'v73') {
+     window.open("https://www.youtube.com/embed/W8P0slcyD98", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione (27/01/22) //
+  if (pasta == 'v72') {
+     window.open("https://www.youtube.com/embed/dFFUVtqmpSY", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (27/01/22) //
+  if (pasta == 'v71') {
+     window.open("https://www.youtube.com/embed/4svbOgLcX_s", target="mistura");
+  }
+  // Balanço Geral Manhã com Roberta Trindade (27/01/22) //
+  if (pasta == 'v70') {
+     window.open("https://www.youtube.com/embed/O-OHWZXfZ48", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza (26/01/22) //
+  if (pasta == 'v69') {
+     window.open("https://www.youtube.com/embed/ZvfhQMFDTOk", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione (26/01/22) //
+  if (pasta == 'v68') {
+     window.open("https://www.youtube.com/embed/Kke2ys4wqpo", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (26/01/22) //
+  if (pasta == 'v67') {
+     window.open("https://www.youtube.com/embed/6TQDJbPp45M", target="mistura");
+  }
+  // Balanço Geral Manhã com Roberta Trindade (26/01/22) //
+  if (pasta == 'v66') {
+     window.open("https://www.youtube.com/embed/y41pWwTEUDI", target="mistura");
+  }
+  // Balanço Geral RN com Salatiel de Souza (25/01/22) //
+  if (pasta == 'v65') {
+     window.open("https://www.youtube.com/embed/TA-qCDf9otU", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (25/01/22) //
+  if (pasta == 'v64') {
+     window.open("https://www.youtube.com/embed/TvotFtppw_o", target="mistura");
+  }
+  // Balanço Geral Manhã com Roberta Trindade (25/01/22) //
+  if (pasta == 'v63') {
+     window.open("https://www.youtube.com/embed/LsSdSFDw7UQ", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza //
+  if (pasta == 'v62') {
+     window.open("https://www.youtube.com/embed/GEsnPuH2vOI", target="mistura");
+  }
+  // Padre Julio Lancellotti critica censo: "mostra um dado abaixo do real" | SBT Notícias (24/01/22) //
+  if (pasta == 'v61') {
+     window.open("https://www.youtube.com/embed/u-Qc4BBQuWA", target="mistura");
+  }
+  // SP: seguranças de trem são flagrados em briga com passageiros | Primeiro Impacto (24/01/22) //
+  if (pasta == 'v60') {
+     window.open("https://www.youtube.com/embed/Ls09O_e_yKo", target="mistura");
+  }
+  // Homem agride motorista de ônibus com barra de ferro em Belo Horizonte | Primeiro Impacto (24/01/22) //
+  if (pasta == 'v59') {
+     window.open("https://www.youtube.com/embed/7nqVyQ_UWjM", target="mistura");
+  }
+  // Balanço Geral RN com Salatiel de Souza (24/01/22) //
+  if (pasta == 'v58') {
+     window.open("https://www.youtube.com/embed/yJBysnpGVpo", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (24/01/21) //
+  if (pasta == 'v57') {
+     window.open("https://www.youtube.com/embed/dHHT_nACwVI", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro //
+  if (pasta == 'v56') {
+     window.open("https://www.youtube.com/embed/eMx0S_w_FrE", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado 21/01/22 //
+  if (pasta == 'v55') {
+     window.open("https://www.youtube.com/embed/azUJa_IeGRw", target="mistura");
+  }
+  // Balanço Geral RN com Salatiel de Souza (21/01/22) //
+  if (pasta == 'v54') {
+     window.open("https://www.youtube.com/embed/C_rsQCbkLz8", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (21/01/21) //
+  if (pasta == 'v53') {
+     window.open("https://www.youtube.com/embed/NsvXNzqkujM", target="mistura");
+  }
+  // Balanço Geral Manhã com Roberta Trindade (21/01/22) //
+  if (pasta == 'v52') {
+     window.open("https://www.youtube.com/embed/hFBeBSYBp74", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado //
+  if (pasta == 'v51') {
+     window.open("https://www.youtube.com/embed/q0PylpqYgaI", target="mistura");
+  }
+  // RJ: Megaoperação abre caminho para Cidade Integrada (20/01/22) //
+  if (pasta == 'v50') {
+     window.open("https://www.youtube.com/embed/4GJzD9zNuOo", target="mistura");
+  }
+  // Helicóptero cai no mar em praia de Florianópolis | Primeiro Impacto (20/01/22) //
+  if (pasta == 'v49') {
+     window.open("https://www.youtube.com/embed/07iF9O48w74", target="mistura");
+  }
+  // Balanço Geral RN com Salatiel de Souza (20/01/22) //
+  if (pasta == 'v48') {
+     window.open("https://www.youtube.com/embed/2_gO9X2UCq8", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (20/01/21) //
+  if (pasta == 'v47') {
+     window.open("https://www.youtube.com/embed/bQpvz_v_6kw", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro //
+  if (pasta == 'v46') {
+     window.open("https://www.youtube.com/embed/YgeA7UQg4KA", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado (19/01/22) //
+  if (pasta == 'v45') {
+     window.open("https://www.youtube.com/embed/eODNX1_wVXg", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira 19/01/22 //
+  if (pasta == 'v44') {
+     window.open("https://www.youtube.com/embed/Gos-JxzBUG8", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado 18/01/21 //
+  if (pasta == 'v43') {
+     window.open("https://www.youtube.com/embed/ESlEPdzdk5U", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado 18/01/21 //
+  if (pasta == 'v42') {
+     window.open("https://www.youtube.com/embed/QVBA2xvUpfA", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado 18/01/21 //
+  if (pasta == 'v41') {
+     window.open("https://www.youtube.com/embed/1vCteQGdtPs", target="mistura");
+  }
+  // Balanço Geral RN com Salatiel de Souza (18/01/21)  //
+  if (pasta == 'v40') {
+     window.open("https://www.youtube.com/embed/lFBveH8LLrY?autoplay=1;rel=0", target="mistura");
+  }
+  // tv pontanegra - Ônibus circulam com 30% da frota com greve de rodoviários em Natal (18/01/21)  //
+  if (pasta == 'v39') {
+     window.open("https://www.youtube.com/embed/YNKrxo5FfXU?autoplay=1;rel=0", target="mistura");
+  }
+  // Notícias Da Manhã - Comece o dia bem informado com Analyson Miqueias (18/01/21)  //
+  if (pasta == 'v38') {
+     window.open("https://www.youtube.com/embed/86H30rAjPvI?autoplay=1;rel=0", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro 18/01/2022  //
+  if (pasta == 'v37') {
+     window.open("https://www.youtube.com/embed/wU2_PP_4PAw?autoplay=1;rel=0", target="mistura");
+  }
+  // Videográfico: O vulcão submarino, os raios e o tsunami no Pacífico  //
+  if (pasta == 'v36') {
+     window.open("https://www.youtube.com/embed/5oeRdsZuPqQ?autoplay=1;rel=0", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado //
+  if (pasta == 'v35') {
+     window.open("https://www.youtube.com/embed/9UJrpy30jWY?autoplay=1;rel=0", target="mistura");
+  }
+  // Balanço Geral RN com Salatiel de Souza 17/01/2022 //
+  if (pasta == 'v34') {
+     window.open("https://www.youtube.com/embed/uFT_ECAghA8?autoplay=1;rel=0", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro //
+  if (pasta == 'v33') {
+     window.open("https://www.youtube.com/embed/o-BoE54NCCo?autoplay=1;rel=0", target="mistura");
+  }
+  // Homem de confiança de Fernandinho Beira-Mar é morto em operação | Primeiro Impacto (14/01/22) //
+  if (pasta == 'v32') {
+     window.open("https://www.youtube.com/embed/4MA-8v5Rt-U?autoplay=1;rel=0", target="mistura");
+  }
+  // Balanço Geral RN com Alanzinho do Povo //
+  if (pasta == 'v31') {
+     window.open("https://www.youtube.com/embed/fjMc35OwXQg?autoplay=1;rel=0", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado //
+  if (pasta == 'v30') {
+     window.open("https://www.youtube.com/embed/khh6PRzh10A", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira //
+  if (pasta == 'v29') {
+     window.open("https://www.youtube.com/embed/jzjx9vPuVDg", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro //
+  if (pasta == 'v28') {
+     window.open("https://www.youtube.com/embed/cFabWosMNuw", target="mistura");
+  }
+  // Médico é suspeito de abusar sexualmente de paciente | Primeiro Impacto (13/01/22) //
+  if (pasta == 'v27') {
+     window.open("https://www.youtube.com/embed/phUZuGtadJE", target="mistura");
+  }
+  // Casal sofre tentativa de execução | Primeiro Impacto (13/01/22) //
+  if (pasta == 'v26') {
+     window.open("https://www.youtube.com/embed/EXvHG1ZN1JU", target="mistura");
+  }
+  // Patrulha da Cidade - 13 de janeiro  //
+  if (pasta == 'v25') {
+     window.open("https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftvpontanegrarn%2Fvideos%2F352145973034149%2F&show_text=false&width=560&t=0", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira  //
+  if (pasta == 'v24') {
+     window.open("https://www.youtube.com/embed/NjI-1WAgBRQ", target="mistura");
+  }
+  // Deslizamento de terra atinge casarão em Outo Preto (MG) //
+  if (pasta == 'v23') {
+     window.open("https://www.youtube.com/embed/GdI0iGk_N84", target="mistura");
+  }
+  // 13 01 22 OMS rebate Bolsonaro: 'nenhum vírus é bem-vindo' //
+  if (pasta == 'v22') {
+     window.open("https://www.youtube.com/embed/TbsJvizkn_I", target="mistura");
+  }
+  // Noticias da Manha - 13 de janeiro //
+  if (pasta == 'v21') {
+     window.open("https://www.youtube.com/embed/kgtsOHIyFa0", target="mistura");
+  }
+  // 13 01 22 Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro //
+  if (pasta == 'v20') {
+     window.open("https://www.youtube.com/embed/xfETKz6Lj-M", target="mistura");
+  }
+  // Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado //
+  if (pasta == 'v19') {
+     window.open("https://www.youtube.com/embed/GejM_9OVTaA", target="mistura");
+  }
+  // EUA pedem resposta "forte e unida" ao Brasil //
+  if (pasta == 'v18') {
+     window.open("https://www.youtube.com/embed/ELiGum4-Gb0", target="mistura");
+  }
+  // Patrulha da Cidade - 12 de janeiro //
+  if (pasta == 'v17') {
+     window.open("https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftvpontanegrarn%2Fvideos%2F239246411693422%2F&show_text=false&width=560&t=0", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira //
+  if (pasta == 'v16') {
+     window.open("https://www.youtube.com/embed/AcsRgJRytcI", target="mistura");
+  }
+  // Homem é preso após invadir casa e estuprar mulher em SP | Primeiro Impacto //
+  if (pasta == 'v15') {
+     window.open("https://www.youtube.com/embed/cTy1I6zdF2g", target="mistura");
+  }
+  // Família de ambientalistas é encontrada morta no Pará | SBT Brasil (11/01/22) //
+  if (pasta == 'v14') {
+     window.open("https://www.youtube.com/embed/FMxJS0Gx2xM", target="mistura");
+  }
+  // Homem recebe coração de porco em transplante pela primeira vez | SBT Brasil (11/01/22) //
+  if (pasta == 'v13') {
+     window.open("https://www.youtube.com/embed/7aLj9ms9jFc", target="mistura");
+  }
+  // Três barragens estão em nível de emergência em Minas Gerais | SBT Brasil (11/01/22) //
+  if (pasta == 'v12') {
+     window.open("https://www.youtube.com/embed/tjpS9o7-n_E", target="mistura");
+  }
+  // Duas crianças são mortas pela própria mãe na Baixada Fluminense | SBT Brasil (11/01/22) //
+  if (pasta == 'v11') {
+     window.open("https://www.youtube.com/embed/h1XTohkieX4", target="mistura");
+  }
+  // Comece o dia bem informado com Rogério Fernandes (12/01/21) //
+  if (pasta == 'v10') {
+     window.open("https://www.youtube.com/embed/_H5RrNYRimM", target="mistura");
+  }
+  // Balanço Geral Manhã com Alanzinho do Povo e RN no AR com Mara Godeiro //
+  if (pasta == 'v9') {
+     window.open("https://www.youtube.com/embed/V5rQuGSkj1A", target="mistura");
+  }
+  // 8 Cidade Alerta RN com Salatiel de Souza, o programa policial mais assistido do estado RN //
+  if (pasta == 'v8') {
+     window.open("https://www.youtube.com/embed/LCBOGUcl33U", target="mistura");
+  }
+  // Balanço Geral RN com Elizabeth Biglione, Hora da Venenosa com Suzy Noronha e JT com Margot Ferreira - Natal/RN //
+  if (pasta == 'v7') {
+     window.open("https://www.youtube.com/embed/vDC-w4Bn7qY", target="mistura");
+  }
+  // Patrulha da Cidade - 11 de janeiro - TV Ponta Negra Natal/RN //
+  if (pasta == 'v6') {
+     window.open("https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftvpontanegrarn%2Fvideos%2F468248911366420%2F&show_text=false&width=560&t=0", target="mistura");
+  }
+  // Mulher fica ferida após carro cair do 1º andar de estacionamento no RJ //
+  if (pasta == 'v5') {
+     window.open("https://www.youtube.com/embed/TbVK52OixyE", target="mistura");
+  }
+  // Sobrevivente conta como salvou família ao ver rocha despencando em MG //
+  if (pasta == 'v4') {
+     window.open("https://www.youtube.com/embed/4Gk7Wc3l5IE", target="mistura");
+  }
+  // Capitólio: foto já alertava sobre risco de queda da rocha //
+  if (pasta == 'v3') {
+     window.open("https://www.youtube.com/embed/3KOns15X_2I", target="mistura");
+  }
+  // apitólio: após tragédia, polícia inspecionará outras pedras na região | BOLETIM METRÓPOLES //
+  if (pasta == 'v2') {
+     window.open("https://www.youtube.com/embed/BrHiZkU6CzI", target="mistura");
+  }
+  // Turismo continua suspenso em Capitólio após acidente //
+  if (pasta == 'v1') {
+     window.open("https://www.youtube.com/embed/eY9J1sWHV5g", target="mistura");
+  }
+}
+</script> 
+<!--SCRIPT Fim-->
+<div style="text-align: left;">
+<a href=" https://www.blogger.com/blog/post/edit/3188513484330316250/6948057506610907835 " target="_blank"><span style="color: black; font-size: 10px;"> Edite </span></a>	</div> 
+<style>
+body {
+   
+}
+select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: rgb(0, 83, 134); /* #5c6664 */
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: 100%;
+   height: 3em;
+   line-height: 3;
+   background: #5c6664;
+   overflow: hidden;
+   border-radius: .25em;
+}
+.select::after {
+   content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
+   position: absolute;
+   width: 12px;
+   height: 3em;
+   color: yellow; /* yellow seta #23b499  */
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: red; /* #2b2e2e */
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select:hover::after {
+   color: #00FF7F; /* cor ao passar o mouse #23b499 */
+   width: 15px; /* faz o efeito esticar pra esquerda */
+   /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
+}
+</style>
+<!---------------------Mouse--------------------->
