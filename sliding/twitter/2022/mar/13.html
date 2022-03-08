@@ -52,26 +52,16 @@ text-decoration:none;
 <a class="tags" type="msglive" class="msglive" id="msglive" style="color: #000; font-size: 20px;" gloss="" onClick="window.location.reload()">↻</a>
 <!-- style scrollbar ini -->
 <style>
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
+body::-webkit-scrollbar {
+  width: 12px;               /* largura de toda a barra de rolagem */
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+body::-webkit-scrollbar-track {
+  background: orange;        /* cor de fundo de toda a barra de rolagem */
 }
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #D8D8D8; /* cor da barra #BDBDBD */
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #BDBDBD; /* segunda cor da barra #b30000 */
+body::-webkit-scrollbar-thumb {
+  background-color: #D8D8D8;    /* color da seta da barra */  /* #D8D8D8 cor da barra #BDBDBD */
+  border-radius: 20px;       /* arredondamento da seta de rolagem */
+  border: 3px solid orange;  /* cria preenchimento em torno da seta de rolagem */
 }
 </style>
 <!-- style scrollbar Fim -->
