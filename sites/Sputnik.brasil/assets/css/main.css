@@ -149,7 +149,7 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #ed786a; /* segunda cor texto home rodape #ed786a */
+			color: #000; /* segunda cor texto home rodape #ed786a */
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
