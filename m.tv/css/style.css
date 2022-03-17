@@ -34,7 +34,7 @@ a.button:hover{}
 /* -------------------------------------------- */
 /* ------------------Header-------------------- */
 header {background:#fff /* #333333 */ url("..../images/pattern06.png");} /* url png Defone a cor cinza  */
-header .wrap-header{height: 130px;}
+header .wrap-header{height: 30px;} /* 130 */
 
 header #logo {position:absolute; top:30px; width: 100%;}
 
