@@ -138,7 +138,7 @@ footer {background-color:#2f4456;}  /*  #333  */
 .photos a{display: block; float:left; margin: 0px 4px 10px 4px;position: relative;}
 .photos a img{display:block; border:1px solid #CCC;}
 
-#pagi{margin: 30px auto;padding: 0;list-style: none;width: 380px;} /* 180 */
+#pagi{margin: 30px auto;padding: 0;list-style: none;width: 8px;} /* 180 */
 #pagi li {float: left;margin-right: 10px;}
 #pagi li a {display: block;	text-decoration: none; color: #717171;font: bold 11px Arial, sans-serif;padding: 5px 8px;
 	-webkit-border-radius: 3px;	-moz-border-radius: 3px;	border-radius: 3px;	background: #ffffff;}
