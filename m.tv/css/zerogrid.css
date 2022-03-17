@@ -47,8 +47,8 @@ Author URI: https://www.zerotheme.com/
 	.zerogrid{width:100%;}
 }
 
-@media only screen and (min-width: 620px) and (max-width: 767px) {
-	.zerogrid{width:100%;}
+@media only screen and (min-width: 820px) and (max-width: 767px) {
+	.zerogrid{width:100%;}    /* 620 */
 }
 
 @media only screen and (min-width: 480px) and (max-width: 619px) {
