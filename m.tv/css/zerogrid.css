@@ -44,12 +44,12 @@ Author URI: https://www.zerotheme.com/
 	.zerogrid{width:868px;}  /*768 */               /* 959 */
 }
 
-@media only screen and (max-width: 967px) {
-	.zerogrid{width:100%;}   /* 767 */
+@media only screen and (max-width: 767px) {
+	.zerogrid{width:100%;}   /* 767 deixar orig */
 }
 
-@media only screen and (min-width: 620px) and (max-width: 767px) {
-	.zerogrid{width:100%;}
+@media only screen and (min-width: 820px) and (max-width: 967px) {
+	.zerogrid{width:100%;}  /* 620                    767       */
 }
 
 @media only screen and (min-width: 480px) and (max-width: 619px) {
