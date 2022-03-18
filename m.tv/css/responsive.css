@@ -1,16 +1,17 @@
+
 html {
-   -webkit-text-size-adjust: none;
+   -webkit-text-size-adjust: none;
 }
 .video embed,
 .video object,
 .video iframe {
-   width: 100%;
-   height: auto;
+   width: 100%;
+   height: auto;
 }
 img{
 	max-width:100%;
 	height: auto;
-   	width: auto\9; /* ie8 */
+   	width: auto\9; /* ie8 */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -75,13 +76,13 @@ img{
 	/* ------------------Other----------------*---- */
 }
 
-@media only screen and (max-width: 950px) {
-	/* -------------------------479------------------- */
+@media only screen and (max-width: 479px) {
+	/* -------------------------------------------- */
 	/* ------------------Header-------------------- */
 	header{height: 170px;}
 	header #logo{top:20px;}
 	header #search{bottom: 15px; width: 230px; top:auto; left: 5px;}
-	header #search input{width: 4px;} /* 194 */
+	header #search input{width: 194px;}
 
 	.menu{display:none;}
 	.minimenu{display:block;}
