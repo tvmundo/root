@@ -76,7 +76,7 @@ img{
 	/* ------------------Other----------------*---- */
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 479px) {
 	/* -------------------------479---------------- */
 	/* ------------------Header-------------------- */
 	header{height: 170px;}
