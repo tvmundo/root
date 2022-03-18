@@ -376,7 +376,7 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 380; /* 100% */
+			width: 30; /* 100% */
 		}
 
 		.row > .off-12 {
