@@ -376,11 +376,11 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 100%;
+			width: 380; /* 100% */
 		}
 
 		.row > .off-12 {
-			margin-left: 100%;
+			margin-left: 90%; /* 100% */
 		}
 
 		.row.gtr-0 {
