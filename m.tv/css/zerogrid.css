@@ -40,15 +40,15 @@ Author URI: https://www.zerotheme.com/
 .zerogrid .col-4-6{width:66.66%;}
 .zerogrid .col-5-6{width:83.33%;}
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-	.zerogrid{width:868px;}  /*768 */               /* 959 */
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+	.zerogrid{width:900px;}  /*768 */               /* 959 */
 }
 
 @media only screen and (max-width: 767px) {
 	.zerogrid{width:100%;}   /* 767 deixar orig */
 }
 
-@media only screen and (min-width: 820px) and (max-width: 1000px) {
+@media only screen and (min-width: 720px) and (max-width: 800px) {
 	.zerogrid{width:100%;}  /* 620                    767       */
 }
 
