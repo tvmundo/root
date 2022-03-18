@@ -14,7 +14,7 @@ img{
    	width: auto\9; /* ie8 */
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 868px) and (max-width: 959px) {
 	/* -------------------------768----------    ------959--- */
 	/* ------------------Header-------------------- */
 	
@@ -29,8 +29,8 @@ img{
 	
 }
 
-@media only screen and (max-width: 767px) {
-	/* -------------------------------------------- */
+@media only screen and (max-width: 867px) {
+	/* ------------------------767-------------------- */
 	/* ------------------Header-------------------- */
 	header {margin-top: 0px;height:150px;}
 	header #logo{top:20px;}
@@ -48,8 +48,8 @@ img{
 	/* ------------------Other----------------*---- */
 }
 
-@media only screen and (min-width: 620px) and (max-width: 767px) {
-	/* -------------------------------------------- */
+@media only screen and (min-width: 720px) and (max-width: 767px) {
+	/* ------------------------620--------------------760---- */
 	/* ------------------Header-------------------- */
 	
 	/* -------------------------------------------- */
