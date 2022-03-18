@@ -1,21 +1,20 @@
-
 html {
-   -webkit-text-size-adjust: none;
+   -webkit-text-size-adjust: none;
 }
 .video embed,
 .video object,
 .video iframe {
-   width: 100%;
-   height: auto;
+   width: 100%;
+   height: auto;
 }
 img{
 	max-width:100%;
 	height: auto;
-   	width: auto\9; /* ie8 */
+   	width: auto\9; /* ie8 */
 }
 
-@media only screen and (min-width: 868px) and (max-width: 1200px) {
-	/* -------------------------768----------    ------959--- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	/* -------------------------------------------- */
 	/* ------------------Header-------------------- */
 	
 	/* -------------------------------------------- */
@@ -29,8 +28,8 @@ img{
 	
 }
 
-@media only screen and (max-width: 867px) {
-	/* ------------------------767-------------------- */
+@media only screen and (max-width: 767px) {
+	/* -------------------------------------------- */
 	/* ------------------Header-------------------- */
 	header {margin-top: 0px;height:150px;}
 	header #logo{top:20px;}
@@ -48,8 +47,8 @@ img{
 	/* ------------------Other----------------*---- */
 }
 
-@media only screen and (min-width: 720px) and (max-width: 767px) {
-	/* ------------------------620--------------------760---- */
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	/* -------------------------------------------- */
 	/* ------------------Header-------------------- */
 	
 	/* -------------------------------------------- */
@@ -62,8 +61,8 @@ img{
 	/* ------------------Other----------------*---- */
 }
 
-@media only screen and (min-width: 880px) and (max-width: 1000px) {
-	/* ------------------------480-------------------- */
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	/* -------------------------------------------- */
 	/* ------------------Header-------------------- */
 	
 	/* -------------------------------------------- */
@@ -77,7 +76,7 @@ img{
 }
 
 @media only screen and (max-width: 479px) {
-	/* -------------------------479---------------- */
+	/* -------------------------------------------- */
 	/* ------------------Header-------------------- */
 	header{height: 170px;}
 	header #logo{top:20px;}

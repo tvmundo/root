@@ -5,7 +5,7 @@ Author URI: https://www.zerotheme.com/
 */
 /* -------------------------------------------- */
 /* ------------------Grid System--------------- */ 
-.zerogrid{ width: 1300px; position: relative; margin: 0 auto; padding: 0px;}
+.zerogrid{ width: 960px; position: relative; margin: 0 auto; padding: 0px;}
 .zerogrid:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
 .zerogrid .row{}
@@ -39,16 +39,16 @@ Author URI: https://www.zerotheme.com/
 .zerogrid .col-4-6{width:66.66%;}
 .zerogrid .col-5-6{width:83.33%;}
 
-@media only screen and (min-width: 968px) and (max-width: 1300px) {
-	.zerogrid{width:768px;}    /* 768                 959px */ 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.zerogrid{width:768px;}
 }
 
-@media only screen and (max-width: 857px) {
-	.zerogrid{width:100%;}  /* 767 */
+@media only screen and (max-width: 767px) {
+	.zerogrid{width:100%;}
 }
 
-@media only screen and (min-width: 820px) and (max-width: 967px) {
-	.zerogrid{width:100%;}  /* 620 */
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	.zerogrid{width:100%;}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 619px) {
