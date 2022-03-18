@@ -312,11 +312,11 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 3.33333%;  /* 33.33333%; */
+			width: 1.33333%;  /* 33.33333%; */
 		}
 
 		.row > .off-4 {
-			margin-left: 3.33333%;
+			margin-left: 1.33333%;
 		}
 
 		.row > .col-5 {
@@ -376,7 +376,7 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 380; /* 100% */
+			width: 100%; /* 100% */
 		}
 
 		.row > .off-12 {
