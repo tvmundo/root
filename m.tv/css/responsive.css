@@ -29,7 +29,7 @@ img{
 	
 }
 
-@media only screen and (max-width: 867px) {
+@media only screen and (max-width: 967px) {
 	/* ------------------------767-------------------- */
 	/* ------------------Header-------------------- */
 	header {margin-top: 0px;height:150px;}
