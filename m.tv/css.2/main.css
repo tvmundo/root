@@ -136,7 +136,7 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: #000;  /* #fff */ cor texto home rodape */
+		color: #fff;  /* #fff */ cor texto home rodape */
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
 	}
