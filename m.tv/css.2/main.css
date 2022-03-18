@@ -380,7 +380,7 @@ input, select, textarea {
 		}
 
 		.row > .off-12 {
-			margin-left: 90%; /* 100% */
+			margin-left: 20%; /* 100% */
 		}
 
 		.row.gtr-0 {
