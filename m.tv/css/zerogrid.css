@@ -5,7 +5,8 @@ Author URI: https://www.zerotheme.com/
 */
 /* -------------------------------------------- */
 /* ------------------Grid System--------------- */ 
-.zerogrid{ width: 960px; position: relative; margin: 0 auto; padding: 0px;}
+           /* 🔺 🔺 960 🔺 🔺 */
+.zerogrid{ width: 1200px; position: relative; margin: 0 auto; padding: 0px;}
 .zerogrid:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
 .zerogrid .row{}
