@@ -34,7 +34,7 @@ a.button:hover{}
 /* -------------------------------------------- */
 /* ------------------Header-------------------- */
 header {background:#333333 url("../images/pattern06.png");}
-header .wrap-header{height: 130px;}
+header .wrap-header{height: 130px;} /* 130 */
 
 header #logo {position:absolute; top:30px; width: 100%;}
 
