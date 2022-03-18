@@ -75,13 +75,13 @@ img{
 	/* ------------------Other----------------*---- */
 }
 
-@media only screen and (max-width: 479px) {
-	/* -------------------------------------------- */
+@media only screen and (max-width: 950px) {
+	/* -------------------------479------------------- */
 	/* ------------------Header-------------------- */
 	header{height: 170px;}
 	header #logo{top:20px;}
 	header #search{bottom: 15px; width: 230px; top:auto; left: 5px;}
-	header #search input{width: 194px;}
+	header #search input{width: 4px;} /* 194 */
 
 	.menu{display:none;}
 	.minimenu{display:block;}
