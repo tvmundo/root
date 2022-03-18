@@ -29,7 +29,7 @@ img{
 	
 }
 
-@media only screen and (max-width: 967px) {
+@media only screen and (max-width: 867px) {
 	/* ------------------------767-------------------- */
 	/* ------------------Header-------------------- */
 	header {margin-top: 0px;height:150px;}
@@ -62,7 +62,7 @@ img{
 	/* ------------------Other----------------*---- */
 }
 
-@media only screen and (min-width: 980px) and (max-width: 619px) {
+@media only screen and (min-width: 880px) and (max-width: 1000px) {
 	/* ------------------------480-------------------- */
 	/* ------------------Header-------------------- */
 	
