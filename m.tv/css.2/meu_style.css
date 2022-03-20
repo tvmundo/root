@@ -1,0 +1,21 @@
+.links1 a {
+  text-decoration: none;
+   width:70%;
+  height: 38;
+  background:blue; /* green red blue */
+  color: #fff;
+  text-align:justify;
+               
+}
+.Meu_footer1 {
+  /* position: fixed; */
+  /* left: 0; */
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight:bold;
+  text-decoration: none;
+}
