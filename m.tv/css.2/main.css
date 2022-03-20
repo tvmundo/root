@@ -2700,6 +2700,8 @@ input, select, textarea {
 					padding-left: 0;
 					margin-left: 0;
 					border-left: 0;
-				}
+				        color: #FF0000; /* add */
+                                        text-decoration: none; /* add */
+}
 
 	}
