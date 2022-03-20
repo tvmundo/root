@@ -2692,7 +2692,7 @@ input, select, textarea {
 
 		/* Copyright */
 
-			#copyright .links {
+	/*		#copyright .links {
 				margin-bottom: 0;
 				color: #FF0000; /* add */
                                 text-decoration: none; /* add */
@@ -2708,8 +2708,8 @@ input, select, textarea {
 		                        .links1 a {
                                         color: #fff;
                                         text-decoration: none;
-                         }
-.Meu_footer1 {
+                         } */
+/* .Meu_footer1 {
   /* position: fixed; */
   /* left: 0; */
   bottom: 0;
@@ -2719,5 +2719,5 @@ input, select, textarea {
   color: white;
   text-align: center;
   font-weight:bold;
-  text-decoration: none;
+  text-decoration: none; */
 }
