@@ -2701,7 +2701,8 @@ input, select, textarea {
 					display: block;
 					padding-left: 0;
 					margin-left: 0;
-					border-left: 0;		        
+					border-left: 0;	
+					text-decoration: none;
 	                }
 		                        .links1 a {
                                         color: #fff;
