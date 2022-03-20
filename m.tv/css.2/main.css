@@ -2693,6 +2693,8 @@ input, select, textarea {
 
 			#copyright .links {
 				margin-bottom: 0;
+				color: #FF0000; /* add */
+                                text-decoration: none; /* add */
 			}
 
 				#copyright .links li {
@@ -2700,6 +2702,5 @@ input, select, textarea {
 					padding-left: 0;
 					margin-left: 0;
 					border-left: 0;
-				        color: #FF0000; /* add */
-                                        text-decoration: none; /* add */
+				        
 	}
