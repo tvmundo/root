@@ -207,7 +207,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 50em;  /* 70  */
+		width: 70em;  /* 70  */
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2670,13 +2670,13 @@ input, select, textarea {
 		/* Sidebar */                                                   /* --------------------- A barra lateral ------------------------------- */
 
 			#sidebar {
-				padding-top: 2em; /* 3 */
+				padding-top: 1em; /* 3 */
 			}
 
 				#sidebar > section,
 				#sidebar > article {
-					margin: 2em 0 0 0; /* 3 */
-					padding: 2em 0 0 0; /* 3 */
+					margin: 1em 0 0 0; /* 3 */
+					padding: 1em 0 0 0; /* 3 */
 				}
 
 		/* Footer */
