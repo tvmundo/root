@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #57B338; /* verde escuro #088A29 #64bc0d  #DF7401 #f0f0f0 --------------------------------------------------------- */
+		background: #2f4456; /* verde escuro #088A29 #64bc0d  #DF7401 #f0f0f0 --------------------------------------------------------- */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2668,7 +2668,7 @@ input, select, textarea {
 				padding: 3em 0 0 0;
 			}
 
-		/* Sidebar */                                     /* --------------------- A barra lateral ------------------------------- */
+		/* Sidebar */                      /* --------------------- A barra lateral ------------------------------- */
 
 			#sidebar {
 				padding-top: 1em; /* 3 */
