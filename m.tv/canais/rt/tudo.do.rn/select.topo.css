@@ -1,0 +1,53 @@
+}
+body {
+   
+}
+select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: #2f4456; /* #2f4456 #5c6664 */
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: 100%;
+   height: 3em;
+   line-height: 3;
+   background: #5c6664;
+   overflow: hidden;
+   border-radius: .25em;
+}
+.select::after {
+   content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
+   position: absolute;
+   width: 12px;
+   height: 3em;
+   color: yellow; /* yellow seta #23b499  */
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: red; /* #2b2e2e */
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select:hover::after {
+   color: #00FF7F; /* cor ao passar o mouse #23b499 */
+   width: 15px; /* faz o efeito esticar pra esquerda */
+   /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
+}
