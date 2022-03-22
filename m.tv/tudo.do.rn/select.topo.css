@@ -10,7 +10,7 @@ select {
    outline:0;
    box-shadow:none;
    border:0!important;
-   background: #64bc0d; /* #2f4456 #5c6664 */
+   background: #2f4456; /* #2f4456 #5c6664 */
    background-image: none;
    flex: 1;
    padding: 0 .5em;
