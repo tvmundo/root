@@ -150,7 +150,7 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #fff; /*                                                     segunda cor texto home rodape #ed786a */
+			color: #000; /*                                                     segunda cor texto home rodape #ed786a */
 			border-bottom-color: #fff; /* rgba(255, 255, 255, 0); */
 		}
 
@@ -2546,7 +2546,7 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {          /* ---------------------------------------------------------------------------------------- */
+	@media screen and (max-width: 736px) {          /* ------------------------------------------------------------------------ */
 
 		/* Basic */
 
@@ -2668,7 +2668,7 @@ input, select, textarea {
 				padding: 3em 0 0 0;
 			}
 
-		/* Sidebar */                                     /* --------------------- A barra lateral ------------------------------- */
+		/* Sidebar */                              /* --------------------- A barra lateral ------------------------------- */
 
 			#sidebar {
 				padding-top: 1em; /* 3 */
@@ -2680,6 +2680,19 @@ input, select, textarea {
 					padding: 1em 0 0 0; /* 3 */
 				}
 
-		/* Footer ----------------------------------------------------------------------------------------------------------------------------- */
+		/* Footer --------------------------------------------------------------------------------------------------------- */
+/* Copyright */
 
+			#copyright .links {
+				margin-bottom: 0;
+			}
+
+				#copyright .links li {
+					display: block;
+					padding-left: 0;
+					margin-left: 0;
+					border-left: 0;
+				}
+
+	}
 			
