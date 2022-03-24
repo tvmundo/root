@@ -116,7 +116,7 @@ scrolling="no" src="https://tvmundo.github.io/root/select-tvmundo-blog.html" wid
 <div class="select">
 <select name="format" id="format" onchange=" showDiv(this.value);"> 
 <option disabled="" selected=""> &#9776 Menu &nbsp; &nbsp;Mais 🎥 Tudo do RN - aqui </option>
-  <option value="Inicio" /> &nbsp; &nbsp; &nbsp; Inicio - Home 🏠 🏡 </option>
+<option value="Inicio" /> &nbsp; &nbsp; &nbsp; Inicio - Home 🏠 🏡 </option>
 option value="Live1" enabled="disabled"> Ao Vivo 🔴 AS ÚLTIMAS NOTÍCIAS SOBRE O CONFLITO ENTRE RÚSSIA E UCRÂNIA | BM&C NEWS 28/02 </option>
                            <!-- 🔺🔺🔺🔺🔺 Fixo Acima 🔺🔺🔺🔺🔺 -->
 option value="65"> 65 🎥 x 24/03/2022 </option>	
@@ -535,7 +535,7 @@ select {
    outline:0;
    box-shadow:none;
    border:0!important;
-   background: #2f4456; /* #2f4456 #5c6664 */
+   background: #2f4456; /* #5c6664 */
    background-image: none;
    flex: 1;
    padding: 0 .5em;
@@ -560,6 +560,7 @@ select::-ms-expand {
 .select::after {
    content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
    position: absolute;
+   font-size: 18px;
    width: 12px;
    height: 3em;
    color: yellow; /* yellow seta #23b499  */
