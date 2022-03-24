@@ -1,4 +1,4 @@
-﻿<!--<link rel="canonical" href="%page_url%">-->
+<!--<link rel="canonical" href="%page_url%">-->
 <!DOCTYPE HTML>
 <!--
 	Strongly Typed by HTML5 UP
@@ -11,6 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../../css.2/main.css" />
+		<link rel="stylesheet" href="../../css.2/footer1.css" />
 	</head>
 	<body class="right-sidebar is-preload">
 		<div id="page-wrapper">
@@ -31,208 +32,26 @@ text-decoration:none;
 			<!-- Header -->				
 						<!-- Logo -->	
 				<!-----------------------------Inicio select topo-------------------------------------------------->
-					<!--select ini-->
-<div class="select">
-<select name="format" id="format" onchange=" showDiv_blog(this.value);"> 
-<option disabled selected /> &nbsp; 👉 &nbsp; Mais 🎥 Videos aqui 
-        <option value="plano1" /> → &nbsp; Ultimas Notícias 
-	<optgroup label="">
-        <option value="Inicio" /> &nbsp; Inicio - Home 🏠 🏡 
-        <option value="doação" /> &nbsp; Fazer uma doação para este site 	
-	<option value="app TV Mundo" />&nbsp; 📥 Baixe o app TV Mundo vers. 2022 1.2 📥 
-	<option value="TV ao vivo" />&nbsp; TV ao vivo  
-	<option value="radio" />&nbsp; Radio TV Mundo 
-                       <!-- 🔺🔺🔺🔺🔺 Fixo Acima 🔺🔺🔺🔺🔺 -->
-<optgroup label="">
-<optgroup label="transitórias">
-<option value="p717" enabled="disabled" />&nbsp; UM Recorde para o número de novos caixas eletrônicos criptografados foi registrado em 2021 
-<option value="p716" enabled="disabled" />&nbsp; CEO da Coinbase compra uma mansão em Los Angeles por US$ 133 milhões 
-<optgroup label="">
-<optgroup label="Canais Fixo">
-<option value="Senha" enabled="disabled" />&nbsp; Senha 
-<option value="O POVO Online" enabled="disabled" />&nbsp; O POVO Online
-<option value="Polícia na Área" enabled="disabled" />&nbsp; Polícia na Área 
-<option value="Mistura de hoje" enabled="disabled" />&nbsp; Mistura de hoje 
-<option value="p715" enabled="disabled" />&nbsp; Caio Fábio 
-<option value="p714" enabled="disabled" />&nbsp; Rodrigo Silva Arqueologia 
-<option value="p713" enabled="disabled" />&nbsp; euronews (em português) 
-<option value="p712" enabled="disabled" />&nbsp; Politizando 
-<option value="p711" enabled="disabled" />&nbsp; Fernando Ulrich 
-<option value="p710" enabled="disabled" />&nbsp; Filósofo Paulo Ghiraldelli 
-<option value="p709" enabled="disabled" />&nbsp; Portal do José 
-<option value="p708" enabled="disabled" />&nbsp; Hoje no Mundo Militar 
-<option value="p718" enabled="disabled" />&nbsp; Sputnik Brasil 
-<option value="p719" enabled="disabled" />&nbsp; Morel Felipe Wilkon 
-<option value="p720" enabled="disabled" />&nbsp; Marco Antonio Villa 
-<option value="p707" enabled="disabled" />&nbsp; BRASIL URGENTE COM DATENA 
-<option value="p706" enabled="disabled" />&nbsp; BRASIL URGENTE - BAND MINAS 
-<optgroup label="">
- </optgroup></optgroup></optgroup></optgroup></optgroup></optgroup></select> </div>
-                                                          <!--embed Aqui-->                                        
-<!--SCRIPT ini-->
-<script language="Javascript">
-function showDiv_blog(pasta) {
-  // Live 24h em português //
-  if (pasta == 'Live 24h em português') {
-     window.open("https://www.youtube.com/embed/JyC8mwZqJao", target="euronews");
-                        / *    Fixo acima      */
- }
-	// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'Inicio') {
-    var url = "#";
-    window.open("https://tvmundoblog.blogspot.com/", target="_parent");
-  }
-	// TV ao vivo //
-  if (pasta == 'TV ao vivo') {
-    var url = "#";
-    window.open("https://tvmundo.github.io/root/live.html", target="_parent");
-  }
-  // copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'app TV Mundo') {
-    var url = "#";
-    window.open("https://tvmundoblog.blogspot.com/2021/11/apk-tvmundo-2022.html", target="_parent");
- /*                Fixo Acima             */
-}	
-// O POVO Online //
-  if (pasta == 'O POVO Online') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/o-povo-online.html", target="_parent");
-}	
-// Senha //
-  if (pasta == 'Senha') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/senha.html", target="_parent");
-}	
-// Polícia na Área //
-  if (pasta == 'Polícia na Área') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/policia-na-area.html", target="_parent");
-}	
-// Mistura de hoje //
-  if (pasta == 'Mistura de hoje') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/mistura-de-hoje.html", target="_parent");
-}	
-// Marco Antonio Villa //
-  if (pasta == 'p720') {
-    window.open("https://tvmundoblog.blogspot.com/2021/12/marco-antonio-villa.html", target="_parent");
-}	
-// Morel Felipe Wilkon //
-  if (pasta == 'p719') {
-    window.open("https://tvmundoblog.blogspot.com/2021/12/morel-felipe-wilkon.html", target="_parent");
-}	
-// Sputnik Brasil 01/01/22 //
-  if (pasta == 'p718') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/sputnik-brasil.html", target="_parent");
+					<!-- select ini -->
+<script language="JavaScript">
+var ultimo=-1, colesquerda;
+function carrega(x) {colesquerda=x;Banners()}
+function Banners()
+{
+<!---1---------extra--------------------->            
+var MNews = new Array();
+MNews[0]= '<iframe width="100%" height="50" scrolling="no" src="select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>';
+<!---1---------banner1 HD externo magazineelianefelix--------------------->
+
+<!---9----------eletronica uniao-------------------->
+while((Numero = parseInt(Math.random()*MNews.length))==ultimo);
+colesquerda.innerHTML=MNews[Numero];
+setTimeout("Banners()",50000);
 }
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p698'){
-    window.open("2021/dez/14/mundo.Crypto.1412211.html", target="_parent");
-}
-                             // 715 Caio Fábio  //
-  if (pasta == 'p715'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/caio-fabio.html", target="_parent");
-	                             // p715 //
-   }
-                             // 714 Rodrigo Silva Arqueologia  //
-  if (pasta == 'p714'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/rodrigo-silva-arqueologia.html", target="_parent");
-	                             // p714 //
-   }
-                             // 713 euronews (em português) //
-  if (pasta == 'p713'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/euronews.html", target="_parent");
-	                             // p713 //
-   }
-                             // 712 Politizando //
-  if (pasta == 'p712'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/politizando.html", target="_parent");
-	                             // p712 //
-   }
-                             // 711 Fernando Ulrich //
-  if (pasta == 'p711'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/fernando-ulrich.html", target="_parent");
-	                             // p711 //
-   }
-                             // 710 Filósofo Paulo Ghiraldelli //
-  if (pasta == 'p710'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/filosofo-paulo-ghiraldelli.html", target="_parent");
-	                             // p710 //
-   }
-                             // 709 Portal do José //
-  if (pasta == 'p709'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/portal-do-jose-010121.html", target="_parent");
-	                             // p709 //
-   }
-                             // 708 Hoje no Mundo Militar //
-  if (pasta == 'p708'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/hoje-no-mundo-militar.html", target="_parent");
-	                             // p708 //
-   }
-                             // 707 BRASIL URGENTE COM DATENA //
-  if (pasta == 'p707'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/brasil-urgente-com-datena.html", target="_parent");
-	                             // p707 //
-  }   
-// copie abaixo para adicionar mais uma janela Tecnologia//
-  if (pasta == 'doação') {
-    var url = "http://tvmundo.sytes.net//banners/paypal.picpay.doge.html";
-    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
-  }
-// copie acima para adicionar mais uma janela //
-}
- </script>
-<!--SCRIPT Fim-->
-<style>
-body {
-   
-}
-select {    
-   -webkit-appearance:none;
-   -moz-appearance:none;
-   -ms-appearance:none;
-   appearance:none;
-   outline:0;
-   box-shadow:none;
-   border:0!important;
-   background: #64bc0d; /*  #ff9600 #5c6664 */
-   background-image: none;
-   flex: 1;
-   padding: 0 .5em;
-   color:#fff;
-   cursor:pointer;
-   font-size: 16px;
-   font-family: 'Open Sans', sans-serif;
-}
-select::-ms-expand {
-   display: none;
-}
-.select {
-   position: relative; /* relative fixed */
-   display: flex;  /* flex */
-   width: 100%;
-   height: 3em;
-   line-height: 3;
-   background: #5c6664;
-   overflow: hidden;
-   border-radius: .25em;
-}
-.select::after {
-   content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
-   position: absolute;
-   width: 12px;
-   height: 3em;
-   color: yellow; /* yellow seta #23b499  */
-   top: 0;
-   right: 0;
-   padding: 0 2em; /* largura fundo da seta */
-   background: red; /* #2b2e2e */
-   cursor:pointer;
-   pointer-events:none;
-   transition:.25s all ease;
-}
-.select:hover::after {
-   color: #00FF7F; /* cor ao passar o mouse #23b499 */
-   width: 15px; /* faz o efeito esticar pra esquerda */
-   /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
-}
-</style>
+</script>
+<body bgcolor="" top:50px; onLoad=carrega(this.colesquerda1)>
+<td>
+<div align="center" id=colesquerda1></div>
 			<!-----------------------------Fim select topo------------------------------------------------------>
 					</div>	
 <div style="text-align: center;">					
@@ -262,7 +81,7 @@ select::-ms-expand {
     visibility: none;
   }
 </style>
-<a class="tags" type="msglive" class="msglive" id="msglive" style="color: #000; font-weight:bold; font-size: 30px;" gloss="" onClick="window.location.reload() ">RT TV en Español ↻</a>												
+<a class="tags" type="msglive" class="msglive" id="msglive" style="color: #64bc0d; font-weight:bold; font-size: 30px;" gloss="" onClick="window.location.reload() ">RT TV en Español<span style="font-size: 15px;"><span style="color: #666666; font-size: 25px; font-weight:bold; "> - ↻ </span> </a>												
 <br/> <br/>   </div>
 					<div class="container">
 						<div class="row">
@@ -312,19 +131,20 @@ scrolling="no" src="https://tvmundo.github.io/root/select-tvmundo-blog.html" wid
 <!----------------------------------------------------post ini ------------------------------------------------------------------->
                                <!------------------------------- Fim do Titulo --------------------------------------->
 <br /> <br />
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="670" name="cn2" scrolling="no" src="https://tvmundo.github.io/root/canais/rt/inicio.html" width="100%"></iframe>
+<iframe scrolling="no" name="cn2" scrolling="no" src="../../../canais/rt/cn1.html" width="100%" height="660" ></iframe>								
                                                <!--embed 🔴🔴🔴🔴🔴  em Github RT Aqui-->
-<br/>
-<div class="separator" style="clear: both; text-align: center;"><a href="#" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="274" data-original-width="274" height="38" src="https://tvmundo.github.io/root/canais/rt/imgs/rt.jpg" width="58" /></a></div>
-<br />
-<p style="text-align: center;">
+<!--<br/>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="#" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="38" src="https://tvmundo.github.io/root/canais/rt/imgs/rt.jpg" width="58" /></a></div>
+--> <br /> <br />
+<Div style="text-align: center;">
 <span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:15px;"><span style="color:#000;">Report a channel Off air</span></span></span>
-<br/> <span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:15px;"><span style="color:#000;">Informe um canal Fora do ar</span></span></span></p>
+<br/> <span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:15px;"><span style="color:#000;">Informe um canal Fora do ar</span></span></span><br/>
 <p style="text-align: center;">
 <a href="https://wa.me/79614871525" target="_blank"><span style="color:#006400;"><img alt="Whatsapp" width="28" height="28" src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" /></span></a> <a href="https://wa.me/79614871525" target="_blank"> &nbsp; <span style="color:#000;"> +7 961 487-15-25 </a>
-<div style="text-align: center;">
+<div style="text-align: center; margin: -1em; ">
 <a href="https://wa.me/79614871525" target="fpg"><span style="color:rgb(0, 83, 134); font-size:25px;">  &nbsp; 👆 </span></a>
-</div>
+</div> </div>
 <br/>
 <div style="text-align: left;">
 <a href=" https://www.blogger.com/blog/post/edit/3188513484330316250/6649792164435541364 " target="_blank"><span style="color: black; font-size: 10px;"> Edite </span></a>	</div> 
@@ -366,7 +186,7 @@ document.oncontextmenu=new Function("return false")
 										
 								<!-- Highlight post coluna Direita -->
 <div style="text-align: left;">									
-<iframe  height="1200"  scrolling="no" src="../../col.direita.html" width="370"></iframe>
+<iframe  height="1200"  scrolling="no" src="../../col.ini.html" width="370"></iframe>
 <br/>
 </div>
 </div>										
@@ -379,7 +199,6 @@ document.oncontextmenu=new Function("return false")
 
 			<!-- Footer -->
 				
-											</ul>
 										</div>
 									</div>
 								</div>
@@ -387,34 +206,47 @@ document.oncontextmenu=new Function("return false")
 					</div>
 <!-- Diminui a largura do rodape se fechado --> 	<!--<div id="copyright" class="container">-->
 
-<!-- Acesse www.addthis.com/dashboard para personalizar suas ferramentas --> <div class="addthis_inline_share_toolbox"></div> 
+<!-- Acesse www.addthis.com/dashboard para personalizar suas ferramentas -->
+<div class="addthis_inline_share_toolbox"></div> 
 
 <!-- botao compartilhar -->
-						<ul class="links">
-<style type="text/css"> 
-a:link 
-{ 
-text-decoration:none; 
-} 
+<style>
+.div1 {
+  width: 100%;
+  height: 100px;
+  color: #333333333000;
+  text-align: center;
+  font-weight:bold;
+  text-decoration: none;
+  background-color: powderblue; /* powderblue */
+}
+.div2 {
+  width: 100%;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight:bold;
+  text-decoration-line: none;
+  background-color:#57B338; /* #57B338  powderblue */
+}
 </style>
-<!----------------------correçao de caracteres ini ------------------------>
-<!-- HTML 4 -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<!-- HTML5 -->
-<meta charset="utf-8"/>
-<?xml version="1.0" encoding="utf-8"?>
-<!----------------------correçao de caracteres Fim ----------------------->
+<div class="div2">
+
+<footer>
+<div class="footer1">
 <div style="text-align: center;">
 <br/>
-<span style="color: #fff; font-size: 15px; font-weight:bold; ">	&copy; 2022 TV Mundo. All Rights Reserved. </span></a><a href="https://tvmundoblog.blogspot.com/"><span style="color: #fff; font-size: 15px; font-weight:bold; ">| Home </span></a> 											      
-						</ul>
+<h6> <span style="color: #000; font-weight:bold; text-decoration: none; ">  &copy; 2022 TV Mundo. All Rights Reserved. &nbsp; &nbsp;</span> <span style="color: #000; font-weight:bold;"><a href="https://tvmundoblog.blogspot.com/" style="text-decoration:none"> | &nbsp; &nbsp; Home </h5> </a>
+</div> <br/>															      
+						
 					</div>
-				</section>
+				</footer>
+</section>
 
 		</div>
 
-		<!-- Scripts 
-			<script src="assets/js/jquery.min.js"></script>
+		<!-- Scripts -->
+			<!--<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
