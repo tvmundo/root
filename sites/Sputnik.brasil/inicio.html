@@ -1,19 +1,4 @@
-<!--<link rel="canonical" href="%page_url%">-->
-<!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title> Sputnik.brasil</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="right-sidebar is-preload">
-		<div id="page-wrapper">
+<body bgcolor=#fff>
 <style type="text/css"> 
 a:link 
 { 
@@ -28,203 +13,472 @@ text-decoration:none;
 <?xml version="1.0" encoding="utf-8"?>
 
 <!----------------------correçao de caracteres Fim ----------------------->
-			<!-- Header -->				
-						<!-- Logo -->	
-					<!-----------------------------Inicio select topo-------------------------------------------------->
-					<!--select ini-->
+<!--------------------------------inicio post----------------------------------------->
+<!--------------style atualiza o video ini-------------->		
+<style type="text/css">
+  #msglive{
+  position:relative;
+  z-index:999; 
+  left:2px;     /* aumentando vai para a direita */ 
+  top:34px;   /* Diminuindo sobe */
+  overflow:none;
+  border:0px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 20px;
+  height:20px;
+  background:transparent;
+  {
+    visibility: none;
+  }
+</style>
+<a class="tags" type="msglive" class="msglive" id="msglive" style="color: #000; font-size: 20px;" gloss="" onClick="window.location.reload()">↻</a><br/>
+<style>
+.mySlidesbutton {
+  background-color: #fff; /* #666666 */
+  border: none;
+  color: #000;
+  padding: 1px
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  width: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<!DOCTYPE html>
+<link rel="stylesheet" href="/lib/w3.css">
+<style>
+.mySlides {display:none}
+</style>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+ <style type="text/css">
+  w3-section{
+  position:fixed;
+  z-index:999; 
+  left:100px; 
+  top:0px;
+  overflow:none;
+  border:10px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 360px;
+  height:260px;
+  background:#f00;
+  {
+    visibility: none;
+  }
+</style> 
+<!-------internas------->
+<!----popup Next > <prev ------>
+  <style type="text/css">
+<!--
+#popjan {border: 0px solid #000000;
+background-color: ;
+width:100%px;
+top: 35px; left:  -80px;
+text-align: center;
+z-index: 450;position:fixed;visibility: visible;}
+-->
+</style>
+<div style="font-size: 35pt; font-weight: bold; text-align: center;">
+<span style="background-color: white; color: #666666; font-size: 28px; font-weight: 20;"><b> Sputnik Brasil </b></span></div><p/>
+<div class="w3-section">
+    <!--<button class="mySlidesbutton" class="w3-btn" onclick="plusDivs(-1)">⇦ </button>
+    <button class="mySlidesbutton" class="w3-btn" onclick="plusDivs(1)">⇨</button>
+  </div>
+<div class="w3-content" style="max-width:100%px">
+<a href="https://www.youtube.com/embed/Kj6dkgrrKGU" class="mySlides" target="Sputnik Brasil"><span style="color:rgb(0, 83, 134);">🔗 169 - Rússia retira tanques da Crimeia após encerramento de exercícios #shorts </span></a>
+<a href="https://www.youtube.com/embed/QvPVUbaLjJQ" class="mySlides" target="Sputnik Brasil"><span style="color:rgb(0, 83, 134);">🔗 168 - Chineses prestes a construir base no Atlântico, EUA tentam impedir, diz WSJ </span></a>
+<a href="https://www.youtube.com/embed/MhV3Ixa2zfI" class="mySlides" target="Sputnik Brasil"><span style="color:rgb(0, 83, 134);">🔗 139 - VÍDEO mostra MiG-31 russo levando possível míssil hipersônico para as fronteiras da OTAN </span></a>-->
+
+</div>
+<!------------------CSS float Fin------------------->
+<!--select ini-->
 <div class="select">
-<select name="format" id="format" onchange=" showDiv_blog(this.value);"> 
-<option disabled selected /> &nbsp; 👉 &nbsp; Mais 🎥 Videos aqui 
-        <option value="plano1" /> → &nbsp; Ultimas Notícias 
-	<optgroup label="">
-        <option value="Inicio" /> &nbsp; Inicio - Home 🏠 🏡 
-        <option value="doação" /> &nbsp; Fazer uma doação para este site 	
-	<option value="app TV Mundo" />&nbsp; 📥 Baixe o app TV Mundo vers. 2022 1.2 📥 
-	<option value="TV ao vivo" />&nbsp; TV ao vivo  
-	<option value="radio" />&nbsp; Radio TV Mundo 
-                        <!-- 🔺🔺🔺🔺🔺 Fixo Acima 🔺🔺🔺🔺🔺 -->
-<optgroup label="">
-<optgroup label="transitórias">
-<option value="p717" enabled="disabled" />&nbsp; UM Recorde para o número de novos caixas eletrônicos criptografados foi registrado em 2021 
-<option value="p716" enabled="disabled" />&nbsp; CEO da Coinbase compra uma mansão em Los Angeles por US$ 133 milhões 
-<optgroup label="">
-<optgroup label="Canais Fixo">
-<option value="Senha" enabled="disabled" />&nbsp; Senha 
-<option value="Tudo do RN" enabled="disabled" />&nbsp; Tudo do RN
-<option value="O POVO Online" enabled="disabled" />&nbsp; O POVO Online
-<option value="Polícia na Área" enabled="disabled" />&nbsp; Polícia na Área 
-<option value="Mistura de hoje" enabled="disabled" />&nbsp; Mistura de hoje 
-<option value="p715" enabled="disabled" />&nbsp; Caio Fábio 
-<option value="p714" enabled="disabled" />&nbsp; Rodrigo Silva Arqueologia 
-<option value="p713" enabled="disabled" />&nbsp; euronews (em português) 
-<option value="p712" enabled="disabled" />&nbsp; Politizando 
-<option value="p711" enabled="disabled" />&nbsp; Fernando Ulrich 
-<option value="p710" enabled="disabled" />&nbsp; Filósofo Paulo Ghiraldelli 
-<option value="p709" enabled="disabled" />&nbsp; Portal do José 
-<option value="p708" enabled="disabled" />&nbsp; Hoje no Mundo Militar 
-<option value="p718" enabled="disabled" />&nbsp; Sputnik Brasil 
-<option value="p719" enabled="disabled" />&nbsp; Morel Felipe Wilkon 
-<option value="p720" enabled="disabled" />&nbsp; Marco Antonio Villa 
-<option value="p707" enabled="disabled" />&nbsp; BRASIL URGENTE COM DATENA 
-<option value="p706" enabled="disabled" />&nbsp; BRASIL URGENTE - BAND MINAS 
-<optgroup label="">
- </optgroup></optgroup></optgroup></optgroup></optgroup></optgroup></select> </div>
-                                                          <!--embed Aqui-->                                        
+<select id="format" name="format" onchange=" showDiv(this.value);"> 
+<option disabled="" selected=""> &nbsp; 👉 &nbsp; Mais 🎥 de Sputnik Brasil aqui</option>
+<option value="Inicio" /> &nbsp; Inicio - Home 🏠 🏡 </option>
+                              /* 🔺🔺🔺🔺🔺 Fixo Acima 🔺🔺🔺🔺🔺 */
+option value="v280">280 🎥 x </option>
+<option value="v279">279 🎥 Putin: povo da Crimeia deu passo certo 'ao colocar barreira' no caminho dos neonazistas </option>
+<option value="v278">278 🎥 França tem munição estocada para somente 4 dias de guerra, diz senador do país </option>
+<option value="v277">277 🎥 Brasil, China e Rússia não desejam ser tutelados pelos EUA, diz Lavrov </option>
+<option value="v276">276 🎥 Drone russo Forpost bombardeia blindados ucranianos </option>
+<option value="v275">275 🎥 Ucrânia: moradores de Lvov se escondem em abrigo antiaéreo improvisado em porão </option>
+<option value="v274">274 🎥 * Forças da Rússia destroem obuseiros e armazéns com munição da Ucrânia </option>
+<option value="v273">273 🎥 Peruano mercenário abandona armas e foge da Ucrânia depois de sentir 'poder russo' </option>
+<option value="v272">272 🎥 Forças da Rússia destroem obuseiros e armazéns com munição da Ucrânia </option>
+<option value="v271">271 🎥 Fabricante de trajes blindados da Colômbia envia proteção para Ucrânia </option>
+<option value="v270">270 🎥 Bolsonaro pediu ajuda a Putin para construir submarino nuclear após recusa dos EUA, diz jornal </option>
+<option value="v269">269 🎥 Putin: sanções contra a Rússia não são apoiadas pelas economias mais promissoras do mundo </option>
+<option value="v268">268 🎥 Ex-coronel do Pentágono: Rússia não está perdendo e Exército ucraniano está cercado </option>
+<option value="v267">267 🎥 Exército russo bombardeia depósito de foguetes da Ucrânia com mísseis de alta precisão </option>
+<option value="v266">266 🎥 Drone russo Inokhodets destrói equipamento bélico da Ucrânia </option>
+<option value="v265">265 🎥 Donbass: forças da Ucrânia lançam míssil Tochka-U de novo </option>
+<option value="v264">264 🎥 Após violentos protestos, França fala em dar autonomia para a ilha da Córsega </option>
+<option value="v263">263 🎥 Helicópteros de ataque russos eliminam tropas ucranianas </option>
+<option value="v262">262 🎥 Tropas russas entram em navios da Marinha e Guarda Costeira da Ucrânia </option>
+<option value="v261">261 🎥 Brasileiro que foi lutar ao lado da Ucrânia decide sair do país após bombardeio russo </option>
+<option value="v260">260 🎥 Avião de ataque ao solo Su-25 da Rússia consegue pousar após ser alvejado por míssil antiaéreo </option>
+<option value="v259">259 🎥 Rússia elimina até 180 mercenários estrangeiros na Ucrânia e brasileiros alegam ter estado no local </option>
+<option value="v258">258 🎥 Rússia destrói lançadores de foguetes e vários alvos das Forças Armadas da Ucrânia </option>
+<option value="v257">257 🎥 ataque russo a Ucrânia </option>
+<option value="v256">256 🎥 Putin: empresas que querem sair da Rússia podem ser dadas a quem quer trabalhar </option>
+<option value="v255">255 🎥 Facebook libera discurso de ódio contra Putin e 'invasores russos' </option>
+<option value="v254">254 🎥 Voluntários do Oriente Médio querem lutar ao lado de Donbass, diz Rússia </option>
+<option value="v253">253 🎥 Empresário moçambicano é sequestrado na Ucrânia após falar 'o que Kiev não gostava de ouvir </option>
+<option enabled="disabled" value="v252">252 🎥 O que é zona de exclusão aérea e por que OTAN não quer criar uma na Ucrânia? </option>
+<option enabled="disabled" value="v251">251 🎥 União Europeia manda cidadãos reduzir calefação de casas para 'punir' a Rússia </option>
+<option enabled="disabled" value="v250">250 🎥 Cidadãos europeus começam a sentir efeitos das sanções contra a Rússia </option>
+<option enabled="disabled" value="v249">249 🎥 Gás com chumbo diminuiu QI de metade dos norte-americanos, diz estudo </option>
+<option enabled="disabled" value="v248">248 🎥 Lituânia cancela envio de 440 mil doses de vacina para Bangladesh após país não condenar a Rússia </option>
+<option enabled="disabled" value="v247">247 🎥 EUA enviam sistemas Patriot à Polônia em meio à operação militar russa na Ucrânia </option>
+<option enabled="disabled" value="v246">246 🎥 CIA: cálculo da China sobre Taiwan mudou após atual situação na Ucrânia </option>
+<option enabled="disabled" value="v245">245 🎥 Goldmoney Holding: sanções afetarão menos a Rússia do que se pensa </option>
+<option enabled="disabled" value="v244">244 🎥 Ucrânia faz pesquisas biológicas e EUA estão preocupados com aquisição russa, diz Nuland </option>
+<option enabled="disabled" value="v242">242 🎥 Premiê do Paquistão dá dura resposta à UE após bloco pedir apoio contra a Rússia
+ </option>
+<option enabled="disabled" value="v241">241 🎥 Israel mostra F-35 abatendo alegados drones do Irã </option>
+<option enabled="disabled" value="v240">240 🎥 Ka-52 russos realizam ataque noturno na Ucrânia </option>
+<option enabled="disabled" value="v239">239 🎥 EUA ameaçam a China com 'medidas' caso não apoie sanções contra Rússia </option>
+<option enabled="disabled" value="v238">238 🎥 Rússia acusa Ucrânia de estar destruindo arquivos de programa de armas biológicas </option>
+<option enabled="disabled" value="v237">237 🎥 Moradora de povoado a norte de Mariupol conta dificuldade de refugiados saírem da área
+ </option>
+<option enabled="disabled" value="v236">236 🎥 Kiev prepara ataque com potencial nuclear perto de Kharkov, diz Rússia </option>
+<option enabled="disabled" value="v235">235 🎥 Bancos russos driblam sanções de Mastercard e Visa </option>
+<option enabled="disabled" value="v234">234 🎥 Povoados são tomados e tanques russos são filmados avançando pela região de Kiev, na Ucrânia
+ </option>
+<option enabled="disabled" value="v233">233 🎥 Imagens de drones mostram base militar abandonada na Ucrânia em meio à operação especial russa
+ </option>
+<option enabled="disabled" value="v232">232 🎥 OTAN planejava desencadear guerra nuclear e Ucrânia queria atacar Donbass, diz ex-premiê ucraniano
+ </option>
+<option enabled="disabled" value="v231">231 🎥 Tropas avançam: grande formação militar russa entra na região de Kiev </option>
+<option enabled="disabled" value="v230">230 🎥 Rússia destrói posto de comando do batalhão Aidar com a ajuda de drone </option>
+<option enabled="disabled" value="v229">229 🎥 Mais soldados ucranianos abandonam posições e deixam para trás armas enviadas pela OTAN
+ </option>
+<option enabled="disabled" value="v228">228 🎥 Senador dos EUA pede para russos matarem Putin </option>
+<option enabled="disabled" value="v227">227 🎥 Rússia usa bombas termobáricas na Ucrânia? </option>
+<option enabled="disabled" value="v226">226 🎥 Susto nuclear: o que aconteceu na usina de Zaporozhie durante conflito na Ucrânia? </option>
+<option enabled="disabled" value="v225">225 🎥 O que os cidadãos russos pensam sobre as sanções dos EUA e UE? * </option>
+ </select> </div></div>
+<!--select Fim-->
+<div style="position: relative;padding-bottom: 56.25%; padding-top: 25px; height: 0;">
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" name="Sputnik Brasil" src="https://odysee.com/$/embed/putinpovodacrimeiadeupassocertoaocolocarbarreiranocaminhodosneonazistas/0e1bf4464a6f6f9a4058322e9875f6f4d3a13f7f?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93" frameborder="0" allowfullscreen></iframe></div>
+                                                          <!-- 🔴🔴🔴🔴🔴 embed 🔴🔴🔴🔴🔴 Aqui-->                                          
+<div style="text-align: center;">
+<span style="font-size:16px;"><span style="font-family: georgia,serif;"><a href="#"><span style="color: #ff9600;">🔗 Sputnik Brasil </span></a></span>
+	
 <!--SCRIPT ini-->
 <script language="Javascript">
-function showDiv_blog(pasta) {
-  // Live 24h em português //
-  if (pasta == 'Live 24h em português') {
-     window.open("https://www.youtube.com/embed/JyC8mwZqJao", target="euronews");
-                        / *    Fixo acima      */
- }
-	// copie abaixo para adicionar mais uma janela smartfone //
+function showDiv(pasta) {
+  // Alemanha fecha 3 usinas nucleares no que seria uma 'armadilha verde //
+  if (pasta == 'uso futuro') {
+     window.open("uuuuuuuuuuuuuuu", target="Sputnik Brasil");
+}
+  // inicio //
   if (pasta == 'Inicio') {
-    var url = "#";
-    window.open("https://tvmundoblog.blogspot.com/", target="_parent");
+     window.open("https://tvmundoblog.blogspot.com", target="_parent");   
+                     
+                        /* 🔺🔺🔺🔺🔺 Fixo Acima 🔺🔺🔺🔺🔺 */
+} 
+  // 281 uuuuuuuuuuuuuuuuuuuuu // 
+  if (pasta == 'v281') {
+     window.open("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", target="Sputnik Brasil");   
+                                                // 281 // 
+}  
+  // 280 uuuuuuuuuuuuuuuuuuuuu // 
+  if (pasta == 'v280') {
+     window.open("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", target="Sputnik Brasil");   
+                                                // 2804 // 
+}  
+  // 279 Putin: povo da Crimeia deu passo certo 'ao colocar barreira' no caminho dos neonazistas // 
+  if (pasta == 'v279') {
+     window.open("https://odysee.com/$/embed/putinpovodacrimeiadeupassocertoaocolocarbarreiranocaminhodosneonazistas/0e1bf4464a6f6f9a4058322e9875f6f4d3a13f7f?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 279 // 
+}  
+  // 278 França tem munição estocada para somente 4 dias de guerra, diz senador do país // 
+  if (pasta == 'v278') {
+     window.open("https://odysee.com/$/embed/francatemmunicaoestocadaparasomente4diasdeguerra/d7c5f1bfecfe8389e958c0b0aacb847c1eb983c6?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 278 // 
+}  
+  // 277 Brasil, China e Rússia não desejam ser tutelados pelos EUA, diz Lavrov // 
+  if (pasta == 'v277') {
+     window.open("https://odysee.com/$/embed/brasil-china-e-russia-nao-desejam-ser-tutelados-pelos-eua-diz-lavrov/30523273de6030dbdeb126a0f0ab51fe156127df?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 277 // 
+}  
+  // 276 Drone russo Forpost bombardeia blindados ucranianos // 
+  if (pasta == 'v276') {
+     window.open("https://odysee.com/$/embed/DronerussoForpostbombardeiablindadosucranianos/19725bc2c3a9469a5772bf72d6383a05ee6a4bb3?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 276 // 
+}  
+  // 275 Ucrânia: moradores de Lvov se escondem em abrigo antiaéreo improvisado em porão // 
+  if (pasta == 'v275') {
+     window.open("https://odysee.com/$/embed/ucr%C3%A2nia-tem-controle-a%C3%A9reo-e/d181f5275f884269c4deb0a980c589d985558f5c?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 275 // 
+}  
+  // 274 * Forças da Rússia destroem obuseiros e armazéns com munição da Ucrânia  // 
+  if (pasta == 'v274') {
+     window.open("https://odysee.com/$/embed/forcas-da-russia-destroem-obuseiros-e-armazens-com-municao-da-ucrania/b38454e5b8ad1a5df7d4ce9f1028ad8db0452568?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 274 // 
+} 
+  // 273 Peruano mercenário abandona armas e foge da Ucrânia depois de sentir 'poder russo' // 
+  if (pasta == 'v273') {
+     window.open("https://odysee.com/$/embed/peruano-mercenario-abandona-armas-e-foge-da-ucrania/32adcc099922de7d61d952a446715360e7d34019?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 273 // 
+}
+  // 272 Forças da Rússia destroem obuseiros e armazéns com munição da Ucrânia // 
+  if (pasta == 'v272') {
+     window.open("https://odysee.com/$/embed/forcas-da-russia-destroem-obuseiros-e-armazens-com-municao-da-ucrania/b38454e5b8ad1a5df7d4ce9f1028ad8db0452568?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 272 // 
+}
+  // 271 Fabricante de trajes blindados da Colômbia envia proteção para Ucrânia // 
+  if (pasta == 'v271') {
+     window.open("https://odysee.com/$/embed/fabricante-de-trajes-blindados-da-colombia-envia-protecao-para-ucrania/b58e5a226bbcf3854d89e9fa4058344b0effc0d2?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 271 // 
+}
+  // 270 Bolsonaro pediu ajuda a Putin para construir submarino nuclear após recusa dos EUA, diz jornal // 
+  if (pasta == 'v270') {
+     window.open("https://odysee.com/$/embed/bolsonaro-pediu-ajuda-a-putin-para-construir-submarino-nuclear-apos-recusa-dos-eua/c5dbdee84826ee97f75808f51fb0ad85daf2909e?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 270 // 
+}
+  // 269 Putin: sanções contra a Rússia não são apoiadas pelas economias mais promissoras do mundo // 
+  if (pasta == 'v269') {
+     window.open("https://odysee.com/$/embed/putinsancoescontraarussianaosaoapoiadaspelaseconomiasmaispromissorasdomundo/4bceb1fe9e4f9872e60fe2190fcfd9a3dfc15885?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 269 // 
+}
+  // 268 Ex-coronel do Pentágono: Rússia não está perdendo e Exército ucraniano está cercado  atualizado 12:33 // 
+  if (pasta == 'v268') {
+     window.open("https://odysee.com/$/embed/excoroneldopentagonorussianaoestaperdendo/8ecda0cc1c8860c4b615080765957583ab3c406d?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 268 // 
+}  
+  // 267 Exército russo bombardeia depósito de foguetes da Ucrânia com mísseis de alta precisão // 
+  if (pasta == 'v267') {
+     window.open("https://odysee.com/$/embed/exercitorussobombardeiadepositodefoguetesdaucrania/e12a56c48341bac10aa384ed3c4d1ff8201f9b43?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 267 // 
+} 
+  // 266 Drone russo Inokhodets destrói equipamento bélico da Ucrânia // 
+  if (pasta == 'v266') {
+     window.open("https://odysee.com/$/embed/drone-russo-inokhodets-destroi-equipamento-belico-da-ucrania/c431d8bc752cc8330600669648c76328bb6c8970?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 266 // 
+}  
+  // 265 Donbass: forças da Ucrânia lançam míssil Tochka-U de novo // 
+  if (pasta == 'v265') {
+     window.open("https://odysee.com/$/embed/donbass-forcas-da-ucrania-lancam-missil-tochka-u-de-novo/8268095758eeb865233e44e8e19350ed7b73186a?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 265 // 
+} 
+  // 264 Após violentos protestos, França fala em dar autonomia para a ilha da Córsega // 
+  if (pasta == 'v264') {
+     window.open("https://odysee.com/$/embed/corsegapodesairdafran%C3%A7a/3b3db7fcae7256933bd814050f61e2d6155f36d0?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 264 // 
+} 
+  // 263 Helicópteros de ataque russos eliminam tropas ucranianas // 
+  if (pasta == 'v263') {
+     window.open("https://odysee.com/$/embed/helic%C3%B3pterosrussosnaucr%C3%A2nia/83f704453cf90c32873e5ba548d32ce039476440?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 263 // 
+} 
+  // 262 Tropas russas entram em navios da Marinha e Guarda Costeira da Ucrânia // 
+  if (pasta == 'v262') {
+     window.open("https://odysee.com/$/embed/tropas-russas-entram-em-navios-da-Marinha-e-Guarda-Costeira-da-Ucrania/8f13ee4670c1699a63257ec22114258a655eb63c?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 262 // 
+} 
+  // 261 Brasileiro que foi lutar ao lado da Ucrânia decide sair do país após bombardeio russo // 
+  if (pasta == 'v261') {
+     window.open("https://odysee.com/$/embed/%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F6/420c5579ab666a89341a6421f7341e5ccbef2e80?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 261 // 
+} 
+  // 260 Avião de ataque ao solo Su-25 da Rússia consegue pousar após ser alvejado por míssil antiaéreo // 
+  if (pasta == 'v260') {
+     window.open("https://odysee.com/$/embed/%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F2/d9f826cf4d9117400359d1fa3085970c16a964ec?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 260 // 
+} 
+  // Rússia elimina até 180 mercenários estrangeiros na Ucrânia e brasileiros alegam ter estado no local // 
+  if (pasta == 'v259') {
+     window.open("https://odysee.com/$/embed/%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F1/bfb25ed83de7759f4e94f1d14e4797eab068eaa2?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 259 // 
+}
+  // Rússia destrói lançadores de foguetes e vários alvos das Forças Armadas da Ucrânia // 
+  if (pasta == 'v258') {
+     window.open("https://odysee.com/$/embed/%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F/75b3e83559056ff4971a8b293a7bf2f38da8e64f?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 258 // 
+} 
+  // ataque russo a Ucrânia // 
+  if (pasta == 'v257') {
+     window.open("https://odysee.com/$/embed/drone-de-fabrica%C3%A7%C3%A3o-sovi%C3%A9tica-da/11c6a84dc8c632378ff0154b89b7312693e13659?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 257 // 
+} 
+  // Putin: empresas que querem sair da Rússia podem ser dadas a quem quer trabalhar // 
+  if (pasta == 'v256') {
+     window.open("https://odysee.com/$/embed/putin-empresas-que-querem-sair-da/67787ac739c27c0a9a04cb0f270f7abd77281a76?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                // 256 // 
+}
+  // Facebook libera discurso de ódio contra Putin e 'invasores russos' // 
+  if (pasta == 'v255') {
+     window.open("https://odysee.com/$/embed/facebook-libera-discurso-de-%C3%B3dio-contra/bfc00c8472d6b4f2b460736207a51b3821e89f08?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil"); 
+                                                // 255 // 
+} 
+  // Voluntários do Oriente Médio querem lutar ao lado de Donbass, diz Rússia // 
+  if (pasta == 'v254') {
+     window.open("https://odysee.com/$/embed/volunt%C3%A1rios-do-oriente-m%C3%A9dio-querem/fcd2e184126d7720863824837dca1ca7aaeb9ad1?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");  
+                                                // 254 // 
+}
+  // Empresário moçambicano é sequestrado na Ucrânia após falar 'o que Kiev não gostava de ouvir // 
+  if (pasta == 'v253') {
+     window.open("https://odysee.com/$/embed/empres%C3%A1rio-mo%C3%A7ambicano-%C3%A9-sequestrado/a2f8061c3bc8c831cfdf1906dceec743f778fa27?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+                                                 // 253 // 
+} 
+  // 252 O que é zona de exclusão aérea e por que OTAN não quer criar uma na Ucrânia? // 
+  if (pasta == 'v252') {
+     window.open("https://odysee.com/$/embed/o-que-%C3%A9-zona-de-exclus%C3%A3o-a%C3%A9rea-e-por/236a734b36bcd427f734e2ddc69e8f916293cf1d?r=FD42SNDTovzkAhdp1ov6ZyyLSVawuP93", target="Sputnik Brasil");   
+}
+  // 251 União Europeia manda cidadãos reduzir calefação de casas para 'punir' a Rússia // 
+  if (pasta == 'v251') {
+     window.open("https://www.youtube.com/embed/Xj6MO-3TJf8", target="Sputnik Brasil");   
+}
+  // 250 Cidadãos europeus começam a sentir efeitos das sanções contra a Rússia // 
+  if (pasta == 'v250') {
+     window.open("https://www.youtube.com/embed/ZDCBhlugv2k", target="Sputnik Brasil");   
+}
+  // 249 Gás com chumbo diminuiu QI de metade dos norte-americanos, diz estudo // 
+  if (pasta == 'v249') {
+     window.open("https://www.youtube.com/embed/2QkmylSWVwc", target="Sputnik Brasil");   
+} 
+  // 248 Lituânia cancela envio de 440 mil doses de vacina para Bangladesh após país não condenar a Rússia // 
+  if (pasta == 'v248') {
+     window.open("https://www.youtube.com/embed/puEbtVeTNLU", target="Sputnik Brasil");   
+} 
+  // 247 EUA enviam sistemas Patriot à Polônia em meio à operação militar russa na Ucrânia // 
+  if (pasta == 'v247') {
+     window.open("https://www.youtube.com/embed/SPlj_t9EfAI", target="Sputnik Brasil");   
+} 
+  // 246 CIA: cálculo da China sobre Taiwan mudou após atual situação na Ucrânia // 
+  if (pasta == 'v246') {
+     window.open("https://www.youtube.com/embed/7EV1V-uM7Ik", target="Sputnik Brasil");   
+} 
+  // 245 Goldmoney Holding: sanções afetarão menos a Rússia do que se pensa // 
+  if (pasta == 'v245') {
+     window.open("https://www.youtube.com/embed/toyiZatBKZU", target="Sputnik Brasil");   
+} 
+  // 244 Ucrânia faz pesquisas biológicas e EUA estão preocupados com aquisição russa, diz Nuland // 
+  if (pasta == 'v244') {
+     window.open("https://www.youtube.com/embed/-Ebukg61JTs", target="Sputnik Brasil");   
+}
+  // 243 Ucrânia faz pesquisas biológicas e EUA estão preocupados com aquisição russa, diz Nuland // 
+  if (pasta == 'v243') {
+     window.open("https://www.youtube.com/embed/ciJu8stbb2I", target="Sputnik Brasil");   
+}  
+  // 242 Premiê do Paquistão dá dura resposta à UE após bloco pedir apoio contra a Rússia // 
+  if (pasta == 'v242') {
+     window.open("https://www.youtube.com/embed/ciJu8stbb2I", target="Sputnik Brasil");   
+} 
+  // 241 Israel mostra F-35 abatendo alegados drones do Irã // 
+  if (pasta == 'v241') {
+     window.open("https://www.youtube.com/embed/q8x0FlgawQ4", target="Sputnik Brasil");   
+}    
+  
+  // 240 Ka-52 russos realizam ataque noturno na Ucrânia // 
+  if (pasta == 'v240') {
+     window.open("https://www.youtube.com/embed/-TWqysRYkP4", target="Sputnik Brasil");   
+}    
+  // 239 EUA ameaçam a China com 'medidas' caso não apoie sanções contra Rússia // 
+  if (pasta == 'v239') {
+     window.open("https://www.youtube.com/embed/BV23ZC1IeQ8", target="Sputnik Brasil");   
+  } 
+  // 238 Rússia acusa Ucrânia de estar destruindo arquivos de programa de armas biológicas // 
+  if (pasta == 'v238') {
+     window.open("https://www.youtube.com/embed/GiTQMFNUyJM", target="Sputnik Brasil");   
+  } 
+  // 237 Moradora de povoado a norte de Mariupol conta dificuldade de refugiados saírem da área // 
+  if (pasta == 'v237') {
+     window.open("https://www.youtube.com/embed/c1AlMcGsY4Q", target="Sputnik Brasil");   
+  } 
+  // 236 Kiev prepara ataque com potencial nuclear perto de Kharkov, diz Rússia
+ // 
+  if (pasta == 'v236') {
+     window.open("https://www.youtube.com/embed/CVfLoCmUw3E", target="Sputnik Brasil");   
+  } 
+  // 235 Bancos russos driblam sanções de Mastercard e Visa // 
+  if (pasta == 'v235') {
+     window.open("https://www.youtube.com/embed/6hSGp2233eM", target="Sputnik Brasil");   
   }
-	// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'Inicio') {
-    var url = "#";
-    window.open("https://tvmundoblog.blogspot.com/", target="_parent");
+  // 234 Povoados são tomados e tanques russos são filmados avançando pela região de Kiev, na Ucrânia //
+  if (pasta == 'v234') {
+     window.open("https://www.youtube.com/embed/5MLdss8Wsfw", target="Sputnik Brasil");   
+  } 
+  // 233 Imagens de drones mostram base militar abandonada na Ucrânia em meio à operação especial russa //
+  if (pasta == 'v233') {
+     window.open("https://www.youtube.com/embed/_Y8WNlnDJQg", target="Sputnik Brasil");   
   }
-  // copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'app TV Mundo') {
-    var url = "#";
-    window.open("https://tvmundoblog.blogspot.com/2021/11/apk-tvmundo-2022.html", target="_parent");
- /*                Fixo Acima             */
-}	
-// O POVO Online //
-  if (pasta == 'Tudo do RN') {
-    window.open("https://tvmundoblog.blogspot.com/2022/03/tudo-do-rn.html", target="_parent");
-}	
-// O POVO Online //
-  if (pasta == 'O POVO Online') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/o-povo-online.html", target="_parent");
-}	
-// Senha //
-  if (pasta == 'Senha') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/senha.html", target="_parent");
-}	
-// Polícia na Área //
-  if (pasta == 'Polícia na Área') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/policia-na-area.html", target="_parent");
-}	
-// Mistura de hoje //
-  if (pasta == 'Mistura de hoje') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/mistura-de-hoje.html", target="_parent");
-}	
-// Marco Antonio Villa //
-  if (pasta == 'p720') {
-    window.open("https://tvmundoblog.blogspot.com/2021/12/marco-antonio-villa.html", target="_parent");
-}	
-// Morel Felipe Wilkon //
-  if (pasta == 'p719') {
-    window.open("https://tvmundoblog.blogspot.com/2021/12/morel-felipe-wilkon.html", target="_parent");
-}	
-// Sputnik Brasil 01/01/22 //
-  if (pasta == 'p718') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/sputnik-brasil.html", target="_parent");
-}	
-// UM Recorde para o número de novos caixas eletrônicos criptografados foi registrado em 2021 //
-  if (pasta == 'p717') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/um-recorde-para-o-numero-de-novos.html", target="_parent");
-}	
-// CEO da Coinbase compra uma mansão em Los Angeles por US$ 133 milhões //
-  if (pasta == 'p716') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/ceo-da-coinbase-compra-uma-mansao-em.html", target="_parent");
-}	
-// Caio Fábio abaixo //
-  if (pasta == 'p715') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/caio-fabio.html", target="_parent");
-}	
-// Rodrigo Silva Arqueologia abaixo //
-  if (pasta == 'p714') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/rodrigo-silva-arqueologia.html", target="_parent");
-}	
-// euronews (em português) abaixo //
-  if (pasta == 'p713') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/euronews.html", target="_parent");
-}	
-// Politizando abaixo //
-  if (pasta == 'p712') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/politizando.html", target="_parent");
-}	
-// Fernando Ulrich abaixo //
-  if (pasta == 'p711') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/fernando-ulrich.html", target="_parent");
-}	
-// Filósofo Paulo Ghiraldelli //
-  if (pasta == 'p710') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/filosofo-paulo-ghiraldelli.html", target="_parent");
-}
-// Portal do José //
-  if (pasta == 'p709') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/portal-do-jose-010121.html", target="_parent");
-}
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p708'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/hoje-no-mundo-militar.html", target="_parent");
+  // 232 OTAN planejava desencadear guerra nuclear e Ucrânia queria atacar Donbass, diz ex-premiê ucraniano //
+  if (pasta == 'v232') {
+     window.open("https://www.youtube.com/embed/UPAv1GZNlwE", target="Sputnik Brasil");   
+  } 
+  // 231 Tropas avançam: grande formação militar russa entra na região de Kiev //
+  if (pasta == 'v231') {
+     window.open("https://www.youtube.com/embed/FFTEflrTHrQ", target="Sputnik Brasil");   
+  } 
+  // 230 Rússia destrói posto de comando do batalhão Aidar com a ajuda de drone //
+  if (pasta == 'v230') {
+     window.open("https://www.youtube.com/embed/f6yGVrGTu_g", target="Sputnik Brasil");   
+  } 
+  // 229 Mais soldados ucranianos abandonam posições e deixam para trás armas enviadas pela OTAN //
+  if (pasta == 'v229') {
+     window.open("https://www.youtube.com/embed/C-9qW9bsdRg", target="Sputnik Brasil");   
   }
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p707'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/brasil-urgente-com-datena.html", target="_parent");
+  // 228 Senador dos EUA pede para russos matarem Putin //
+  if (pasta == 'v228') {
+     window.open("https://www.youtube.com/embed/Sn6ONxaQfqM", target="Sputnik Brasil");   
   }
-// brasil-urgente-band-minas //
-  if (pasta == 'p706'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/brasil-urgente-band-minas.html", target="_parent");
+  // 227 Rússia usa bombas termobáricas na Ucrânia? //
+  if (pasta == 'v227') {
+     window.open("https://www.youtube.com/embed/QOmS_LMhsrs", target="Sputnik Brasil");   
   }
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p705'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/e-se-seu-cartao-de-credito-demorasse-10.html", target="_parent");
+  // 226 Susto nuclear: o que aconteceu na usina de Zaporozhie durante conflito na Ucrânia? //
+  if (pasta == 'v226') {
+     window.open("https://www.youtube.com/embed/wtfNRSxGEsA", target="Sputnik Brasil");   
+  } 
+  // 225 O que os cidadãos russos pensam sobre as sanções dos EUA e UE? //
+  if (pasta == 'v225') {
+     window.open("https://www.youtube.com/embed/9RoTqV9XRvQ", target="Sputnik Brasil");   
   }
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p704'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/por-que-o-putin-quer-abrir-uma-terceira_28.html", target="_parent");
+  // 224 Defesa russa exibe seus helicópteros dando cobertura às forças terrestres //
+  if (pasta == 'v224') {
+     window.open("https://www.youtube.com/embed/QQrLDoUV6BQ", target="Sputnik Brasil");   
   }
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p703'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/analise-do-filme-nao-olhe-para-cima.html", target="_parent");
-	  <!----------------▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 24/12/2021 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼--------------->
 }
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p702'){
-    window.open("https://tvmundoblog.blogspot.com/2020/05/mundo-hoje.html", target="_parent");
-	  <!----------------▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 18/12/2021 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼--------------->
-}
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p701'){
-    window.open("2021/dez/18/mundo.Crypto.1812211.html", target="_parent");
-	  <!----------------▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 17/12/2021 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼--------------->
-}
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p701'){
-    window.open("2021/dez/18/mundo.Crypto.1812211.html", target="_parent");
-	  <!----------------▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 17/12/2021 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼--------------->
-}
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p700'){
-    window.open("2021/dez/17/mundo.Crypto.1712211.html", target="_parent");
-	  <!----------------▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 16/12/2021 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼--------------->
-}
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p699'){
-    window.open("2021/dez/16/mundo.Crypto.1612211.html", target="_parent");
-	  <!----------------▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 14/12/2021 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼--------------->
-}
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p698'){
-    window.open("2021/dez/14/mundo.Crypto.1412211.html", target="_parent");
-  }   
-// copie abaixo para adicionar mais uma janela Tecnologia//
-  if (pasta == 'doação') {
-    var url = "http://tvmundo.sytes.net//banners/paypal.picpay.doge.html";
-    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
-  }
-// copie acima para adicionar mais uma janela //
-}
- </script>
+</script>
 <!--SCRIPT Fim-->
+<div style="text-align: left;">
+<a href=" https://github.com/tvmundo/root/edit/gh-pages/sites/Sputnik.brasil/Sputnik.post.html " target="_blank"><span style="color: black; font-size: 10px;"> Edite </span></a> </div>
 <style>
 body {
    
@@ -262,6 +516,7 @@ select::-ms-expand {
 .select::after {
    content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
    position: absolute;
+   font-size: 18px;
    width: 12px;
    height: 3em;
    color: yellow; /* yellow seta #23b499  */
@@ -279,159 +534,5 @@ select::-ms-expand {
    /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
 }
 </style>
-					<!-----------------------------Fim select topo------------------------------------------------------>
-					</div>	
-<div style="text-align: center;">					
-<!-- LOMADEE - BEGIN -->
-<div style="text-align: center;">
-<script src="//ad.lomadee.com/banners/script.js?sourceId=36165408&dimension=1&height=90&width=728&method=0" type="text/javascript" language="javascript"></script>
-</div>
-	<!-- LOMADEE - END -->
-<div style="text-align: center;">
-<a href=" https://tvmundoblog.blogspot.com "><span style="color: black; font-size: 15px;"> Inicio - Home 🏡 </span></a>	</div>	
-			<!-- Main -->
-				<section id="main">
-<!--------------style atualiza o video ini-------------->		
-<style type="text/css">
-  #msglive{
-  position:relative;
-  z-index:999; 
-  left:0px; /* aumentando vai para a direita   */
-  top:1px;   /* Diminuindo sobe */
-  overflow:none;
-  border:0px dashed #FFFF00;
-  padding:0px;
-  margin:0 auto;
-  background:transparent;
-  {
-    visibility: none;
-  }
-</style>
-<a class="tags" type="msglive" class="msglive" id="msglive" style="color: #2f4456; font-weight:bold; font-size: 30px;" gloss="" onClick="window.location.reload() ">Sputnik Brasil
- <span style="font-size: 15px;"><span style="color: #666666; font-size: 25px; font-weight:bold; "> - ↻ </span> </a>												
-<br/> <br/>   </div> </div>
-					<div class="container">
-						<div class="row">
-
-							<!-- Content -->
-								<div id="content" class="col-8 col-12-medium">
-
-									<!-- Post -->
-										<!--<article class="box post">-->
-											<header>
-<!========= select canais de tv ============>
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" 
-scrolling="no" src="https://tvmundo.github.io/root/select-tvmundo-blog.html" width="100%" height="50" ></iframe>												
-<br/>
-<!========= select tv ============>										
-<!--------------------------------inicio post-----------------------------------------> <br/> <br/>										
-<iframe scrolling="no" src="Sputnik.post.html" frameborder="0" allow="autoplay; encrypted-media" width="100%" height="650" allowfullscreen></iframe>
-                                         <!-- 🔴🔴🔴🔴🔴 embed 🔴🔴🔴🔴🔴 Aqui-->
-<!-- Discrçao telegram pagina Sputnik.brasil/ -->													
-<!--<script async src="https://telegram.org/js/telegram-widget.js?16" data-telegram-discussion="soanatareportagens/3216" data-comments-limit="50" data-color="343638" data-dark-color="FFFFFF"></script>-->
-<!-- Discrçao telegram pagina Sputnik.brasil/ -->	
-<!-- Discrçao telegram pagina mundo -->												
-<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="XqclsqX8" data-limit="50"></script>
-<!-- Discrçao telegram pagina mundo -->													
-                                      <!-------------------------------- Fim post -------------------------------------------->
-<br/> <br/>												
-<!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-<a class="a2a_button_twitter"></a>
-<a class="a2a_button_whatsapp"></a>
-<a class="a2a_button_telegram"></a>
-<a class="a2a_button_mastodon"></a>
-<a class="a2a_button_vk"></a>
-<a class="a2a_button_odnoklassniki"></a>
-<a class="a2a_button_google_gmail"></a>
-</div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->
-<!---------------------Ini tt telegram-------------------->
-<div style="text-align: center;">
-<iframe width="95%" height="500" scrolling="yes" name="tt" src="https://tvmundo.github.io/root/sliding/telegram/1.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </div>
-     <!-- 🔵🔵🔵🔵🔵 embed Aqui 🔵🔵🔵🔵🔵 -->
-<!-- style scrollbar ini -->
-<style>
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #D8D8D8;  /* cor da barra  */
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #BDBDBD;  /* segunda cor da barra #b30000 */ 
-}
-</style>
-<!-- style scrollbar Fim -->
-<!---------------------Fim tt -------------------->												
-												
-										</div>
-
-							<!-- Sidebar -->
-								<div id="sidebar" class="col-4 col-12-medium">
-
-									<!-- Excerpts -->
-										
-								<!-- Highlight post coluna Direita -->
-<div style="text-align: left;">									
-<iframe  height="1200"  scrolling="no" src="../../m.tv/col.direita.html" width="370"></iframe>
-<br/>
-</div>
-</div>										
-																	
-								</div>
-
-						</div>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				
-											</ul>
-										</div>
-									</div>
-								</div>
-						</div>
-					</div>
-<!-- Diminui a largura do rodape se fechado --> 	<!--<div id="copyright" class="container">-->
-
-<!-- Acesse www.addthis.com/dashboard para personalizar suas ferramentas --> <div class="addthis_inline_share_toolbox"></div> 
-
-<!-- botao compartilhar -->
-						<ul class="links">
-<div style="text-align: center;">
-<br/>
-<li>  &copy; 2022 TV Mundo. All Rights Reserved. </li><li> <a href="https://tvmundoblog.blogspot.com/">Home</a></li>
-						</ul>
-					</div>
-				</section>
-
-		</div>
-
-		<!-- Scripts 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>-->
-
-	</body>
-</html>
-<!-- Botao subir descer -->
-<div id='navigation_up_down_35349'><script src='https://tvmundo.github.io/root/js/up.down.%20botao1.js' type='text/javascript'></script></div>
-<!--select ini-->
+<!---------------------Mouse--------------------->
+					   <!--------------------------------Fim post-------------------------------------------->
