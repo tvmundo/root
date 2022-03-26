@@ -61,7 +61,7 @@ body{
   }
   .navbar .nav-btn label {
     display: inline-block;
-    width: 80px;
+    width: 80px; /* move  o menu orizontalmente 80 */
     height: 70px;
     padding: 25px;
   }
@@ -79,7 +79,7 @@ body{
     position: absolute;
     display: block;
     text-align: center;
-    width: 50%;
+    width: 80%; /* enlarguesse os links celular 50  */
     background-color: rgb(9, 14, 90);
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -134,7 +134,7 @@ body{
   display: none;
   position: absolute;
   background-color: #1b4cd3;
-  min-width: 120px;
+  min-width: 320px; /* 4444 120 */
   font-size: 16px;
   top: 34px;
   z-index: 1;
