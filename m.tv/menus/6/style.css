@@ -13,7 +13,7 @@ body{
   height: 70px;
   width: 100%;
   padding: 19px 30px;
-  background-color: #1b4cd3;
+  background-color: #2f4456; /* #1b4cd3 */
   position: relative;
 }
 .navbar .nav-header{
