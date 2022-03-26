@@ -10,7 +10,7 @@ body{
   min-height: 100vh;
 }
 nav{
-  position: fixed;
+  position: relative; /* relative Static fixed */
   top: 0;
   left: 0;
   width: 100%;
