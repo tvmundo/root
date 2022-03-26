@@ -99,7 +99,7 @@
   color: #d1d1d1;
   letter-spacing: 0;
   display: block;
-  width: 600px;  /* Aumenta a largura do sub 170 */
+  width: 500px;  /*4444 Aumenta a largura do sub 170 */
   padding: 11px 10px 11px 20px;
 }
 #cssmenu ul li ul li:hover {
