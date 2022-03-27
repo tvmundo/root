@@ -625,7 +625,14 @@ function showDiv(pasta) {
 <!--SCRIPT Fim-->
 <style>
 body {
-   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: #23b499;
+   font-family: 'Open Sans', sans-serif;
+   color: #fff;
 }
 select {
    -webkit-appearance:none;
@@ -635,13 +642,13 @@ select {
    outline:0;
    box-shadow:none;
    border:0!important;
-   background: #2f4456; /* #5c6664 */
+   background: #5c6664;
    background-image: none;
    flex: 1;
    padding: 0 .5em;
    color:#fff;
    cursor:pointer;
-   font-size: 16px;
+   font-size: 1em;
    font-family: 'Open Sans', sans-serif;
 }
 select::-ms-expand {
@@ -650,7 +657,7 @@ select::-ms-expand {
 .select {
    position: relative;
    display: flex;
-   width: 100%;
+   width: 20em;
    height: 3em;
    line-height: 3;
    background: #5c6664;
@@ -658,26 +665,34 @@ select::-ms-expand {
    border-radius: .25em;
 }
 .select::after {
-   content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
+   content: '\25BC';
    position: absolute;
-   font-size: 18px;
-   width: 12px;
-   height: 3em;
-   color: yellow; /* yellow seta #23b499  */
    top: 0;
-   right: 0;  /* Aumentando leva  a seta e bg para esquerda */
+   right: 0;
    padding: 0 1em;
-   background: ; /* #2b2e2e */
+   background: #2b2e2e;
    cursor:pointer;
    pointer-events:none;
    transition:.25s all ease;
 }
 .select:hover::after {
-   color: #00FF7F; /* cor ao passar o mouse #23b499 */
-   width: 15px; /* faz o efeito esticar pra esquerda */
-   /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
+   color: #23b499;
 }
-</style>
+</style>    
+
+</head>
+
+<body translate="no" >
+  <h1>Choose a book format</h1>
+<div class="select">
+   <select name="format" id="format">
+      <option selected disabled>Choose a book format</option>
+      <option value="pdf">PDF</option>
+      <option value="txt">txt</option>
+      <option value="epub">ePub</option>
+      <option value="fb2">fb2</option>
+      <option value="mobi">mobi</option>
+   </select>
 <div style="text-align: left;">
 <a href=" https://github.com/tvmundo/root/edit/gh-pages/m.tv/canais/tudo.do.rn/index.html " target="_blank"><span style="color: black; font-size: 10px;"> Edite </span></a>	</div>
 <!------------------------testeo-------------------------->
