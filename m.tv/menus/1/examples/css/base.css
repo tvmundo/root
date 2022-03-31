@@ -89,7 +89,7 @@ main {
 }
 
 .zeynep ul > li > a {
-  color: #fff; /*  inherit */ /* cor do texto do menu */
+  color: #C0C0C0; /*  inherit */ /* cor do texto do menu */
   display: block;
   font-size: 14px;
   font-weight: bold;
