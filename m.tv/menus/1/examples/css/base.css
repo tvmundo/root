@@ -89,7 +89,7 @@ main {
 }
 
 .zeynep ul > li > a {
-  color: #C0C0C0; /*  inherit */ /* cor do texto do menu */
+  color: #C0C0C0; /* #808080  inherit */ /* cor do texto do menu */
   display: block;
   font-size: 14px;
   font-weight: bold;
@@ -160,11 +160,16 @@ main {
 .zeynep .submenu > label {
   color: #fff; /* cor texto de indicaçao */
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 8px;
   margin-top: 19px;
   opacity: .5;
   padding-left: 40px;
   width: 100%;
+} /* add abaixo */
+.fechar-bnt {
+    margin-left: 270px;
+    margin-right: auto;
+    width: 6em
 }
