@@ -122,3 +122,22 @@ select::-ms-expand {
 	<!----------------------iframe hora----------------------------->
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" scrolling="no" src="https://tvmundo.github.io/root/iframe.hora.html" width="300" height="48" ></iframe>
 <!----------------------iframe hora-----------------------------> 
+<!--------------style atualiza o video ini-------------->		
+<style type="text/css">
+  #msglive{
+  position:relative;
+  z-index:999; 
+  left:3px;  /* Diminuindo <<< esquerda */
+  top:-370px;   /* Diminuindo sobe */
+  overflow:none;
+  border:0px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 20px;
+  height:20px;
+  background:transparent;
+  {
+    visibility: none;
+  }
+</style>
+<a class="tags" type="msglive" class="msglive" id="msglive" style="color: #fff; font-size: 20px;" gloss="" onClick="window.location.reload()">↻</a>
