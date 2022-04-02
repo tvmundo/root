@@ -63,8 +63,8 @@ main {
 }
 
 .btn-open.first {
-  background-color: #2f4456; /* Cor do botao bnt */
-  color: #ffffff; /* texto da pagina */
+  background-color: transparebt; /* Cor do botao bnt - Blog #2f4456 */
+  color: #000; /* texto da pagina #ffffff */
 }
 .btn-open.second {
   background-color: #ffffff;
