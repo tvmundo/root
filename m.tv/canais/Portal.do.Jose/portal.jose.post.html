@@ -123,21 +123,23 @@ select::-ms-expand {
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" scrolling="no" src="https://tvmundo.github.io/root/iframe.hora.html" width="300" height="48" ></iframe>
 <!----------------------iframe hora-----------------------------> 
 <!--------------style atualiza o video ini-------------->		
+<div style="text-align: center;">
 <style type="text/css">
   #msglive{
-  position:relative;
+  position:fixed;
   z-index:999; 
-  left:-750px;  /* Diminuindo <<< esquerda */
-  top: -390px;   /* Diminuindo sobe */
+  left:5px; 
+  top:150px;
   overflow:none;
-  border:0px dashed #FFFF00;
+  border:0px dashed #000 ;
   padding:0px;
   margin:0 auto;
-  width: 20px;
-  height:20px;
-  background:transparent;
+  width: 35px;
+  height:35px;
+  background:transparent ;
   {
     visibility: none;
   }
-</style>
-<a class="tags" type="msglive" class="msglive" id="msglive" style="color: #fff; font-size: 20px;" gloss="" onClick="window.location.reload()">↻</a>
+</style>    
+
+<input type="msglive" class="msglive" id="msglive" style="color: #fff; font-size: 30px;" value="↻" onClick="window.location.reload()">
