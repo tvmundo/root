@@ -40,7 +40,7 @@ h1 span {
 
 main {
   text-align: center;
-  padding: 5px 20px; /* 55px 20px */
+  padding: 0px 0px; /* 55px 20px */
 }
 
 .btn-open {
@@ -138,8 +138,8 @@ main {
   display: block;
   font-size: 14px;
   font-weight: bold;
-  padding: 18px 20px;
-  padding-left: 40px;
+  padding: 0px 0px;  /* 18px 20px; */
+  padding-left: 0px; /* 40px */
   text-decoration: none;
 }
 
