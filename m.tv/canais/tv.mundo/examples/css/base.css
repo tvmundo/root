@@ -81,7 +81,7 @@ main {
 .zeynep ul {
   list-style-type: none;
   padding: 0;
-  padding-left: 20px;
+  padding-left: 5px;
   -webkit-overflow-scrolling: touch;
 }
 .zeynep ul > li {
@@ -138,8 +138,8 @@ main {
   display: block;
   font-size: 14px;
   font-weight: bold;
-  padding: 0px 0px;  /* 18px 20px; */
-  padding-left: 0px; /* 40px */
+  padding: 5px 5px;  /* 18px 20px; */
+  padding-left: 35px; /* 40px */
   text-decoration: none;
 }
 
