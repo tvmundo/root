@@ -64,7 +64,7 @@ main {
 
 .btn-open.first {
   background-color: transparebt; /* Cor do botao bnt - Blog #2f4456 */
-  color: #000; /* texto da pagina #ffffff */
+  color: #2f4456; /* texto da pagina #ffffff */
 }
 .btn-open.second {
   background-color: #ffffff;
@@ -73,7 +73,7 @@ main {
 
 /* zeynepjs menu styles */
 .zeynep {
-  background-color: #000;  /* fundo primeira tela do menu */
+  background-color: #2f4456;  /* fundo primeira tela do menu */
   color: #fff; /* cor do texto do main menu */
   width: 400px; /* primeira largura do menu 295 */
 }
@@ -91,7 +91,7 @@ main {
 .zeynep ul > li > a {
   color: #C0C0C0; /* #808080  inherit */ /* cor do texto do menu */
   display: block;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
   padding: 18px 20px;
   text-decoration: none;
@@ -119,7 +119,7 @@ main {
 
 /* zeynepjs submenu styles */
 .zeynep .submenu {
-  background-color: #000; /* fundo segunta tela do menu */
+  background-color: #2f4456; /* fundo segunta tela do menu */
   left: 400px; /* segunda largura do menu 295 */
 }
 
@@ -136,7 +136,7 @@ main {
 .zeynep .submenu-header > a {
   color: #fff; /* inherit  */ /* cor do texto do main menu */
   display: block;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
   padding: 5px 5px;  /* 18px 20px; */
   padding-left: 35px; /* 40px */
@@ -160,7 +160,7 @@ main {
 .zeynep .submenu > label {
   color: #fff; /* cor texto de indicaçao */
   display: block;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
   margin-bottom: 8px;
   margin-top: 19px;
