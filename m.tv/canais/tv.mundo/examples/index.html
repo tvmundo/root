@@ -431,10 +431,10 @@ frameborder="0" name="tvmundo" scrolling="no" src="https://www.youtube.com/embed
 <div style="text-align: center;">
 <style type="text/css">
   #btn-open{
-  position: relative; /* absolute */
+  position: absolute; /* relative absolute */
   z-index:999; 
-  left:0px; 
-  top:-600px; / 522 left abaixo menu 50px mundo 45px */
+  left:-115px; 
+  top:300px; / 522 left abaixo menu 50px mundo 45px */
   overflow:none;
   border:0px dashed #000 ;
   padding:0px;
@@ -448,4 +448,75 @@ frameborder="0" name="tvmundo" scrolling="no" src="https://www.youtube.com/embed
 </style>    
 
 <!--<input type="btn-mov" class="btn-mov" id="btn-mov" style="color: #fff; font-size: 25px;" value="  " onClick="window.location.reload()">-->
-<span  id="btn-open"; style="font-size:20px; color: #696969; cursor:pointer" class="btn-open "> &#9776 Mundo</span> 
+<div class="piscar">
+<span class="btn-open " id="btn-open"; style="font-size:20px; color: red; cursor:pointer" > &#9776</span>
+</div>
+
+
+<!--------------style efeito texto--------------------------- ini-------------->
+    <style>
+        p {
+  background-color: #fff;
+  width: 25px;
+  height:25px;
+text-align: center;
+}
+.piscar {
+  color: #000;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@-moz-keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+@-webkit-keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+@keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+    </style>
+</head>
+<body>
+    <p>
+  <span class="piscar"> &#9776 </span>
+</p>
+    <script type="text/javascript">
+        
+    </script>
+</body>
+</html>
