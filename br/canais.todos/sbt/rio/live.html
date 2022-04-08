@@ -82,11 +82,22 @@ text-decoration:none;
         
     </script>
 <!---------style title ini----------->
-						
-<!-----------------
+<style type="text/css">
+  #msglive{
+  position:fixed;
+  z-index:999; 
+  left:5px; 
+  top:150px;
+  overflow:none;
+  border:0px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 30px;
+  height:30px;
+  background:transparent;
+  {
+    visibility: none;
+  }
+</style>    
 
-<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/tvtropicalrn/videos/620350175543067%2F&show_text=0&width=560" width="760" height="515" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>
-
-<iframe width="100%" height="530" scrolling="no" src="https://www.youtube.com/embed/lzKMDczA49o?autoplay=1;rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-
---------------->
+<input type="msglive" class="msglive" id="msglive" style="color: #fff; font-size: 25px;" value="↻" onClick="window.location.reload()">
