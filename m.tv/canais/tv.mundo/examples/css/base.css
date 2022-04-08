@@ -64,7 +64,7 @@ main {
 
 .btn-open.first {
   background-color: transparebt; /* Cor do botao bnt - Blog #2f4456 */
-  color: #2f4456; /* texto da pagina #ffffff */
+  color: #fff; /* texto da pagina #ffffff */
 }
 .btn-open.second {
   background-color: #ffffff;
@@ -177,7 +177,8 @@ main {
   width: 100%;
 /*  height: 100px; */
   color: #333333333000;
-  margin-left: 120px; /* 270 */
+  margin-left: 170px; /* 270 */
+  margin-top: 15px; /* add */
   font-weight:bold;
   text-decoration: none;
   background-color: #2f4456; /* powderblue */
