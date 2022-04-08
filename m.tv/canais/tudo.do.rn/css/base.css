@@ -73,7 +73,7 @@ main {
 
 /* zeynepjs menu styles */
 .zeynep {
-  background-color: #2f4456;  /* fundo primeira tela do menu */
+  background-color: #000;  /* #2f4456 fundo primeira tela do menu */
   color: #fff; /* cor do texto do main menu */
   width: 400px; /* primeira largura do menu 295 */
 }
@@ -119,7 +119,7 @@ main {
 
 /* zeynepjs submenu styles */
 .zeynep .submenu {
-  background-color: #2f4456; /* fundo segunta tela do menu */
+  background-color: #000; /* #2f4456 fundo segunta tela do menu */
   left: 400px; /* segunda largura do menu 295 */
 }
 
@@ -181,5 +181,5 @@ main {
   margin-top: 15px; /* add */
   font-weight:bold;
   text-decoration: none;
-  background-color: #2f4456; /* powderblue */
+  background-color: #000; /* #2f4456 powderblue */
 }
