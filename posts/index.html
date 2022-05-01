@@ -1,3 +1,54 @@
-<script language= "JavaScript"> 
-location.href=" https://tvmundo.github.io/root/posts/index2.html "
-</script>
+<!DOCTYPE html>
+<html>
+    <head lang="pt-br">
+
+        <meta charset="UTF-8">
+
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+        var contador = 0;
+        function contar()
+        {
+
+            document.getElementById('contador').innerHTML = contador;
+            if (contador < 100)
+           {
+               contador++
+               document.getElementById('cont').style.width = contador + "%";
+           }
+       }
+       function redirecionar()
+       {
+           contar();
+           if (contador == 100)
+           {
+               document.location.href = 'https://tvmundoblog.blogspot.com/';
+           }
+       }
+
+       setInterval(redirecionar, 1000);
+       setInterval(contar, 200);
+       </script>
+
+    </head>
+
+    <body>
+        <div class="progress">
+          <div id="cont" class="progress-bar progress-bar-striped text-center active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" >
+              <label id="contador"></label>%
+          </div>
+        </div>
+		<!-- LOMADEE - BEGIN -->
+		<div style="text-align: center;">
+<iframe width="350" height="2000" src="https://tvmundo.github.io/root/banners/aleatorios.meus.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- LOMADEE - END -->
+    </body>
+</html>
