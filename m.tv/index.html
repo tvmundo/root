@@ -1,481 +1,54 @@
-﻿<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
-<style type="text/css"> 
-a:link 
-{ 
-text-decoration:none; 
-} 
-</style>
-<!----------------------correçao de caracteres ini ------------------------>
-<!-- HTML 4 -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<!-- HTML5 -->
-<meta charset="utf-8"/>
-<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+    <head lang="pt-br">
+<meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
+        <meta charset="UTF-8">
 
-<!----------------------correçao de caracteres Fim ----------------------->
-    <!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>zBlogging Free Html5 Responsive Template</title>
-	<meta name="description" content="Free Html5 Templates and Free Responsive Themes Designed by Kimmy | zerotheme.com">
-	<meta name="author" content="www.zerotheme.com">
-	
-    <!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- CSS
-  ================================================== -->
-  	<link rel="stylesheet" href="css/zerogrid.css">
-	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/responsiveslides.css" />
-	
-	<!--[if lt IE 8]>
-       <div style=' clear: both; text-align:center; position: relative;'>
-         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-        </a>
-      </div>
-    <![endif]-->
-    <!--[if lt IE 9]>
-		<script src="js/html5.js"></script>
-		<script src="js/css3-mediaqueries.js"></script>
-	<![endif]-->
-	
-	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
-    <script src="js/jquery.min.js"></script>
-	<script src="js/responsiveslides.js"></script>
-	<script>
-		$(function () {
-		  $("#slider").responsiveSlides({
-			auto: true,
-			pager: false,
-			nav: true,
-			speed: 500,
-			maxwidth: 962, /* 962 */
-			namespace: "centered-btns"
-		  });
-		});
-	</script>
-	
-	
-</head>
-<body>
-<!--------------Header--------------->
-<header>			
-<!-- LOMADEE - BEGIN -->
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-	<!-- LOMADEE - END -->
-	<!--<div class="subnav">
-		<div class="wrap-subnav zerogrid">
-			<div class="links">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="blog.html">About</a></li>
-					<li><a href="blog.html">Archives</a></li>
-					<li><a href="blog.html">Advertise</a></li>
-					<li><a href="blog.html">Contact</a></li>
-				</ul>
-			</div>
-			
-			<div class="share">
-				<ul>
-					<li><a href="#"><img src="images/rss-icon.png" title="RSS"/></a></li>
-					<li><a href="#"><img src="images/twitter-icon.png" title="Twitter"/></a></li>
-					<li><a href="#"><img src="images/facebook-icon.png" title="Facebook"/></a></li>
-					<li><a href="#"><img src="images/google-plus-icon.png" title="Google Plus"/></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="wrap-header zerogrid">
-		<div id="logo"><a href="#"><img src="./images/logo.png"/></a></div>
-		
-		<div id="search">
-			<div class="button-search"></div>
-			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
-		</div>
-	</div>-->
-</header>
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-<nav>
-	<div class="wrap-nav zerogrid">
-		<div class="menu">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="blog.html">Gallery</a></li>
-				<li><a href="blog.html">About</a></li>
-				<li><a href="blog.html">Contact </a></li>
-			</ul>
-		</div>
-<!-----------------------------Inicio select topo-------------------------------------------------->
-					<!--select ini-->
-<div class="select">
-<select name="format" id="format" onchange=" showDiv_blog(this.value);"> 
-<option disabled selected /> &nbsp; 👉 &nbsp; Mais 🎥 Videos aqui 
-        <option value="plano1" /> → &nbsp; Ultimas Notícias 
-	<optgroup label="">
-        <option value="Inicio" /> &nbsp; Inicio - Home 🏠 🏡 
-        <option value="doação" /> &nbsp; Fazer uma doação para este site 	
-	<option value="app TV Mundo" />&nbsp; 📥 Baixe o app TV Mundo vers. 2022 1.2 📥 
-	<option value="TV ao vivo" />&nbsp; TV ao vivo  
-	<option value="radio" />&nbsp; Radio TV Mundo 
-                       <!-- 🔺🔺🔺🔺🔺 Fixo Acima 🔺🔺🔺🔺🔺 -->
-<optgroup label="">
-<optgroup label="transitórias">
-<option value="p717" enabled="disabled" />&nbsp; UM Recorde para o número de novos caixas eletrônicos criptografados foi registrado em 2021 
-<option value="p716" enabled="disabled" />&nbsp; CEO da Coinbase compra uma mansão em Los Angeles por US$ 133 milhões 
-<optgroup label="">
-<optgroup label="Canais Fixo">
-<option value="Senha" enabled="disabled" />&nbsp; Senha 
-<option value="O POVO Online" enabled="disabled" />&nbsp; O POVO Online
-<option value="Polícia na Área" enabled="disabled" />&nbsp; Polícia na Área 
-<option value="Mistura de hoje" enabled="disabled" />&nbsp; Mistura de hoje 
-<option value="p715" enabled="disabled" />&nbsp; Caio Fábio 
-<option value="p714" enabled="disabled" />&nbsp; Rodrigo Silva Arqueologia 
-<option value="p713" enabled="disabled" />&nbsp; euronews (em português) 
-<option value="p712" enabled="disabled" />&nbsp; Politizando 
-<option value="p711" enabled="disabled" />&nbsp; Fernando Ulrich 
-<option value="p710" enabled="disabled" />&nbsp; Filósofo Paulo Ghiraldelli 
-<option value="p709" enabled="disabled" />&nbsp; Portal do José 
-<option value="p708" enabled="disabled" />&nbsp; Hoje no Mundo Militar 
-<option value="p718" enabled="disabled" />&nbsp; Sputnik Brasil 
-<option value="p719" enabled="disabled" />&nbsp; Morel Felipe Wilkon 
-<option value="p720" enabled="disabled" />&nbsp; Marco Antonio Villa 
-<option value="p707" enabled="disabled" />&nbsp; BRASIL URGENTE COM DATENA 
-<option value="p706" enabled="disabled" />&nbsp; BRASIL URGENTE - BAND MINAS 
-<optgroup label="">
- </optgroup></optgroup></optgroup></optgroup></optgroup></optgroup></select> </div>
-                                                          <!--embed Aqui-->                                        
-<!--SCRIPT ini-->
-<script language="Javascript">
-function showDiv_blog(pasta) {
-  // Live 24h em português //
-  if (pasta == 'Live 24h em português') {
-     window.open("https://www.youtube.com/embed/JyC8mwZqJao", target="euronews");
-                        / *    Fixo acima      */
- }
-	// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'Inicio') {
-    var url = "#";
-    window.open("https://tvmundoblog.blogspot.com/", target="_parent");
-  }
-	// TV ao vivo //
-  if (pasta == 'TV ao vivo') {
-    var url = "#";
-    window.open("https://tvmundo.github.io/root/live.html", target="_parent");
-  }
-  // copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'app TV Mundo') {
-    var url = "#";
-    window.open("https://tvmundoblog.blogspot.com/2021/11/apk-tvmundo-2022.html", target="_parent");
- /*                Fixo Acima             */
-}	
-// O POVO Online //
-  if (pasta == 'O POVO Online') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/o-povo-online.html", target="_parent");
-}	
-// Senha //
-  if (pasta == 'Senha') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/senha.html", target="_parent");
-}	
-// Polícia na Área //
-  if (pasta == 'Polícia na Área') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/policia-na-area.html", target="_parent");
-}	
-// Mistura de hoje //
-  if (pasta == 'Mistura de hoje') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/mistura-de-hoje.html", target="_parent");
-}	
-// Marco Antonio Villa //
-  if (pasta == 'p720') {
-    window.open("https://tvmundoblog.blogspot.com/2021/12/marco-antonio-villa.html", target="_parent");
-}	
-// Morel Felipe Wilkon //
-  if (pasta == 'p719') {
-    window.open("https://tvmundoblog.blogspot.com/2021/12/morel-felipe-wilkon.html", target="_parent");
-}	
-// Sputnik Brasil 01/01/22 //
-  if (pasta == 'p718') {
-    window.open("https://tvmundoblog.blogspot.com/2022/01/sputnik-brasil.html", target="_parent");
-}
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'p698'){
-    window.open("2021/dez/14/mundo.Crypto.1412211.html", target="_parent");
-}
-                             // 715 Caio Fábio  //
-  if (pasta == 'p715'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/caio-fabio.html", target="_parent");
-	                             // p715 //
-   }
-                             // 714 Rodrigo Silva Arqueologia  //
-  if (pasta == 'p714'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/rodrigo-silva-arqueologia.html", target="_parent");
-	                             // p714 //
-   }
-                             // 713 euronews (em português) //
-  if (pasta == 'p713'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/euronews.html", target="_parent");
-	                             // p713 //
-   }
-                             // 712 Politizando //
-  if (pasta == 'p712'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/politizando.html", target="_parent");
-	                             // p712 //
-   }
-                             // 711 Fernando Ulrich //
-  if (pasta == 'p711'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/fernando-ulrich.html", target="_parent");
-	                             // p711 //
-   }
-                             // 710 Filósofo Paulo Ghiraldelli //
-  if (pasta == 'p710'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/filosofo-paulo-ghiraldelli.html", target="_parent");
-	                             // p710 //
-   }
-                             // 709 Portal do José //
-  if (pasta == 'p709'){
-    window.open("https://tvmundoblog.blogspot.com/2022/01/portal-do-jose-010121.html", target="_parent");
-	                             // p709 //
-   }
-                             // 708 Hoje no Mundo Militar //
-  if (pasta == 'p708'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/hoje-no-mundo-militar.html", target="_parent");
-	                             // p708 //
-   }
-                             // 707 BRASIL URGENTE COM DATENA //
-  if (pasta == 'p707'){
-    window.open("https://tvmundoblog.blogspot.com/2021/12/brasil-urgente-com-datena.html", target="_parent");
-	                             // p707 //
-  }   
-// copie abaixo para adicionar mais uma janela Tecnologia//
-  if (pasta == 'doação') {
-    var url = "http://tvmundo.sytes.net//banners/paypal.picpay.doge.html";
-    window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2);
-  }
-// copie acima para adicionar mais uma janela //
-}
- </script>
-<!--SCRIPT Fim-->
-<style>
-body {
-   
-}
-select {
-   -webkit-appearance:none;
-   -moz-appearance:none;
-   -ms-appearance:none;
-   appearance:none;
-   outline:0;
-   box-shadow:none;
-   border:0!important;
-   background: #ff9600; /* #5c6664 */
-   background-image: none;
-   flex: 1;
-   padding: 0 .5em;
-   color:#fff;
-   cursor:pointer;
-   font-size: 16px;
-   font-family: 'Open Sans', sans-serif;
-}
-select::-ms-expand {
-   display: none;
-}
-.select {
-   position: relative;
-   display: flex;
-   width: 100%;
-   height: 3em;
-   line-height: 3;
-   background: #5c6664;
-   overflow: hidden;
-   border-radius: .25em;
-}
-.select::after {
-   content: '\25BC';   /* ▼ ⟱ ↓ ⬇️ ⇩ ⇩ seta \25BC  */
-   position: absolute;
-   width: 12px;
-   height: 3em;
-   color: yellow; /* yellow seta #23b499  */
-   top: 0;
-   right: 0;
-   padding: 0 1em;
-   background: red; /* #2b2e2e */
-   cursor:pointer;
-   pointer-events:none;
-   transition:.25s all ease;
-}
-.select:hover::after {
-   color: #00FF7F; /* cor ao passar o mouse #23b499 */
-   width: 15px; /* faz o efeito esticar pra esquerda */
-   /* #00FF7F #00FF00 #00FF7F #00FFFF #00BFFF green */
-}
-</style>
-					<!-----------------------------Fim select topo------------------------------------------------------>		
-		<!--<div class="minimenu"><div>MENU</div>
-			<select onchange="location=this.value">
-				<option></option>
-				<option value="index.html">Home</option>
-				<option value="blog.html">Blog</option>
-				<option value="blog.html">Gallery</option>
-				<option value="blog.html">About</option>
-				<option value="blog.html">Contact222222</option>
-			</select>
-		</div>		
-	</div>
-</nav>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<div class="featured">
-	<div class="wrap-featured zerogrid">
-		<div class="slider">
-			<div class="rslides_container">
-				<ul class="rslides" id="slider">
-					<li><img src="images/slide01.jpg"/></li>
-					<li><img src="images/slide02.jpg"/></li>
-					<li><img src="images/slide03.jpg"/></li>
-				</ul>
-			</div>-->
-		</div>
-	</div>
-</div>
+        <script type="text/javascript">
+        var contador = 0;
+        function contar()
+        {
 
-<!--------------Content--------------->
-<section id="content">
-	<div class="wrap-content zerogrid">
-		<div class="row">
-			<div id="main-content" class="col-2-3">
-				<div class="wrap-col">
-					<article>
-						<img src="images/article01.png"/>
-						<h2><a href="blog.html">Lorem ipsum dolor amet consectetur adipiscing elit</a></h2>
-						<span class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Proin non enim odio. [...]</p>
-					</article>
-					<article>
-						<img src="images/article02.png"/>
-						<h2><a href="blog.html">Sed accumsan libero quis mi commodo et suscipit</a></h2>
-						<span class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Proin non enim odio. [...]</p>
-					</article>
-					<article>
-						<img src="images/article03.png"/>
-						<h2><a href="blog.html">Sed accumsan libero quis mi commodo et suscipit</a></h2>
-						<span class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Proin non enim odio. [...]</p>
-					</article>
-					<article>
-						<img src="images/article04.png"/>
-						<h2><a href="blog.html">Sed accumsan libero quis mi commodo et suscipit</a></h2>
-						<span class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Proin non enim odio. [...]</p>
-					</article>
-					<article>
-						<img src="images/article05.png"/>
-						<h2><a href="blog.html">Sed accumsan libero quis mi commodo et suscipit</a></h2>
-						<span class="info">By Admin on December 01, 2012 with <a href="#">01 Commnets</a></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Proin non enim odio. [...]</p>
-					</article>
-					
-					<ul id="pagi">
-						<li><a class="current" href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">next</a></li>
-					</ul>
-					
-				</div>
-			</div>
-			<div id="sidebar" class="col-1-3">
-				<!--<div class="wrap-col">-->
-					<div class="box">
-						
-						
-						
-							
-						
-					
-					
-						
-						<!--<h2>Photos</h2></div>-->
-						
-							<!--<div class="photos">
-								<a href="#"><img src="images/photo01.png" /></a>
-								<a href="#"><img src="images/photo02.png" /></a>
-								<a href="#"><img src="images/photo03.png" /></a>
-								<a href="#"><img src="images/photo04.png" /></a>
-								<a href="#"><img src="images/photo05.png" /></a>
-								<a href="#"><img src="images/photo01.png" /></a>
-								<a href="#"><img src="images/photo02.png" /></a>
-								<a href="#"><img src="images/photo03.png" /></a>
-								<a href="#"><img src="images/photo05.png" /></a>-->
-							
-						
-					
-					
-						<!--<div class="heading"><h2>Categories</h2></div>
-						<div class="content">
-							<div class="linklist">
-								<ul>
-									<li><a href="https://www.zerotheme.com">Free Html5 Templates</a></li>
-									<li><a href="https://www.zerotheme.com">Free Responsive Themes</a></li>
-									<li><a href="https://www.zerotheme.com">Free Html5 and Css3 Themes</a></li>
-								</ul>
-							</div>-->
-						
-					</div>
-					
-						<!--<div class="heading"><h2>Popular Posts</h2></div>
-						<div class="content">
-							<div class="posts">
-								<img src="images/post01.png"/>
-								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
-								<p>November 11 ,2012</p>
-							</div>
-							<div class="posts">
-								<img src="images/post02.png"/>
-								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
-								<p>November 11 ,2012</p>
-							</div>
-							<div class="posts">
-								<img src="images/post03.png"/>
-								<h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
-								<p>November 11 ,2012</p>
-								<p>test</p>-->
-								<a href="https://tvmundoblog.blogspot.com/2022/01/a-origem-do-capitalismo-liberalismo-e.html" style="margin-left: 1em; margin-right: 1em;"><img alt="" data-original-height="424" data-original-width="607" height="284" src="https://pbs.twimg.com/media/FMh0zpqWQAcgzlL?format=png&name=small" width="405" /></a>
-<div style="text-align: center;">
-<a href="https://tvmundoblog.blogspot.com/2022/01/a-origem-do-capitalismo-liberalismo-e.html" style="margin-left: 1em; margin-right: 1em;"><span style="background-color: white; color: #000; font-size: 18px; font-weight: 25;"><b> A origem do capitalismo, liberalismo e as bases da economia de hoje!  </b></span> </a></div>
-<br/>
-<iframe allow="encrypted-media" allowfullscreen="true" allowtransparency="true" frameborder="0" height="380" scrolling="no" src="https://tvmundo.github.io/Mundo/banner/banner300x250.html " style="border: none; overflow: hidden;" width="380"></iframe>
-<br/>
-<a href="https://tvmundoblog.blogspot.com/2022/01/as-diferencas-entre-socialismo-e.html" style="margin-left: 1em; margin-right: 1em;"><img alt="" data-original-height="424" data-original-width="607" height="284" src="https://pbs.twimg.com/media/FJzTIC7XMAEHuKv?format=png&name=small" width="405" /></a>
-<div style="text-align: center;">
-<a href="https://tvmundoblog.blogspot.com/2022/01/as-diferencas-entre-socialismo-e.html" style="margin-left: 1em; margin-right: 1em;"><span style="background-color: white; color: #000; font-size: 18px; font-weight: 25;"><b> As diferenças entre Socialismo e Comunismo  </b></span> </a></div>
-<br/>
-<!-- LOMADEE - BEGIN -->
-<script src="//ad.lomadee.com/banners/script.js?sourceId=36165408&dimension=4&height=250&width=300&method=0" type="text/javascript" language="javascript"></script>
+            document.getElementById('contador').innerHTML = contador;
+            if (contador < 100)
+           {
+               contador++
+               document.getElementById('cont').style.width = contador + "%";
+           }
+       }
+       function redirecionar()
+       {
+           contar();
+           if (contador == 100)
+           {
+               document.location.href = 'index.html';
+           }
+       }
+
+       setInterval(redirecionar, 1000);
+       setInterval(contar, 200);
+       </script>
+
+    </head>
+
+    <body>
+        <div class="progress">
+          <div id="cont" class="progress-bar progress-bar-striped text-center active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" >
+              <label id="contador"></label>%
+          </div>
+        </div>
+		<!-- LOMADEE - BEGIN -->
+		<div style="text-align: center;">
+<iframe width="350" height="2000" src="https://tvmundo.github.io/root/banners/aleatorios.meus.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!-- LOMADEE - END -->
-<br/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--------------Footer--------------->
-<footer>
-	<div class="copyright">
-			<p> Copyright © 2022 - TV Mundo </a></p>
-	</div>
-</footer>
-
-</body></html>
+    </body>
+</html>
