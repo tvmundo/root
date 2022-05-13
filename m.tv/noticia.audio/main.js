@@ -24,7 +24,7 @@ let track_list = [
   {
     name: "Fome - Temer - Bolsonaro ",
     artist: "247 -IMG twitter",
-    image: "https://publisher-publish.s3.eu-central-1.amazonaws.com/pb-brasil247/swp/jtjeq9/media/20210830080856_7a82d3f350d4a8f6375236f1fe24eec59ec1c0c3fe3c31d16271988371130894.webp",
+    image: "https://pbs.twimg.com/card_img/1525049732317388801/faX59Fts?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Medidas%20fome%20e%20pobreza%20ao%20Brasil%20foram%20implantadas%20por%20Temer.mp3"
   },
   {
