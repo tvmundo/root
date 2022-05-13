@@ -22,10 +22,16 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+    name: "Fome - Temer - Bolsonaro ",
+    artist: "247 -IMG twitter",
+    image: "https://publisher-publish.s3.eu-central-1.amazonaws.com/pb-brasil247/swp/jtjeq9/media/20210830080856_7a82d3f350d4a8f6375236f1fe24eec59ec1c0c3fe3c31d16271988371130894.webp",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Medidas%20fome%20e%20pobreza%20ao%20Brasil%20foram%20implantadas%20por%20Temer.mp3"
+  },
+  {
     name: "Preço do diesel ",
     artist: "Roberto Requião - twitter",
     image: "https://pbs.twimg.com/profile_images/1505707903558328322/GgvlHvrD_400x400.jpg",
-    path: "audio/Preço do diesel 2.mp3"
+    path: "audio/Preço do disel - Copia.mp4"
   },
   {
     name: "Inflação se alastra",
@@ -40,16 +46,10 @@ let track_list = [
     path: "audio/Coreia do Norte dispara míssil balístico.mp4",
   },
   {
-    name: " criptomoedas",
-    artist: "Colapso se aprofunda",
+    name: " Mundo",
+    artist: "Coreia do Norte dispara míssil balístico",
     image: "https://cdni.russiatoday.com/actualidad/public_images/2022.05/thumbnail/627cde9c59bf5b08f1783971.jpeg",
-    path: "audio/Colapso de criptomoedas se aprofunda à medida que a stablecoin Tether cai abaixo do dólar.mp3",
-  },
-  {
-    name: " Presidente palestino culpa Israel",
-    artist: "Israel x palestina",
-    image: "https://cdni.russiatoday.com/actualidad/public_images/2022.05/thumbnail/627cde9c59bf5b08f1783971.jpeg",
-    path: "audio/Presidente palestino culpa Israel pelo assassinato de repórter da Al Jazeera.mp3",
+    path: "audio/Som.mp3",
   },
 ];
 
