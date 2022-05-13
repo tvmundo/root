@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+	  name: "queda do bitcoin custa cerca de 36 milhões de dólares para El Salvador ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSnFgtcXoAkJxzF?format=jpg&name=large",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/queda%20do%20bitcoin%20custa%20cerca%20de%2036%20milhões%20de%20dólares%20para%20El%20Salvador.mp3"
+  },
+  {
     name: "Elon Musk suspende temporariamente a compra do Twitter ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1522733694766702593/OdHdenTl?format=jpg&name=small",
