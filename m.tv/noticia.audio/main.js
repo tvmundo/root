@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+    name: "Elon Musk suspende temporariamente a compra do Twitter ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1522733694766702593/OdHdenTl?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Elon%20Musk%20suspende%20temporariamente%20a%20compra%20do%20Twitter.mp3"
+  },
+  {
     name: "Fome - Temer - Bolsonaro ",
     artist: "247 -IMG twitter",
     image: "https://pbs.twimg.com/card_img/1525049732317388801/faX59Fts?format=jpg&name=small",
