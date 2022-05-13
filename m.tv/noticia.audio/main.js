@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Seis suspeitos são presos por tráfico de drogas em Ponta Negra ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1524423933314830337/CxT-NzME?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Seis%20suspeitos%20são%20presos%20por%20tráfico%20de%20drogas%20em%20Ponta%20Negra.mp3"
+  },
+  {
 name: "Messi é o atleta mais bem pago do mundo ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSl_FZyVEAEhszr?format=jpg&name=small",
