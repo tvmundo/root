@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Lula tem 44% das intenções de voto, , Bolsonaro, , 32% e Ciro 8% ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1525112683523080194/MIXbQEnQ?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Lula%20tem%2044%25%20das%20intenções%20de%20voto%2C%20%2C%20Bolsonaro%2C%20%2C%2032%25%20e%20Ciro%208%25.mp3"
+  },
+  {
 name: "Seis suspeitos são presos por tráfico de drogas em Ponta Negra ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524423933314830337/CxT-NzME?format=jpg&name=small",
