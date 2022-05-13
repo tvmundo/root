@@ -3,7 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Music Player</title>
+  <style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!----------------------correçao de caracteres ini ----------------------->
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8"/>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------correçao de caracteres Fim ----------------------->
   <!-- Load FontAwesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
       <!--<link rel="stylesheet" href="https://tvmundo.github.io/root/css/font-awesome-4.4.0/css/all.min.css">-->
@@ -38,5 +51,26 @@
 
   <!-- Load the main script for the player -->
   <script src="main.js"></script>
+<style type="text/css">
+  #msglive{
+  position:fixed;
+  z-index:999; 
+  left:5px; 
+  top:100px;   */Diminuindo sobe*/
+  overflow:none;
+  border:0px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 20px;
+  height:20px;
+  background:transparent;
+  {
+    visibility: none;
+  }
+</style>
+<!---<input type="msglive" class="msglive" id="msglive" style="color: #fff; font-size: 20px;" value="↻" onClick="window.location.reload()">--->    
+<a class="tags" type="msglive" class="msglive" id="msglive" style="color: #fff; font-size: 20px;" gloss="Atualiza o Vídeo" onClick="window.location.reload()">↻</a>
+
+<!---------style title Atualiza o Vídeo ini----------->
 </body>
 </html>
