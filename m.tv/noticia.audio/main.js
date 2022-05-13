@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Caetano Veloso terá encontro com Lula para manifestar apoio à candidatura do ex-presidente. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1525201483125477379/-uBcRRzq?format=jpg&name=360x360",
+    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/fQDYNx6Y61DJUKvKH8lffoJWq.mp3"
+  },
+  {
 name: "Lula tem 44% das intenções de voto, Bolsonaro, 32% e Ciro 8% ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1525112683523080194/MIXbQEnQ?format=jpg&name=small",
