@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Integrante de torcida organizada é morto a tiros em bar de Natal ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/CCofrm_WEAAhD1F?format=jpg&name=small",
+    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/JW1U5QPJOOU1Ah2ohctF3DxUW.mp3"
+  },
+  {
    name: "Caminhoneiros anunciam greve contra o preço do diesel ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSeFqmAXwAAMFov?format=jpg&name=small",
