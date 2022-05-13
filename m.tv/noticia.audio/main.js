@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Messi é o atleta mais bem pago do mundo ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSl_FZyVEAEhszr?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Messi%20é%20o%20atleta%20mais%20bem%20pago%20do%20mundo.mp3"
+  },
+  {
 name: "Integrante de torcida organizada é morto a tiros em bar de Natal ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/CCofrm_WEAAhD1F?format=jpg&name=small",
