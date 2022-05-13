@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+  name: "Zelensky se diz disposto a falar com Putin ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1523036303520108546/mEeDFcp1?format=jpg&name=small",
+    path: "xxx/2022/mai/13/Zelensky%20se%20diz%20disposto%20a%20falar%20com%20Putin.mp3"
+  },
+  {
 	  name: "queda do bitcoin custa cerca de 36 milhões de dólares para El Salvador ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSnFgtcXoAkJxzF?format=jpg&name=large",
