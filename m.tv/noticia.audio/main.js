@@ -22,7 +22,13 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Morador de rua é morto na região da Cracolândia ",
+   name: "Caminhoneiros anunciam greve contra o preço do diesel ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSeFqmAXwAAMFov?format=jpg&name=small",
+    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/bFHvX251IAuTS4eukFXdqKMBF.mp3"
+  },
+  {   
+   name: "Morador de rua é morto na região da Cracolândia ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524708385450446848/aSyW1ceT?format=jpg&name=small",
     path: "https://s3.amazonaws.com/media.snatchbot/media/audio/fM93B9kdJpHLz0080gnwDg7fo.mp3"
