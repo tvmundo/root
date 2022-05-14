@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Novo saque de até mil Reais do F G T S ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1524351127369703432/KvHlPQVK?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/14/Novo%20saque%20F%20G%20T%20S%20.mp3"
+  },
+  {
 name: "Finlândia confirma que Rússia cortou fornecimento de eletricidade ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSuB1BcXEAA7noo?format=jpg&name=small",
