@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "presidente ucraniano disse que Macron tenta “em vão” dialogar com Vladimir Putin ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1523200054567514113/nGX3nrgb?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/14/presidente%20ucraniano%20disse%20que%20Macron%20tenta%20“em%20vão”%20dialogar%20com%20Vladimir%20Putin.mp3"
+  },
+  {
 name: "Vi crimes abomináveis do batalhão Azov: ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSf-pdgX0AEpLxJ?format=jpg&name=small",
