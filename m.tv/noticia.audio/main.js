@@ -22,7 +22,7 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "Vi crimes abomináveis do batalhão Azov  Azov: ",
+name: "Vi crimes abomináveis do batalhão Azov: ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSf-pdgX0AEpLxJ?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/14/Vi%20crimes%20abomináveis%20de%20Azov.mp3"
