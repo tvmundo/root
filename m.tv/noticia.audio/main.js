@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Um grande incêndio em Nova Déli nesta sexta-feira deixou pelo menos 27 mortos. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/EsQfyfZXcAU6Q9h?format=jpg&name=small",
+    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/OgQnzgCi9j50KZ4VkwgCa1Vzj.mp3"
+  },
+  {
 name: "Brasil - Militares querem o aparelhamento do Estado ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524831455607672835/J-ANASek?format=jpg&name=small",
