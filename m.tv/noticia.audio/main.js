@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Finlândia confirma que Rússia cortou fornecimento de eletricidade ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSuB1BcXEAA7noo?format=jpg&name=small",
+    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/KVzcyUHC7IkpPoFUX4ZV5bS75.mp3"
+  },
+  {
 name: "presidente ucraniano disse que Macron tenta “em vão” dialogar com Vladimir Putin ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1523200054567514113/nGX3nrgb?format=jpg&name=small",
