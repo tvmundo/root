@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Donald Trump propôs aos líderes da oposição venezuelana matar Nicolás Maduro ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSviQU_X0Ac8AAc?format=jpg&name=medium",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/14/Donald%20Trump%20propôs%20aos%20líderes%20da%20oposição%20venezuelana%20matar%20Nicolás%20Maduro.mp3"
+  },
+  {
 name: "Novo saque de até mil Reais do F G T S ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524351127369703432/KvHlPQVK?format=jpg&name=small",
