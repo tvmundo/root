@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Brasil - Militares querem o aparelhamento do Estado ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1524831455607672835/J-ANASek?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Militares%20querem%20o%20aparelhamento%20do%20Estado..MP3"
+  },
+  {
 name: "Justiça mantém decisão que determina retorno de 100% da frota de ônibus em Natal. ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524959404050849800/9vh2piqT?format=jpg&name=small",
