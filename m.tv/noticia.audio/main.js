@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Pelo menos 10 mortos em tiroteio em supermercado no estado de Nova York ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSwNWz4WYAELJuK?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/14/Pelo%20menos%2010%20mortos%20em%20tiroteio%20em%20supermercado%20no%20estado%20de%20Nova%20York.mp3"
+  },
+  {
 name: "Donald Trump propôs aos líderes da oposição venezuelana matar Nicolás Maduro ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSviQU_X0Ac8AAc?format=jpg&name=medium",
