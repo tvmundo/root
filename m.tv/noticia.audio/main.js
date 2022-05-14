@@ -22,7 +22,7 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "Advogados federais rebatem justificativa da AGU para defender val do Açaí ",
+name: "Advogados federais rebatem justificativa da AGU para defender Wal do Açaí ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524636463962505218/n9dNZgo8?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Advogados%20federais%20rebatem%20justificativa%20da%20AGU%20para%20defender%20Wal%20do%20Açaí.MP3"
