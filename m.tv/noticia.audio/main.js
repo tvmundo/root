@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Governo Bolsonaro elabora proposta para diminuir FGTS de todos os trabalhadores. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1525252816083755013/AiEiAbJ2?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/14/Governo%20Bolsonaro%20elabora%20proposta%20para%20diminuir%20FGTS%20de%20todos%20os%20trabalhadores.mp3"
+  },
+  {
 name: "Um grande incêndio em Nova Déli nesta sexta-feira deixou pelo menos 27 mortos. ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/EsQfyfZXcAU6Q9h?format=jpg&name=small",
