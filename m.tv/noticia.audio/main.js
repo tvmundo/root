@@ -25,7 +25,7 @@ let track_list = [
 name: "Advogados federais rebatem justificativa da AGU para defender val do Açaí ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524636463962505218/n9dNZgo8?format=jpg&name=small",
-    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/fQDYNx6Y61DJUKvKH8lffoJWq.mp3"
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Advogados%20federais%20rebatem%20justificativa%20da%20AGU%20para%20defender%20Wal%20do%20Açaí.MP3"
   },
   {
 name: "Caetano Veloso terá encontro com Lula para manifestar apoio à candidatura do ex-presidente. ",
