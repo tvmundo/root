@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Justiça mantém decisão que determina retorno de 100% da frota de ônibus em Natal. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1524959404050849800/9vh2piqT?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/13/Justiça%20mantém%20decisão%20que%20determina%20retorno%20de%20100%25%20da%20frota%20de%20ônibus%20em%20Natal..mp3"
+  },
+  {
 name: "Advogados federais rebatem justificativa da AGU para defender Wal do Açaí ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524636463962505218/n9dNZgo8?format=jpg&name=small",
