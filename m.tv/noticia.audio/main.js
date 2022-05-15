@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Jovem Pan indica desembarcar de Bolsonaro ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSwL9nNXwAAzBpT?format=png&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/14/Jovem%20Pan%20indica%20desembarcar%20de%20Bolsonaro.mp3"
+  },
+  {
 name: "Pelo menos 10 mortos em tiroteio em supermercado no estado de Nova York ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSwNWz4WYAELJuK?format=jpg&name=small",
