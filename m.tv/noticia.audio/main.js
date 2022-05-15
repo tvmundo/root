@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Com medo de suspensão, grupos bolsonaristas tentam maquiar ameaças no app Telegram ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1524092415447117825/fwymsZmj?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/15/Com%20medo%20de%20suspensão%2C%20grupos%20bolsonaristas%20tentam.mp3"
+  },
+  {
 name: "Justiça do Rio de Janeiro tenta penhorar bens do senador Romário ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524411716947349505/uOVG04OS?format=jpg&name=small",
