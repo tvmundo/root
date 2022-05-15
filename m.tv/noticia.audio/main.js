@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Três policiais civis que fizeram disparos com arma de fogo na Cracolândia, no centro da capital paulista, na última quinta-feira (12), foram identificados. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSwlPADXwAEk8f6?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/15/3%20policiais%20civis%20que%20fizeram%20disparos%20com%20arma%20de%20fogo%20na%20Cracolândia%20foram%20identificados.mp3"
+  },
+  {
 name: "Com medo de suspensão, grupos bolsonaristas tentam maquiar ameaças no app Telegram ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524092415447117825/fwymsZmj?format=jpg&name=small",
