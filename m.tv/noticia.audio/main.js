@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Justiça do Rio de Janeiro tenta penhorar bens do senador Romário ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1524411716947349505/uOVG04OS?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/15/Romário%20ok.mp3"
+  },
+  {
 name: "Jovem Pan indica desembarcar de Bolsonaro ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSwL9nNXwAAzBpT?format=png&name=small",
