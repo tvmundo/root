@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Queda de avião na China pode ter sido proposital, diz jornal. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FOZEQvVXsAoXHOP?format=jpg&name=medium",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Queda%20de%20avião%20na%20China%20pode%20ter%20sido%20proposital.mp3"
+  },
+  {
 name: "Bolsonaro diz ao lado de Collor que velha política acabou. ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FS-ynzsWAAUVVy9?format=jpg&name=medium",
