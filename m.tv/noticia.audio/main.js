@@ -22,6 +22,18 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Caracas confirma que Washington autorizou petrolíferas americanas e europeias a "negociar e reiniciar operações" na Venezuela. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FS_NPsHWQAIIgnj?format=jpg&name=medium",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Caracas%20confirma%20que%20Washington%20autorizou%20petro.mp3"
+  },
+  {
+name: "TSE firma acordo com Telegram para combater fake news ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1524424485780213760/vOF1WxrD?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/TSE%20firma%20acordo%20com%20Telegram%20para%20combater%20fake%20news.mp3"
+  },
+  {
 name: "Ex-ministro Santos Cruz sofre princípio de enfarte e é internado em Brasília ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1525355160289136640/KHqyfonw?format=jpg&name=small",
