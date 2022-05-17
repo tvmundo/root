@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Arthur do Val é cassado e perde direitos políticos por oito anos ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FS_dabrWIAEa93Y?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Arthur%20do%20Val%20é%20cassado%20e%20perde%20direitos%20políticos.mp3"
+  },
+  {
 name: "Queda de avião na China pode ter sido proposital, diz jornal. ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FOZEQvVXsAoXHOP?format=jpg&name=medium",
