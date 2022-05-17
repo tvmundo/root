@@ -22,7 +22,7 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "Caracas confirma que Washington autorizou petrolíferas americanas e europeias a "negociar e reiniciar operações" na Venezuela. ",
+name: "Caracas confirma que Washington autorizou a negociaçao de petroleo...",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FS_NPsHWQAIIgnj?format=jpg&name=medium",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Caracas%20confirma%20que%20Washington%20autorizou%20petro.mp3"
