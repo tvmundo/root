@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Em Sergipe, Bolsonaro ouve gritos da população por volta de Lula",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1526642305381302272/6glE94lG?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Em%20Sergipe%2C%20Bolsonaro%20ouve%20gritos%20da%20população%20por.mp3"
+  },
+  {
 name: "Caracas confirma que Washington autorizou a negociaçao de petroleo...",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FS_NPsHWQAIIgnj?format=jpg&name=medium",
