@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Bolsonaro diz ao lado de Collor que velha política acabou. ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FS-ynzsWAAUVVy9?format=jpg&name=medium",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/bolsonaro%20e%20collor%20kkkkk.mp3"
+  },
+  {
 name: "265 combatentes do batalhão Azov e militares ucranianos da fábrica de Azovstal se renderam em um dia, informou o Ministério da Defesa da Rússia ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSf-pdgX0AEpLxJ?format=jpg&name=small",
