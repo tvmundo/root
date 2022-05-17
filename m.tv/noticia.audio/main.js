@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "265 combatentes do batalhão Azov e militares ucranianos da fábrica de Azovstal se renderam em um dia, informou o Ministério da Defesa da Rússia ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSf-pdgX0AEpLxJ?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/265%20combatentes%20do%20batalhão%20Azov%20e%20militares%20ucranianos%20da%20fábrica%20de%20Azovstal%20se%20renderam.mp3"
+  },
+  {
 name: "Três policiais civis que fizeram disparos com arma de fogo na Cracolândia, no centro da capital paulista, na última quinta-feira (12), foram identificados. ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FSwlPADXwAEk8f6?format=jpg&name=small",
