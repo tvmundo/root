@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Ex-ministro Santos Cruz sofre princípio de enfarte e é internado em Brasília ",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1525355160289136640/KHqyfonw?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Ex-ministro%20Santos%20Cruz%20sofre%20princípio%20de%20enfarte.mp3"
+  },
+  {
 name: "Arthur do Val é cassado e perde direitos políticos por oito anos ",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FS_dabrWIAEa93Y?format=jpg&name=small",
