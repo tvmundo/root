@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "New York vai investigar plataformas de mídia social usadas por atirador do supermercado Buffalo.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FSw6e1KXsAAMfdL?format=jpg&name=medium",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/New%20York%20vai%20investigar%20plataformas%20de%20mídia%20social%20usadas%20por%20atirador%20do%20supermercado%20Buffalo.mp3"
+  },
+  {
 name: "Homens mais ricos do país agem para privatizar Eletrobras e ampliar lucros.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FTEKvHrX0AMq7bg?format=jpg&name=small",
