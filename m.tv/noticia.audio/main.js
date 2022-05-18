@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Portugal recebe cabo submarino da Google que liga Europa à África.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1526588033574834176/sU5BQTrQ?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Portugal%20recebe%20cabo%20submarino%20da%20Google%20que%20liga%20Europa%20à%20África.mp3"
+  },
+  {
 name: "Rússia expulsa dezenas de diplomatas europeus à medida que as tensões aumentam.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/EteTjs5XEAMXAUH?format=jpg&name=small",
