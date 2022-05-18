@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Rússia expulsa dezenas de diplomatas europeus à medida que as tensões aumentam.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/EteTjs5XEAMXAUH?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Rússia%20expulsa%20dezenas%20de%20diplomatas%20europeus.mp3"
+  },
+  {
 name: "O Pentágono reconhece até 400 avistamentos de OVNIs.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/E5AKmeSXwAIgczA?format=jpg&name=small",
