@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Nova Iorque processa Amazon por discrimi­nar grávidas e deficientes..",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/EubYNJRWYAMCmww?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Nova%20Iorque%20processa%20Amazon%20por%20discrimi_nar%20grávi.mp3"
+  },
+  {
 name: "Portugal recebe cabo submarino da Google que liga Europa à África.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526588033574834176/sU5BQTrQ?format=jpg&name=small",
