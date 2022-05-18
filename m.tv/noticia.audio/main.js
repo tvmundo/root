@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Netflix despede 150 funcionários devido a queda de assinantes.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1526858251345702912/8-N1tDPw?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Netflix%20despede%20150%20funcionários%20devido%20a%20queda%20de%20assinantes.mp3"
+  },
+  {
 name: "Espanha quer permitir aborto aos 16 anos sem autorização dos pais.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526582793769304065/E1DNoYKK?format=jpg&name=small",
