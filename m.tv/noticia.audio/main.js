@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "A Rússia diz que mais 700 combatentes Mariupol se renderam",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FS9Z2pqX0AIQU-U?format=jpg&name=medium",
+    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/ssC17lKKivJfvB4HyvWWCNQT4.mp3"
+  },
+  {
 name: "Netflix despede 150 funcionários devido a queda de assinantes.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526858251345702912/8-N1tDPw?format=jpg&name=small",
