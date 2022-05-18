@@ -24,6 +24,12 @@ let track_list = [
   {
 name: "Em Sergipe, Bolsonaro ouve gritos da população por volta de Lula",
     artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1526582793769304065/E1DNoYKK?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Espanha%20quer%20permitir%20aborto%20aos%2016%20anos%20sem%20autor.mp3"
+  },
+  {
+name: "Em Sergipe, Bolsonaro ouve gritos da população por volta de Lula",
+    artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526642305381302272/6glE94lG?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Em%20Sergipe%2C%20Bolsonaro%20ouve%20gritos%20da%20população%20por.mp3"
   },
