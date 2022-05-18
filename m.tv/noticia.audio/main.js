@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Hezbollah perde maioria no Parlamento e Forças Libanesas convidam independentes a se unir.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FCAkxOYXIAwYmBZ?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Hezbollah%20perde%20maioria%20no%20Parlamento%20e%20Forças%20Libanesas%20convidam%20independentes%20a%20se%20unir.mp3"
+  },
+  {
 name: "Espanha quer instituir licença menstrual remunerada",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1525711577084665856/CkWcUt06?format=jpg&name=small",
