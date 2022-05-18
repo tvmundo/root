@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "O Pentágono reconhece até 400 avistamentos de OVNIs.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/E5AKmeSXwAIgczA?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/O%20Pentágono%20reconhece%20até%20400%20avistamentos%20de%20OVNIs.mp3"
+  },
+  {
 name: "Hezbollah perde maioria no Parlamento e Forças Libanesas convidam independentes a se unir.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FCAkxOYXIAwYmBZ?format=jpg&name=small",
