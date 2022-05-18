@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Ex-vice-prefeito de Olinda, do PT, é brutalmente agredido por vizinho bolsonarista",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FTDZDyDXsAQ9d9y?format=png&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Ex-vice-prefeito%20de%20Olinda%2C%20do%20PT%2C%20é%20brutalmente.mp3"
+  },
+  {
 name: "Nova Iorque processa Amazon por discrimi­nar grávidas e deficientes..",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/EubYNJRWYAMCmww?format=jpg&name=small",
