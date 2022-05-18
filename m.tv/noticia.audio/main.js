@@ -22,10 +22,10 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "A Rússia diz que mais 700 combatentes Mariupol se renderam",
+name: "Espanha quer instituir licença menstrual remunerada",
     artist: " IMG twitter",
-    image: "https://pbs.twimg.com/media/FS9Z2pqX0AIQU-U?format=jpg&name=medium",
-    path: "https://s3.amazonaws.com/media.snatchbot/media/audio/ssC17lKKivJfvB4HyvWWCNQT4.mp3"
+    image: "https://pbs.twimg.com/card_img/1525711577084665856/CkWcUt06?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Espanha%20quer%20instituir%20licença%20menstrual%20remunerad.mp3"
   },
   {
 name: "Netflix despede 150 funcionários devido a queda de assinantes.",
