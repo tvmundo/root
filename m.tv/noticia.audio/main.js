@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Homens mais ricos do país agem para privatizar Eletrobras e ampliar lucros.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FTEKvHrX0AMq7bg?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Homens%20mais%20ricos%20do%20país%20agem%20para%20privatizar%20Eletrobras%20e%20ampliar%20lucros.mp3"
+  },
+  {
 name: "Ex-vice-prefeito de Olinda, do PT, é brutalmente agredido por vizinho bolsonarista",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FTDZDyDXsAQ9d9y?format=png&name=small",
