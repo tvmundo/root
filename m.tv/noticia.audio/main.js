@@ -22,7 +22,7 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "Em Sergipe, Bolsonaro ouve gritos da população por volta de Lula",
+name: "Espanha quer permitir aborto aos 16 anos sem autorização dos pais.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526582793769304065/E1DNoYKK?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/17/Espanha%20quer%20permitir%20aborto%20aos%2016%20anos%20sem%20autor.mp3"
