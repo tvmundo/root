@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Rosa Weber envia à PGR pedido de inquérito contra Bolsonaro por ataque às urnas.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1527006859454042113/W9YOwWLi?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Rosa%20veber%20envia%20à%20PGR%20pedido%20de%20inquérito%20contra.mp3"
+  },
+  {
 name: "Renata Fan reverte demissão e garante permanência de parceiro do 'Jogo Aberto' na Band.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527016338727636992/5ZpsuvXZ?format=jpg&name=small",
