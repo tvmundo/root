@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Renata Fan reverte demissão e garante permanência de parceiro do 'Jogo Aberto' na Band.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1527016338727636992/5ZpsuvXZ?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/18/Renata%20Fan%20reverte%20demissão%20e%20garante%20permanência.mp3"
+  },
+  {
 name: "New York vai investigar plataformas de mídia social usadas por atirador do supermercado Buffalo.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FS4NfxYXoAYDeCP?format=png&name=small",
