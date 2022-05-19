@@ -22,15 +22,10 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "Guedes defende taxação de gigantes como Shein e AliExpress.",
-    artist: " IMG twitter",
-    image: "name: "STF mantém Lei Seca e punição a motorista que recusa bafômetro.",
+name: "STF mantém Lei Seca e punição a motorista que recusa bafômetro.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526328764971483139/VEcoz_6x?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/19/STF%20mantém%20Lei%20Seca%20e%20punição%20a%20motorista%20que%20recu.mp33"
-  },
-  {",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/19/Guedes%20defende%20taxação%20de%20gigantes%20como%20Shein%20e%20Al.mp3"
   },
   {
 name: "Guedes defende taxação de gigantes como Shein e AliExpress.",
