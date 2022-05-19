@@ -24,8 +24,8 @@ let track_list = [
   {
 name: "STF mantém Lei Seca e punição a motorista que recusa bafômetro.",
     artist: " IMG twitter",
-    image: "https://pbs.twimg.com/card_img/1526328764971483139/VEcoz_6x?format=jpg&name=small",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/19/STF%20mantém%20Lei%20Seca%20e%20punição%20a%20motorista%20que%20recu.mp33"
+    image: "https://pbs.twimg.com/card_img/1527390916855595009/hk22E9Cs?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/19/STF%20mantém%20Lei%20Seca%20e%20punição%20a%20motorista%20que%20recu.mp3"
   },
   {
 name: "Guedes defende taxação de gigantes como Shein e AliExpress.",
