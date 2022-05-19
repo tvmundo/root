@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Novo recorde: mais de 234.000 pessoas tentaram entrar nos EUA pela fronteira com o México em abril, (e o número pode aumentar).",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/C_bRBTcXUAAQFDS?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/19/Novo%20recorde%20mais%20de%20234.000%20pessoas%20tentaram%20entrar%20nos%20EUA%20pela%20fronteira%20com%20o%20México%20em%20abril%20e%20o%20número%20pode%20aumentar.mp3"
+  },
+  {
 name: "EUA confirmam seu primeiro caso de varíola em 2022 em meio a surto de doença na Europa.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/E6fTsT6UcAEdzey?format=jpg&name=small",
