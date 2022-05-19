@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Justiça busca peritos para novo teste psiquiátrico em Adélio Bispo.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1527383516845162496/9ffhKFt5?format=png&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/19/Justiça%20busca%20peritos%20para%20novo%20teste%20psiquiátrico%20em%20Adélio%20Bispo.mp3"
+  },
+  {
 name: "China ressurge como principal centro de mineração de bitcoin apesar da proibição.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FF69QOJXwAQOQ_l?format=jpg&name=small",
