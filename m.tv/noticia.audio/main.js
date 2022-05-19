@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "EUA confirmam seu primeiro caso de varíola em 2022 em meio a surto de doença na Europa.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/E6fTsT6UcAEdzey?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/19/2EUA%20confirmam%20seu%20primeiro%20caso%20de%20varíola%20em%202022%20em%20meio%20a%20surto%20de%20doença%20na%20Europa.mp3"
+  },
+  {
 name: "Rosa Weber envia à PGR pedido de inquérito contra Bolsonaro por ataque às urnas.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527006859454042113/W9YOwWLi?format=jpg&name=small",
