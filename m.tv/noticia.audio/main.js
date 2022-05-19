@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "China ressurge como principal centro de mineração de bitcoin apesar da proibição.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FF69QOJXwAQOQ_l?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/19/China%20ressurge%20como%20principal%20centro%20de%20mineração%20de%20bitcoin%20apesar%20da%20proibição.mp3"
+  },
+  {
 name: "Novo recorde: mais de 234.000 pessoas tentaram entrar nos EUA pela fronteira com o México em abril, (e o número pode aumentar).",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/C_bRBTcXUAAQFDS?format=jpg&name=small",
