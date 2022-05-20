@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "McDonald's anuncia acordo para venda de unidades na Rússia",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1526452508255731712/DCKOwEyT?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/McDonald's%20anuncia%20acordo%20para%20venda%20de%20unidades.mp3"
+  },
+  {
 name: "Lula continua à frente com 44%; Bolsonaro aparece com 32% e Ciro, com 8%",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FO18062XIAExjZ1?format=jpg&name=small",
