@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Alexandre Kalil anuncia aliança com Lula em Minas Gerais.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1526189513978126340/WabyOTLA?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Alexandre%20Kalil%20anuncia%20aliança%20com%20Lula%20em%20Minas%20Gerais.mp3p3"
+  },
+  {
 name: "STF mantém Lei Seca e punição a motorista que recusa bafômetro.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527390916855595009/hk22E9Cs?format=jpg&name=small",
