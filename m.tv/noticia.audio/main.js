@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Lula continua à frente com 44%; Bolsonaro aparece com 32% e Ciro, com 8%",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FO18062XIAExjZ1?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Lula%20continua%20à%20frente%20com%2044%25%3B%20Bolsonaro%20aparece.mp3"
+  },
+  {
 name: "Grupo suspeito de garimpo ilegal em terra yanomami movimentou mais de R$ 200 milhões, diz PF.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527448744681168926/MbTlDF6q?format=jpg&name=small",
