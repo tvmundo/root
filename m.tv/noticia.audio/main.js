@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Casos de varíola dos macacos em Portugal sobem a 23.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1527324029820219394/L257grMx?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Casos%20de%20varíola%20dos%20macacos%20em%20Portugal%20sobem%20a%2023..mp3"
+  },
+  {
 name: "Ucrânia ordena que soldados na siderúrgica Azovstal parem de lutar",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1524697419929239552/6jEn8LnC?format=jpg&name=small",
