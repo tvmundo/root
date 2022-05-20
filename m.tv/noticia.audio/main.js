@@ -22,7 +22,7 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "xxx/2022/mai/20/Espanha%20conta%20já%2030%20casos%20de%20varíola%20dos%20macacos.mp3",
+name: "Espanha conta já 30 casos de varíola dos macacos",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527212749595545601/ShyGV5a_?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Espanha%20conta%20já%2030%20casos%20de%20varíola%20dos%20macacos.mp3"
