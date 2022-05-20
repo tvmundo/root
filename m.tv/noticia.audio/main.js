@@ -22,6 +22,18 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "xxx/2022/mai/20/Espanha%20conta%20já%2030%20casos%20de%20varíola%20dos%20macacos.mp3",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1527212749595545601/ShyGV5a_?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Espanha%20conta%20já%2030%20casos%20de%20varíola%20dos%20macacos.mp3"
+  },
+  {
+name: "Quase metade dos brasileiros culpam Bolsonaro por gasolina cara.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FTOg0cJXwAAXxYK?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Quase%20metade%20dos%20brasileiros%20culpam%20Bolsonaro%20por%20gasolina%20cara..mp3"
+  },
+  {
 name: "Casos de varíola dos macacos em Portugal sobem a 23.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527324029820219394/L257grMx?format=jpg&name=small",
