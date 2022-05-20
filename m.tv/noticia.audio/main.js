@@ -22,8 +22,13 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "ONU diz que subiu 500% o total de pessoas com fome no mundo desde 2016.
-",
+name: "Grupo suspeito de garimpo ilegal em terra yanomami movimentou mais de R$ 200 milhões, diz PF.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1527448744681168926/MbTlDF6q?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Grupo%20suspeito%20de%20garimpo%20ilegal%20em%20terra%20yanomami%20movimentou%20mais%20de%20R%24%20200%20milhões.mp3"
+  },
+  {
+name: "ONU diz que subiu 500% o total de pessoas com fome no mundo desde 2016.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FTJbEWoUUAMLks9?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/20/ONU%20diz%20que%20subiu%20500%25%20o%20total%20de%20pessoas%20com%20fome%20no%20mundo%20desde%202016..mp3"
