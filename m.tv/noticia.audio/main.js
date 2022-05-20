@@ -22,10 +22,17 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "ONU diz que subiu 500% o total de pessoas com fome no mundo desde 2016.
+",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FTJbEWoUUAMLks9?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/ONU%20diz%20que%20subiu%20500%25%20o%20total%20de%20pessoas%20com%20fome%20no%20mundo%20desde%202016..mp3"
+  },
+  {
 name: "Alexandre Kalil anuncia aliança com Lula em Minas Gerais.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526189513978126340/WabyOTLA?format=jpg&name=small",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Alexandre%20Kalil%20anuncia%20aliança%20com%20Lula%20em%20Minas%20Gerais.mp3p3"
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/20/Alexandre%20Kalil%20anuncia%20aliança%20com%20Lula%20em%20Minas%20Gerais.mp3"
   },
   {
 name: "STF mantém Lei Seca e punição a motorista que recusa bafômetro.",
