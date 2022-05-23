@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Zelensky assina uma lei que permite o confisco de propriedade de quem apoia a operação militar russa.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1526640005174657030/HGThaB4D?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/21/Zelensky%20assina%20uma%20lei%20que%20permite%20o%20confisco%20de%20propriedade%20de%20quem%20apoia%20a%20operação%20militar%20russa.mp3"
+  },
+  {
 name: "Espanha conta já 30 casos de varíola dos macacos",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527212749595545601/ShyGV5a_?format=jpg&name=small",
