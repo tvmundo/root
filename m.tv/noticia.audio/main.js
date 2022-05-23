@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Combatentes de Azovstal estão prisioneiros em território controlado pela Rússia.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1528668337689055238/47K_rY_m?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/21/Combatentes%20de%20Azovstal%20estão%20prisioneiros%20em%20território%20controlado%20pela%20Rússia.mp3"
+  },
+  {
 name: "Zelensky assina uma lei que permite o confisco de propriedade de quem apoia a operação militar russa.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1526640005174657030/HGThaB4D?format=jpg&name=small",
