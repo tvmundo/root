@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Projeto de militares: SUS PAGO, UNIVERSIDADE PUBLICA COBRANDO MENSALIDADE, MANTER PODER ATÉ 2035.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1528832304386392066/rqvxFH9h?format=jpg&name=360x360",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/24/Projeto%20de%20militares%20prevê%20manter%20poder%20até%202035%20e%20o%20fim%20da%20gratuidade%20no%20SUS%20e%20da%20universidade.mp3"
+  },
+  {
 name: "Combatentes de Azovstal estão prisioneiros em território controlado pela Rússia.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1528668337689055238/47K_rY_m?format=jpg&name=small",
