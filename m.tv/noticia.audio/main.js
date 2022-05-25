@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Remédios para varíola dos macacos não estão disponíveis no Brasil.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1529283382727024640/MwzHTFCt?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/Remédios%20para%20varíola%20dos%20macacos%20não%20estão%20disponíveis%20no%20Brasil..mp3"
+  },
+  {
 name: "19 crianças e dois adultos são mortos em um tiroteio em uma escola primária do Texas.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/FTkmTgrXoAE2s97?format=png&name=small",
