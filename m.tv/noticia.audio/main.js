@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Rússia tenta isolar cidades-chave no leste da Ucrânia.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1527979272736063489/WZuQODMX?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/Rússia%20tenta%20isolar%20cidades-chave%20no%20leste%20da%20Ucrânia.mp3"
+  },
+  {
 name: "Remédios para varíola dos macacos não estão disponíveis no Brasil.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1529283382727024640/MwzHTFCt?format=jpg&name=small",
