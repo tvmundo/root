@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Ataque no sul do chile deixa ao menos 5 pessoas feridas, uma em estado grave.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1528597417855164416/5CH5Ajj9?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/ataque%20no%20sul%20do%20chile%20deixa%20ao%20menos%205%20pessoas%20feridas%2C%20uma%20em%20estado%20grave.mp3"
+  },
+  {
 name: "Motoristas de ônibus recusam proposta de reajuste e anunciam greve em São Paulo.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1529398675281158145/wxRPFhOB?format=jpg&name=small",
