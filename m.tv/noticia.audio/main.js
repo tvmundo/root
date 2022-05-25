@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "19 crianças e dois adultos são mortos em um tiroteio em uma escola primária do Texas.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FTkmTgrXoAE2s97?format=png&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/19%20crianças%20e%20dois%20adultos%20são%20mortos%20em%20um%20tiroteio%20em%20uma%20escola%20primária%20do%20Texas.mp3"
+  },
+  {
 name: "Projeto de militares prevê manter poder até 2035 e o fim da gratuidade no SUS e da universidade pública.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1528832304386392066/rqvxFH9h?format=jpg&name=360x360",
