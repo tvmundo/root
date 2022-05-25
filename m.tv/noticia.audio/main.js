@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Motoristas de ônibus recusam proposta de reajuste e anunciam greve em São Paulo.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1529398675281158145/wxRPFhOB?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/Motoristas%20de%20ônibus%20recusam%20proposta%20de%20reajuste%20e%20anunciam%20greve%20em%20São%20Paulo.mp3"
+  },
+  {
 name: "Rússia tenta isolar cidades-chave no leste da Ucrânia.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1527979272736063489/WZuQODMX?format=jpg&name=small",
