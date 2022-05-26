@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Forte terremoto de magnitude 6,9 ​​sacode o sul do Peru e o noroeste da Bolívia.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/EvpSvLjXYAMvceo?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/26/Forte%20terremoto%20de%20magnitude%206%2C9%20__sacode%20o%20sul%20do.mp3"
+  },
+  {
 name: "Putin: Nenhum gendarme mundial será capaz de parar os países do mundo que querem desenvolver uma política independente.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1529601951087861760/qAya_7kd?format=jpg&name=small",
