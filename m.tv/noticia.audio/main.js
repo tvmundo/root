@@ -22,9 +22,15 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "Agentes da PRF jogam bomba de gás e matam homem asfixiado dentro de viatura em Sergipe.",
+name: "Putin: Nenhum gendarme mundial será capaz de parar os países do mundo que querem desenvolver uma política independente.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1529601951087861760/qAya_7kd?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/26/Putin_%20_Nenhum%20gendarme%20mundial%20será%20capaz%20de%20para.mp3"
+  },
+  {
+name: "Agentes da PRF jogam bomba de gás e matam homem asfixiado dentro de viatura em Sergipe.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/FMNv2YWWYAcKHXo?format=jpg&name=small",
     path: "https://meupixtv.github.io/br/xxx/2022/mai/26/Agentes%20da%20PRF%20jogam%20bomba%20de%20gás%20e%20matam%20homem%20asfixiado%20dentro%20de%20viatura%20em%20Sergipe.mp3"
   },
   {
