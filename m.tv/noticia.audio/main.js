@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Eleiçoes 2022 Datafolha: Lula tem 48% das intenções de voto; Bolsonaro tem 27%",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1528228441061044231/xhl-34mO?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/26/Datafolha%20Lula%20tem%2048%25%20das%20intenções%20de%20voto%3B%20Bolsonaro%20tem%2027.mp3"
+  },
+  {
 name: "Para os eleitores, a situação econômica piorou e a rejeição ao presidente Jair Bolsonaro (PL) aumentou.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/D5U0e70W0AAAfV4?format=png&name=small",
