@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Para os eleitores, a situação econômica piorou e a rejeição ao presidente Jair Bolsonaro (PL) aumentou.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/media/D5U0e70W0AAAfV4?format=png&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/26/rejeição%20ao%20presidente%20Jair%20Bolsonaro%20(PL)%20aumento.mp3"
+  },
+  {
 name: "Forte terremoto de magnitude 6,9 ​​sacode o sul do Peru e o noroeste da Bolívia.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/media/EvpSvLjXYAMvceo?format=jpg&name=small",
