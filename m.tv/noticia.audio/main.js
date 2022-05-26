@@ -22,40 +22,10 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-name: "Ataque no sul do chile deixa ao menos 5 pessoas feridas, uma em estado grave.",
+name: "Agentes da PRF jogam bomba de gás e matam homem asfixiado dentro de viatura em Sergipe.",
     artist: " IMG twitter",
-    image: "https://pbs.twimg.com/card_img/1528597417855164416/5CH5Ajj9?format=jpg&name=small",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/ataque%20no%20sul%20do%20chile%20deixa%20ao%20menos%205%20pessoas%20feridas%2C%20uma%20em%20estado%20grave.mp3"
-  },
-  {
-name: "Motoristas de ônibus recusam proposta de reajuste e anunciam greve em São Paulo.",
-    artist: " IMG twitter",
-    image: "https://pbs.twimg.com/card_img/1529398675281158145/wxRPFhOB?format=jpg&name=small",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/Motoristas%20de%20ônibus%20recusam%20proposta%20de%20reajuste%20e%20anunciam%20greve%20em%20São%20Paulo.mp3"
-  },
-  {
-name: "Rússia tenta isolar cidades-chave no leste da Ucrânia.",
-    artist: " IMG twitter",
-    image: "https://pbs.twimg.com/card_img/1527979272736063489/WZuQODMX?format=jpg&name=small",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/Rússia%20tenta%20isolar%20cidades-chave%20no%20leste%20da%20Ucrânia.mp3"
-  },
-  {
-name: "Remédios para varíola dos macacos não estão disponíveis no Brasil.",
-    artist: " IMG twitter",
-    image: "https://pbs.twimg.com/card_img/1529283382727024640/MwzHTFCt?format=jpg&name=small",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/Remédios%20para%20varíola%20dos%20macacos%20não%20estão%20disponíveis%20no%20Brasil..mp3"
-  },
-  {
-name: "19 crianças e dois adultos são mortos em um tiroteio em uma escola primária do Texas.",
-    artist: " IMG twitter",
-    image: "https://pbs.twimg.com/media/FTkmTgrXoAE2s97?format=png&name=small",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/25/19%20crianças%20e%20dois%20adultos%20são%20mortos%20em%20um%20tiroteio%20em%20uma%20escola%20primária%20do%20Texas.mp3"
-  },
-  {
-name: "Projeto de militares prevê manter poder até 2035 e o fim da gratuidade no SUS e da universidade pública.",
-    artist: " IMG twitter",
-    image: "https://pbs.twimg.com/card_img/1528832304386392066/rqvxFH9h?format=jpg&name=360x360",
-    path: "https://meupixtv.github.io/br/xxx/2022/mai/24/Projeto%20de%20militares%20prevê%20manter%20poder%20até%202035%20e%20o%20fim%20da%20gratuidade%20no%20SUS%20e%20da%20universidade.mp3"
+    image: "https://pbs.twimg.com/card_img/1529601951087861760/qAya_7kd?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/26/Agentes%20da%20PRF%20jogam%20bomba%20de%20gás%20e%20matam%20homem%20asfixiado%20dentro%20de%20viatura%20em%20Sergipe.mp3"
   },
   {
 name: "Combatentes de Azovstal estão prisioneiros em território controlado pela Rússia.",
