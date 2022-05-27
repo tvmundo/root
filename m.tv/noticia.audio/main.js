@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Plano de saúde individual vai subir 15%, a maior alta em 22 anos",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1529964760443281431/_uXsvPCV?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/27/Plano%20de%20saúde%20individual%20vai%20subir%2015%25%2C%20a%20maior%20alta%20em%2022%20anos.mp3"
+  },
+  {
 name: "Eleições 2022. pesquisa do Datafolha diz que Reprovação ao governo Bolsonaro vai a 48%; aprovação é de 25%.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1529534873484025858/ib8wHiRH?format=jpg&name=small",
