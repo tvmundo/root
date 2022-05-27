@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Gleisi Hoffmann no twitter. Comandante da Aeronáutica, esposa e amigos viajaram para Toscana, na Itália, em avião da FAB.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/profile_images/1488476048429916161/pdnOg2n0_400x400.jpg",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/27/Comandante%20da%20Aeronáutica%2C%20esposa%20e%20amigos%20viajaram%20para%20Toscana%2C%20na%20Itália%2C%20em%20avião%20da%20FAB..mp3"
+  },
+  {
 name: "Plano de saúde individual vai subir 15%, a maior alta em 22 anos",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1529964760443281431/_uXsvPCV?format=jpg&name=small",
