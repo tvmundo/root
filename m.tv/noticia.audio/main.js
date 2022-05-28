@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Prefeitura desviou verba para pagar R$ 1,2 milhão a Gusttavo Lima, em Minas Gerais.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1530310146504675331/hDj_Kp8n?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/mai/28/Prefeitura%20desviou%20verba%20para%20pagar%20R%24%201%2C2%20milhão%20a%20Gusttavo%20Lima%2C%20em%20Minas%20Gerais..mp3"
+  },
+  {
 name: "Gleisi Hoffmann no twitter. Comandante da Aeronáutica, esposa e amigos viajaram para Toscana, na Itália, em avião da FAB.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/profile_images/1488476048429916161/pdnOg2n0_400x400.jpg",
