@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Lula tem 52,87% dos votos válidos e venceria eleição no 1º turno, mostra Genial/Quaest.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1532765588950589440/yvkvvuOO?format=jpg&name=small",
+    path: "xxx/2022/jun/08/Lula%20tem%2052%2C87%25%20dos%20votos%20válidos%20e%20venceria%20eleição%20no%201º%20turno%2C%20mostra%20Genial%20Quaest.mp3"
+  },
+  {
 name: "Prefeitura desviou verba para pagar R$ 1,2 milhão a Gusttavo Lima, em Minas Gerais.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1530310146504675331/hDj_Kp8n?format=jpg&name=small",
