@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Lula lidera intenções de voto com 44%, e Bolsonaro tem 32%, diz pesquisa BTG/FSB.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1534862086379081730/z_YxPXzg?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/jun/13/Lula%20lidera%20intenções%20de%20voto%20com%2044%25%2C%20e%20Bolsonaro%20tem%2032%25%2C%20diz%20pesquisa%20BTG.mp3"
+  },
+  {
 name: "Corpos encontrados nas buscas por Bruno Pereira e Dom Phillips estavam amarrados a uma árvore.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1534964536263987212/IQkBO2Vu?format=jpg&name=small",
