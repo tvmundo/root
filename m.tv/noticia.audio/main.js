@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Corpos encontrados nas buscas por Bruno Pereira e Dom Phillips estavam amarrados a uma árvore.",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1534964536263987212/IQkBO2Vu?format=jpg&name=small",
+    path: "https://meupixtv.github.io/br/xxx/2022/jun/13/Corpos%20encontrados%20nas%20buscas%20por%20Bruno%20Pereira%20e%20Dom%20Phillips%20estavam%20amarrados%20a%20uma%20árvore..mp3"
+  },
+  {
 name: "Lula tem 52,87% dos votos válidos e venceria eleição no 1º turno, mostra Genial/Quaest.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1532765588950589440/yvkvvuOO?format=jpg&name=small",
