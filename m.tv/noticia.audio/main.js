@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "Petrobrás tem margem de lucro seis vezes maior do que concorrentes e suga renda dos brasileiros desde o golpe de 2016",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/card_img/1537036046436802562/wHZK4jkn?format=jpg&name=360x360",
+    path: "https://meupixtv.github.io/br/xxx/2022/jun/15/Petrobrás%20tem%20margem%20de%20lucro%20seis%20vezes%20maior%20do%20que%20concorrentes%20e%20suga%20renda%20dos%20brasileiros%20desde%20o%20golpe%20de%202016.mp3"
+  },
+  {
 name: "E a verdade que Bolsonaro tenta esconder sobre o ICMS. Compartilhe!",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/profile_images/1488476048429916161/pdnOg2n0_400x400.jpg",
