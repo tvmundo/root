@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+name: "E a verdade que Bolsonaro tenta esconder sobre o ICMS. Compartilhe!",
+    artist: " IMG twitter",
+    image: "https://pbs.twimg.com/profile_images/1488476048429916161/pdnOg2n0_400x400.jpg",
+    path: "https://meupixtv.github.io/br/xxx/2022/jun/15/E%20a%20verdade%20que%20Bolsonaro%20tenta%20esconder%20sobre%20o%20ICMS.%20Compartilhe!.mp3"
+  },
+  {
 name: "Lula lidera intenções de voto com 44%, e Bolsonaro tem 32%, diz pesquisa BTG/FSB.",
     artist: " IMG twitter",
     image: "https://pbs.twimg.com/card_img/1534862086379081730/z_YxPXzg?format=jpg&name=small",
