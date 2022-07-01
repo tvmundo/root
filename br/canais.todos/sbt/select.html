@@ -99,6 +99,7 @@ document.getElementById(div).className = "visivel";
         <option value="rs" />&nbsp; &nbsp; SBT Rio Grande do Sul
 	<option value="Pará" />&nbsp; &nbsp; SBT Pará
 	<option value="Brasília" />&nbsp; &nbsp; SBT Brasília
+	<option value="regional Ribeirão Preto" />&nbsp; &nbsp; SBT regional Ribeirão Preto
 	
        </div>   </div>    
 <!--------------------select pop up inicio--------------->
@@ -112,7 +113,12 @@ function showDiv2(pasta) {
   if (pasta == 'vtv') {
     var url = "#";
     window.open("Jornalismo.vtv/vtv.html", target="sbt");
-  }
+ }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'rj') {
+    var url = "#";
+    window.open("regional.Ribeirão.Preto/live.html", target="sbt");
+}
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'rj') {
     var url = "#";
