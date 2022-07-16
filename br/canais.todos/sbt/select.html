@@ -100,7 +100,7 @@ document.getElementById(div).className = "visivel";
 	<option value="Pará" />&nbsp; &nbsp; SBT Pará
 	<option value="Brasília" />&nbsp; &nbsp; SBT Brasília
 	<option value="regional Ribeirão Preto" />&nbsp; &nbsp; SBT regional Ribeirão Preto
-	
+	<option value="Caruaru" />&nbsp; &nbsp; SBT Caruaru - TV Jornal Interior
        </div>   </div>    
 <!--------------------select pop up inicio--------------->
 <SCRIPT language=Javascript>
@@ -114,6 +114,11 @@ function showDiv2(pasta) {
     var url = "#";
     window.open("Jornalismo.vtv/vtv.html", target="sbt");
  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'Caruaru') {
+    var url = "#";
+    window.open("Caruaru/live.html", target="sbt");
+}	  
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'regional Ribeirão Preto') {
     var url = "#";
