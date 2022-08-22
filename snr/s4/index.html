@@ -40,7 +40,27 @@
 <body class="index-page">
 <header>
 	<!--Top-->
-	
+<!-- select ini -->
+<script language="JavaScript">
+var ultimo=-1, colesquerda;
+function carrega(x) {colesquerda=x;Banners()}
+function Banners()
+{
+<!---1---------extra--------------------->            
+var MNews = new Array();
+MNews[0]= '<iframe width="100%" height="50" scrolling="no" src="https://tvmundo.github.io/root/snr/select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>';
+<!---1---------banner1 HD externo magazineelianefelix---------select.html------------>
+
+<!---9----------eletronica uniao-------------------->
+while((Numero = parseInt(Math.random()*MNews.length))==ultimo);
+colesquerda.innerHTML=MNews[Numero];
+setTimeout("Banners()",50000);
+}
+</script>
+<body bgcolor="" top:50px; onLoad=carrega(this.colesquerda1)>
+<td>
+<div align="center" id=colesquerda1></div>
+			<!-----------------------------Fim select topo------------------------------------------------------>	
 					</div>
 				</div>
 				</form>
