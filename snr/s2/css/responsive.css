@@ -78,7 +78,7 @@ img{
 @media only screen and (max-width: 500px) {
 	/* -------------max-width: 479px------------------------------- */
 	/* ------------------Header-------------------- */
-	header{height: 170px;} /*170px */
+	header{height: 160px;} /*170px */
 	header #logo{top:20px;} /* 20px */
 	header #search{bottom: 15px; width: 230px; top:auto; left: 5px;}
 	header #search input{width: 194px;}
