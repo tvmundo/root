@@ -78,7 +78,7 @@ nav .wrap-nav{height: 37px;}
 
 /* -------------------------------------------- */
 /* ------------------Content------------------- */
-#content { background: #F7F6F6 url(../images/bgcontent.png) repeat-x; padding:30px 0px;}
+#content { background: #F7F6F6 url(../images/bgcontent.png) repeat-x; padding:3px 0px;} /* padding:30px */
 #content .wrap-content{}
 
 #main-content{}
