@@ -48,6 +48,7 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
 	 <option value="cn18" />&nbsp; Canal 18 Televisa Ciudad Juarez
 	 <option value="cn19" />&nbsp; Canal 19 Canal 66 Mexicali
 	 <option value="cn20" />&nbsp; Canal 20 Televisa Laguna Oficial
+	 <option value="cn21" />&nbsp; Canal 21 elediarioMx Telediario por Canal 6
                 <optgroup label="Rádios Mexicanas">
                <option value="r50"> 1 - Rádio martinezserrano </option>
                <option value="r51">2 - Central FM Equilibrio (Señal vivo) </option>
@@ -63,6 +64,9 @@ function showDiv2(pasta) {
     window.open("inicio.html", target="_parent");
 	  /* Fixo Acima */
 }
+	if (pasta == 'cn21') {    
+    window.open("cn21.html", target="_parent");
+  }
 	if (pasta == 'cn20') {    
     window.open("cn20.html", target="_parent");
   }
